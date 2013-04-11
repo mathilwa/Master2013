@@ -56,18 +56,55 @@ Televisualism tries to give the same visual look as shown on the television. Typ
 \subsection{Number of players}
 The number of players is an important choice because it affects a number of game elements. In a single-player game artificial intelligence (AI) is important, because the player has to play against the computer and not real humans. The computer can never be as intelligent as the human brain, and generally employ a very limited set of strategies. Therefore, it can be easy for an experienced player to win over the opponent. When designing multi-player games, artificial intelligence is not needed, as the player will play against other human players. These games faces other issues instead. For example it has be possible to distinguish between characters. This can be done by giving them different unique features, but at the same avoid making any character superior. It is also important to facilitate social interaction between the players, like for example cooperation or competition \cite{understandingvg}. Often in multi-player games, it is possible to chat with the opponents or team members.
 
+\section{Gameplay}
+
+"[] gameplay is the most important element when designing a game" \cite{umlapproach}.  In \cite{understandingvg} gameplay is defined as "the game dynamics emerging from the interplay between rules and game geography". The dynamics can be of different types. They can be entertaining or they can be predictable, or they can be none of those. In a video game, everything really depends on the gameplay because it defines how the game is played. In short, gameplay can be describes as the interaction between the player and the game \cite{umlapproach}. Siang et al. describes two different kinds of interactions: player-object and object-object. When creating a game, a set of rules about what kind of interactions can be made have to be set. These rules are set by determining what kind of interactions are allowed between the two components: players and game objects. \cite{umlapproach} describes the player-token, or what we have called player-object, interactions with Figure \ref{fig:playertoken}, which is a description of gameplay, set aside the players experience.
+\begin{figure}
+\begin{center}
+\includegraphics[scale=0.5]{playertoken}
+\caption[The player-token interaction]{The player-token interaction \cite{umlapproach}}
+\label{fig:playertoken}
+\end{center}
+\end{figure} 
+
+
+As a part of gameplay you have a user interface. The interface is necessary to enable interaction between the player and the object. In \cite{umlapproach} Siang et al. present a figure describing the gameplay, see Figure \ref{fig:playerinterface}.
+
+Skrive object istedet for token i figuren. 
+
+\begin{figure}
+\begin{center}
+\includegraphics[scale=0.5]{playerinterface}
+\caption[The revised player-token interaction]{The revised player-token interaction \cite{umlapproach}}
+\label{fig:playerinterface}
+\end{center}
+\end{figure} 
+
+The interface is where and what the player interacts with the game and includes the input that is sent through the input devices, like a game control, and the output the user receives on the screen and the speaker \cite{umlapproach}.
+
 \section{Story}
 One important element of a videogame is the story, or the narrative. The story is included in the game to make the involvement and enjoyment better for the player. The story is just a part of the game, and is not the game \cite{umlapproach}.  Different events make up the narrative and will usually contain settings and characters \cite{understandingvg}. Unlike literature and film, which centers on the story, the game centers on play. Therefore, the narrative should be looked at in a player-centric context \cite{gametheory}. The game designer is kind of creating the story together with the audience. This is because the player often make their own story throughout the game \cite{umlapproach}. This means that the game designer creates the background storyline, while the player creates the experimental story while interacting with the game or others. 
 
 In \cite{understandingvg} they introduce interesting elements of narrative in video game, and discuss three different categories: "The fictional world: settings and actors", "Mechanics: organizing narrative action", and "Reception: the player’s experience of story".
 
 \subsection{The fictional world}
-This category includes settings and actors, which can also be thought of as the \emph{what} and \emph{who}. The game space, which is the game setting, is on of the most important parts of a game. The game space is a reproduction of some of the features of the real world and contains specific rules to make it possible to play the game. There are different characters in a game, and they are very important for the story. This includes not only the characters that the game is about, but also characters that make things happen and that interacts with the main characters. Therefore, all the different characters need to be considered. \cite{understandingvg} propose four different categories of characters: 
+This category includes settings and actors, which can also be thought of as the \emph{what} and \emph{who}. In \cite{beram}, this is describes as objects which is defined as the elements that form the gameplay by adding depth, atmosphere and interactivity to the setting. The setting, or location as called in \cite{beram}, can also be considered as an object. The setting will be described in more detail below.
 
-\emph{Stage Characters:} These characters can not be interacted with, and serve more as just a part of a scenario. \\
-\emph{Functional Characters:} These are also just a part of a scenario, but in addition, they have a general function, which makes it possible for the player to interact with them in some way. \\
-\emph{Cast Characters:} These have specific functions in the game that has something to do with the story. \\
-\emph{Player Characters:} These are the characters that the player is in control of. 
+\cite{beram} defines three categories of objects:
+\begin{itemize}
+\item \emph{Structural-objects (static):} These objects do not change visually and are in the game to add functionality. Examples are trees, table, walls.
+\item \emph{Interactive-objects/entities (dynamic):} These objects will react to the input from the player and other events in the game and add more functionality to the game. In \cite{beram} they define four different types of ways to represent structural-objects: \emph{containers}, like chests and refrigerators, \emph{items}, like pistols and medical-kits, \emph{switches}, like alarms and doors, and \emph{characters}. We will describe characters in more detail below. 
+\item \emph{Scripting-objects (behaviour):} These objects are not physical, but they are conceptual parameters that adds functionality to the the other object-types. The parameters say something about how the objects will react to events. One example is a game manager that may exist of parameters like number of life and high scores \cite{umlapproach}. 
+\end{itemize}
+
+The game space, which is the game setting or location, is on of the most important parts of a game. The game space is a reproduction of some of the features of the real world and contains specific rules to make it possible to play the game. There are different characters in a game, and they are very important for the story. This includes not only the characters that the game is about, but also characters that make things happen and that interacts with the main characters. Therefore, all the different characters need to be considered. \cite{understandingvg} propose four different categories of characters: 
+
+\begin{itemize}
+\item \emph{Stage Characters:} These characters can not be interacted with, and serve more as just a part of a scenario. \\
+\item \emph{Functional Characters:} These are also just a part of a scenario, but in addition, they have a general function, which makes it possible for the player to interact with them in some way. \\
+\item \emph{Cast Characters:} These have specific functions in the game that has something to do with the story. \\
+\item \emph{Player Characters:} These are the characters that the player is in control of. 
+\end{itemize}
 
 The different characters can be constructed in different ways. They can be constructed through description, which means through the way we can see them on the screen. This can be done in a symbolic, naturalistic or a "real-life" way. See Table \ref{tab:description} for examples.
 
@@ -84,7 +121,7 @@ The different characters can be constructed in different ways. They can be const
     \label{tab:description}
 \end{table} 
 
-The characters can also be described through their actions, through their relationship to space, through other character’s views, or just through a meaningful name. The player character is the most important type, and was by Toby Gard divided in three different categories, in accordance to how easy the player will identify with them. The different categories are avatars, actors and roleplaying, and are defined as:
+The characters can also be described through their actions, through their relationship to space, through other character’s views, or just through a meaningful name. The player character is the most important type, and was by Toby Gard divided in three different categories, in accordance to how easy the player will identify with them. The different categories are \emph{avatars}, \emph{actors} and \emph{roleplaying}, and are defined as:
 
 "Avatars are a non-intrusive representation of ourselves, actors are always part of a story (or have a story, albeit minimal sometimes), and roleplaying characters have very different abilities that we can raise according to our performance". \cite{understandingvg}
 
@@ -113,35 +150,7 @@ Figure \ref{fig:linearfiction} shows the standard progression of a story of line
 The other structure of narratives, is \emph{emergence games}. This structure depends on a more active artificial intelligence where all the objects in the game has behaviours (Example directly drawn from the book: "In a progression game, the dragon will always attack the player when she steps into the cave, but in an emergence game, this might depend on how the player behaves towards the dragon, which is a more "active" object with a few possible different responses." The two game designers Smith and Juul means that an emergent structure is preferable in games. This is because this structure gives the player more freedom. To be able to easily explore the smaller events in a game, game designers are making so called "quests", which is the mission the players have to perform in the game. When the different quests are defined, it can be put together and be told as a story. In \cite{understandingvg} they say that "ideally, quests are the glue where world, rules and themes come together in a meaningful way". Quests can be seen differently from the designer perspective and the player perspective: The designers look at quests as "a set of parameters in the game world (making use of the game’s rules and gameplay) that creates a challenge for the player.", while the players look at the quests as "a set of specific instructions for action". 
 
 \subsection{Reception}
-Reception is how the players experience a story. In \cite{understandingvg} they argue that: "a reception-theory based analysis can explain the way that narrative and gameplay together determine the player experience in games that make use of stories". We will not describe this theory any further here.. blabla.. 
+Reception is how the players experience a story. In \cite{understandingvg} they argue that: "a reception-theory based analysis can explain the way that narrative and gameplay together determine the player experience in games that make use of stories". We will not describe this theory any further here because this is out of the scope of this thesis.
 
-\section{Gameplay}
-
-In \cite{understandingvg} gameplay is defined as "the game dynamics emerging from the interplay between rules and game geography". The dynamics can be of different types. They can be entertaining or they can be predictable, or they can be none of those. In a video game, everything really depends on the gameplay. Gameplay defines how the game is played and is the most important element of a game. In short, gameplay can be describes as the interaction between the player and the game \cite{umlapproach}. Siang et al. describes two different kinds of interactions: player-object and object-object. When creating a game, a set of rules about what kind of interactions can be made have to be set. These rules are set by determining what kind of interactions are allowed between the two components: players and game objects. \cite{umlapproach} describes the player-token interactions with Figure \ref{fig:playertoken}, which is a description of gameplay, set aside the players experience.
-\begin{figure}
-\begin{center}
-\includegraphics[scale=0.5]{playertoken}
-\caption[The player-token interaction]{The player-token interaction \cite{umlapproach}}
-\label{fig:playertoken}
-\end{center}
-\end{figure} 
-Different from objects is that tokens are conceptual (hva betyr det?), and may not have a one-to-one mapping with the programming language (skrevet rett av, vet ikke hvor viktig det er).
-In a video game tokens is a thing that can react with something in a game. It can be defined three categories of different tokens: static, dynamic and behavioural. Static tokens has the same visual look throughout the whole game. Dynamic tokens, also called entities, can react to certain events in a game. Behavioural tokens are the parameters how they will react to the player and other tokens and are not physically represented in the game. Example is a game level manager which tells the player about high scores etc. The tokens can have attributes, which is representing the tokens state. Example of an attribute is the number of life. The tokens can also have behaviour, which say something about how the token can react in certain events \cite{umlapproach}.
-
-\subsection{User Interface}
-The interface is necessary to enable interaction between the player and the token. In \cite{umlapproach} Siang et al. present a figure describing the gameplay, see Figure \ref{fig:playerinterface}.
-
-\begin{figure}
-\begin{center}
-\includegraphics[scale=0.5]{playerinterface}
-\caption[The revised player-token interaction]{The revised player-token interaction \cite{umlapproach}}
-\label{fig:playerinterface}
-\end{center}
-\end{figure} 
-
-The interface is where and what the player interacts with the game and includes the input that is sent through the input devices, like a game control, and the output the user receives on the screen and the speaker \cite{umlapproach}.
-
-Bak dette inne med den andre og bruk en annen kilde: Beram. 
-
-In this chapter we have discussed different aspects about video games. These are all important to understand and to consider when developing video games. In this assignment we will use this as a basis to describe a video game concept. Not every aspect will be described in detail, but we will.... skriver her hva vi egentlig skal gjøre.. 
+In this chapter we have discussed different aspects about video games. These are all important to understand and to consider when developing video games, and also when evaluation games. In this assignment we will use this as a basis to describe a video game concept. Not every aspect will be described in detail, but we will.... skriver her hva vi egentlig skal gjøre.. 
 

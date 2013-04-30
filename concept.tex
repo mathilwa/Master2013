@@ -1,16 +1,89 @@
 \chapter{Concept for an Exergame for Elderly}
-From video game theory, feedback from workshop 1, knowledge about elderly and exercise, and studies done on elderly and video games, we have created a video game concept that will function as an exergame for elderly. This exergame focus on including movement and exercise in real-life and well-know activities in a entertaining and motivating way. In Section \ref{sec:outinthenature} we will describe our exergame concept in more detail, which includes games and challenges, the exercises used, goals, obstacles, and how to achieve points. Based on a course in Human-Computer Interaction at NTNU, and guidelines for developing interfaces for elderly, we have also designed a menu for this exergame. This will be presented in Section \ref{sec:menu}. In addition to the concept we have created, there are other important aspects to consider when developing an exergame for elderly. These are not the main focus in our masther thesis, but they will be mentioned and discussed in Section \ref{sec:misc}.
+From video game theory, findings from workshop 1, knowledge about elderly and exercise, and studies done on elderly and video games, we have created a video game concept that will function as an exergame for elderly. This exergame focus on including movement and exercise in real-life and well-know activities in a entertaining and motivating way. We will start to present the requirements that this video concept is built upon, before we continue with describing our exergame concept in more detail. This will include games and challenges, the exercises used, goals, obstacles, and how to achieve points. Based on a course in Human-Computer Interaction at NTNU, and guidelines for developing interfaces for elderly, we have also designed a menu for this exergame. This will be presented in Section \ref{sec:menu}. In addition to the concept we have created, there are other important aspects to consider when developing an exergame for elderly. These are not the main focus in our master thesis, but they will be mentioned and discussed in Section \ref{sec:misc}.
 
 \section{Requirements}
-\subsection{Functional Requirements}
-\subsection{Non-Functional Requirements}
+\label{sec:req}
+We have set up a list of requirements for our video game concept, which specifies what our system shall do, and which constraints the system shall hold. The requirements has been develop with foundation in video game theory, guidelines for usability, and findings from workshop 1. We have written requirements for our video game concept according to what we have presented about requirement specification in \ref{sec:fourpillarsofdesign}, and they are therefore divided into functional and non-functional requirements. In our video game concept we have mostly focused on the functional requirements.
 
-\section{Out in the nature}
+\subsection{Functional Requirements}
+The functional requirements presented here will say something about what services and functionality our video game concept shall offer.
+
+\begin{itemize}
+\renewcommand{\labelitemi}{$\bullet$}
+\item The system shall be an exergame that emphasises exercise and physical movement.
+\item The system shall have a fun and entertaining story with focus on game play. 
+\item Exercise shall be subordinate to the story.\\ \\
+\item The system shall consist of natural and familiar surroundings.
+\item The system shall consist of natural and familiar activities, challenges, and exercises.
+\item The system shall use appropriate and natural music and sound effects. \\ \\
+\item The system shall provide players with clear information and instruction on how to use and interact with the game. This means interaction with interfaces, the Kinect sensor, etc. 
+\item The system shall provide players with clear information and instruction on how to perform various activities, challenges, and exercises. 
+\item Information shall be given during game play when appropriate. This shall be done to avoid the need to memorise information. \\ \\ 
+\item The player shall be given feedback on their actions. 
+\item Feedback given shall be positive and motivating.
+\item Feedback shall only be given when appropriate. Interruptive feedback shall be avoided during game play. \\ \\
+\item The system shall be a progression game.
+\item The system shall have small subtasks with clear goals. 
+\item The player shall be informed about progression and results.
+\item The player shall be given the possibility to choose preferred difficulty level.
+\item The system shall create a user profile where players progression and results can be saved.
+\item The system shall be able to adjust difficulty level after the player's progression. \\ \\
+\item The system shall allow multi play.
+\item Multi play shall have the possibility to be performed both as collaboration and competition.
+\item The system shall provide players the possibility to share their profile, or part of their profile, with friends. \\ \\
+\item Activities provided by the system shall include exercises for all muscle groups.
+\item Exercises used shall be proved to be good for training for elderly.  
+\item Activities shall be possible to perform both sitting and standing. \\ \\
+\item The system shall use an actor/avatar to portray the player.
+\item The player shall be given the possibility to choose gender on the actor/avatar. \\ \\
+\item The system shall be able to be used as a tool for physiotherapists.
+\item The system shall give physiotherapists the possibility to set parameters to customise the exergame for each individual patient.
+\item The system shall give physiotherapists access to the player's/patient's profile. 
+\end{itemize}
+
+\subsection{Non-Functional Requirements}
+The non-functional requirements will describe constraints to follow for our video game concept to ensure system quality.
+\begin{itemize}
+\renewcommand{\labelitemi}{$\bullet$}
+\item The system shall be able to run on both PC and Xbox. [???????] 
+\item The system shall be easy to set up (physically). \\ \\
+\item The system shall include Kinect functionality, like pausing a game by holding one arm out from the body. \\ \\
+
+\item The system shall load within few seconds.
+\item The system shall be small in size and do not require too much space.
+\item The system shall not require too much capacity. It shall be able to run on a regular PC. 
+\item The system shall not require too much power. \\ \\
+
+\item The system shall avoid delay between the player's movement and action on the screen.
+\item The system shall provide good graphics, which makes the game world look real.
+\item The system shall represent the game world in 3D. \\ \\
+
+\item The system shall have a menu, which is used by the player to make choices about game play.
+\item The menu shall be clear, simple, and intuitive.
+\item The menu shall be consistent. 
+\item The menu shall consist of only few steps.
+\item Menu buttons shall not be too sensitive. 
+\item Menu buttons requires "push" to perform any action.
+\item The navigator shall not bee too sensitive.
+\item The navigator shall be clear. \\ \\
+
+\item Information shall be easy to read, see, and understand.
+\item Information shall be written in a familiar language with everyday words. 
+\item Information shall be written with an easy-to-read font in an appropriate size.
+\item There shall be good contrast between text and background color. \\ \\ 
+ 
+\item Elements that are essential to the game shall stand out.
+\item The system shall avoid using elements that are unnecessary for current game play. \\ \\
+
+\item The system shall ensure secure storage and sharing of profiles. 
+\end{itemize}
+
+\section{Our Concept - "Out In the Nature"}
 \label{sec:outinthenature}
 
 "Out in the nature"("Ut i naturen" in Norwegian) is the title on our exergame concept, which is a game based on a forest theme. The exergame consist of real-life activities that are familiar to most people, where these activities are natural to find and do in the forest. The goal is to experience beautiful nature while playing, and at the same time exercise and achieve physical activity. The exergame consist of five individual games, one longer, compounded game that will exercise the whole body, and four, shorter single games with various challenges and exercises, both for the mind and body. 
 
-When creating this exergame concept, we have highly focused on the intended user group, which are the elderly. Expressed thoughts and opinions from the informants during workshop 1 are emphasised, in addition to theory and previous studies on this subject. Our intention has been to avoid unnecessary details that can lead to confusion and distraction. We have mostly included familiar elements that can be found in the forest, like rocks, creek, and logs, in our exergame. When we have chosen to use other elements, then they are well-know, and easy to relate to for the elderly. Like hearts and their relation to health [Vår mening!! Hvordan legger vi det fram?]. Music and sounds in the game will be natural when possible, like birds twittering and the wind in the trees. The informants mentioned that classical music, like e.g. Mozart, would be more suitable than the pop, computer-made music that was used in the commercial games we presented for them. We have therefore thought of using classical music that will fit a walk in beautiful nature a warm summer day. When there are challenges and activities that requires intensity, we will focus on using music with a rhythm, without being noisy. This is from what the informants stated about the importance of exercising to a rhythm. We will not present any exact example for music to be suitable for this exergame, since that will be outside our area of competence.           
+When creating this exergame concept, we have highly focused on the intended user group, which are the elderly. The exergame concept is based upon the requirement specification. In addition to this, expressed thoughts and opinions from the informants during workshop 1 are emphasised. Our intention has been to avoid unnecessary details that can lead to confusion and distraction. In our exergame we have mostly included familiar elements that can be found in the forest, like rocks, creeks, and logs. When we have chosen to use other elements, then they are well-know, and easy to relate to for the elderly. Like hearts and their relation to health [Vår mening!! Hvordan legger vi det fram?]. Music and sounds in the game will be natural when possible, like birds twittering and the wind in the trees. The informants mentioned that classical music, like e.g. Mozart, would be more suitable than the pop, computer-made music that was used in the commercial games we presented for them. We have therefore thought of using classical music that will fit a walk in beautiful nature a warm summer day. When there are challenges and activities that requires intensity, we will focus on using music with a rhythm, without being noisy. This is from what the informants stated about the importance of exercising to a rhythm. We will not present any exact example for music to be suitable for this exergame, since that will be outside our area of competence.           
 
 \subsection{Exercises}
 The activities we have selected for our exergame are based upon findings from workshop 1, and our own ideas, but the main reason for choosing these activities is because they involve exercises that are shown to be good for elderly. We have used \emph{Øvelsesbanken} \cite{eldretrening} as a guide to find exercises to use in our exergame concept. \emph{Øvelsesbanken} is created by the physiotherapy service in Trondheim, and consist of a set of exercises for elderly that increase balance and strength. This service is meant to be a tool to help physiotherapists set up customized programs for their older patients. We have picked out 18 exercises from \emph{Øvelsesbanken} that we feel will be a good foundation for our exergame concept. Some of the exercises chosen from \emph{Øvelsesbanken} are "picking apples" (or plums), "walking", and "rowing", see Figure \ref{walking}, \ref{rowing}, and \ref{pickingapples}. The remaining exercised can be found in Appendix B.        
@@ -36,13 +109,15 @@ The activities we have selected for our exergame are based upon findings from wo
 \label{pickingapples}
 \end{figure}
 
+\subsection{Information and introduction}
+In this exergame concept we will give the player sufficient introduction and information about the technology, how to play, and how to perform the activities and exercises. When first starting the exergame the player will be given information on how to interact with the Kinect sensor and the game. The player will be told that they will have to use their body to engage game play, and that they will use their hand to navigate through the menu. Information will be provided on how to interact with the menu, like how to make a choice by "pressing a button". In the beginning of each of the five games there will be an instruction informing about the goal of the game, and how the player should move to perform the activities in the game. All the information will not be given at once, as this will require a lot of memorisation. Therefore, information will be given during game play, when situations occur which makes it appropriate to provide the player with new information. Every instruction will come with a button the player has to push to continue playing. In this way the players is in the control of the game, and they can decide for themselves when they are finished reading the information. Figure KINEFORANSKJERM shows an example of an instruction. All the instructions have the possibility to be skipped, so that experienced players do not have to watch the same instructions over and over again.
 \subsection{Nature trail}
 \subsubsection{Goals}
 \subsubsection{Obstacles}
 \subsubsection{Points}
 
 \subsection{The Four Single Games}
-"Out in the nature" consist, as mentioned, of four single games in addition to the nature trail. These four games is short games, with focus on completing a single challenge or activity. The activities we have chosen for our exergame concept is wood chopping, paddling down a river, swimming in a lake, and picking apples [FORKLARE kort?]. Within every game the player has the possibility to choose number of players and difficulty level. In multi player mode, players can choose if they want to cooperate or compete against each other. When competing, the players will have the possibility to select difficulty level individually. This is to allow for players with different experience to play together, like an elderly and his/her grandchild. Figure \ref{fig:velgSpill} shows how these single games will be presented in a menu. We will describe one of these four games in more detail.
+In addition to the nature trail, "Out in the nature" consist of four short games with focus on completing a single activity or challenge. The activities we have chosen for our exergame concept is wood chopping, paddling down a river, swimming in a lake, and picking apples [FORKLARE kort?]. Within every game the player has the possibility to choose number of players and difficulty level. In multi player mode, players can choose if they want to cooperate or compete against each other. When competing, the players will have the possibility to select difficulty level individually. This is to allow for players with different experience to play together, like an elderly and his/her grandchild. Figure \ref{fig:velgSpill} shows how these single games will be presented in a menu. We will describe one of these four games in more detail.
 
 \subsubsection{Picking Apples}
 Picking apples is a game that requires squats and stretch exercises, which will strengthen balance and muscles in thighs and the gluteal area. The goal for this game is to pick as many red, ripe apples as possible in a given amount of time. The apples should be put in buckets on the ground. Picking apples requires stretching, and to assure that the picked apple end up in the bucket, the player has to perform squats, see Figure \ref{fig:appleStretch} and \ref{fig:appleSquat}. When apples first appears on the tree they will be green, indicating that they are not ready to be picked. It ripe apples are left hanging on the tree for too long, they will rot and fall to the ground. Rotten apples will have a brown color. Figure blabla shows a prototype of what this game will look like.  
@@ -155,3 +230,8 @@ In the menu step where the player should choose between the four single games, w
 
 \section{Miscellaneous Aspects to Consider About the Exergame Concept}
 \label{sec:misc}
+
+Delay
+Fysioterapeuter
+Enkelt å sette opp
+Lastetid. Hente fram instruksjonsvideo først, og laste opp spillet mens denne vises?

@@ -3,74 +3,90 @@ From video game theory, findings from workshop 1, knowledge about elderly and ex
 
 \section{Requirements}
 \label{sec:req}
-We have set up a list of requirements for our video game concept, which specifies what our system shall do, and which constraints the system shall hold. The requirements has been develop with foundation in video game theory, guidelines for usability, and findings from workshop 1. We have written requirements for our video game concept according to what we have presented about requirement specification in \ref{sec:fourpillarsofdesign}, and they are therefore divided into functional and non-functional requirements. In our video game concept we have mostly focused on the functional requirements.
+We have set up a list of requirements for our video game concept, which specifies what our system shall do, and which constraints the system shall hold. The requirements has been develop with foundation in video game theory, guidelines for usability, and findings from workshop 1. We have written requirements for our video game concept according to what we have presented about requirement specification in \ref{sec:fourpillarsofdesign}, and they are therefore divided into functional and non-functional requirements. In our video game concept we have mostly focused on the functional requirements, and interface requirements (a subsection within non-functional requirements).
 
 \subsection{Functional Requirements}
-The functional requirements presented here will say something about what services and functionality our video game concept shall offer.
+The functional requirements presented in Figure \ref{tab:func1} and \ref{tab:func2} will say something about what services and functionality our video game concept shall offer.
 
-\begin{itemize}
-\renewcommand{\labelitemi}{$\bullet$}
-\item The system shall be an exergame that emphasises exercise and physical movement.
-\item The system shall have a fun and entertaining story with focus on game play. 
-\item Exercise shall be subordinate to the story.
-\item The system shall consist of natural and familiar surroundings.
-\item The system shall consist of natural and familiar activities, challenges, and exercises.
-\item The system shall use appropriate and natural music and sound effects. 
-\item The system shall provide players with clear information and instruction on how to use and interact with the game. This means interaction with interfaces, the Kinect sensor, etc. 
-\item The system shall provide players with clear information and instruction on how to perform various activities, challenges, and exercises. 
-\item Information shall be given during game play when appropriate. This shall be done to avoid the need to memorise information. 
-\item The player shall be given feedback on their actions. 
-\item Feedback given shall be positive and motivating.
-\item Feedback shall only be given when appropriate. Interruptive feedback shall be avoided during game play. 
-\item The system shall be a progression game.
-\item The system shall have small subtasks with clear goals. 
-\item The player shall be informed about progression and results.
-\item The player shall be given the possibility to choose preferred difficulty level.
-\item The system shall create a user profile where players progression and results can be saved.
-\item The system shall be able to adjust difficulty level after the player's progression.
-\item The system shall allow multi play.
-\item Multi play shall have the possibility to be performed both as collaboration and competition.
-\item The system shall provide players the possibility to share their profile, or part of their profile, with friends. 
-\item Activities provided by the system shall include exercises for all muscle groups.
-\item Exercises used shall be proved to be good for training for elderly.  
-\item Activities shall be possible to perform both sitting and standing. 
-\item The system shall use an actor/avatar to portray the player.
-\item The player shall be given the possibility to choose gender on the actor/avatar. 
-\item The system shall be able to be used as a tool for physiotherapists.
-\item The system shall give physiotherapists the possibility to set parameters to customise the exergame for each individual patient.
-\item The system shall give physiotherapists access to the player's/patient's profile. 
-\end{itemize}
+\begin{table} [H]
+\label{tab:func1}
+\centering
+    \begin{tabular}{|l|l|}
+       \hline
+       The system shall be an exergame that emphasises exercise and \\ physical movement.  \\ \hline
+       The system shall have a fun and entertaining story with focus \\ on game play.  \\ \hline
+       Exercise shall be subordinate to the story. \\ \hline
+	   The system shall consist of natural and familiar surroundings. \\ \hline
+	   The system shall consist of natural and familiar activities, \\ challenges, and exercises.\\ \hline
+	   The system shall provide players with clear information and \\ instruction on how to use and interact with the game. This \\ means interaction with interfaces, the Kinect sensor, etc. \\ \hline
+	   The system shall provide players with clear information and \\ instruction on how to perform various activities, challenges,\\ and exercises. \\ \hline
+	   Information shall be given during game play when appropriate. \\ This shall be done to avoid the need to memorise information. \\ \hline
+	   The player shall be given feedback on their actions.\\ \hline
+	   Feedback given shall be positive and motivating.\\ \hline
+	   Feedback shall only be given when appropriate. Interruptive \\ feedback shall be avoided during game play. \\ \hline
+    \end{tabular}
+    \caption[Functional requirements]{Functional requirements}
+    \label{tab:agenda}
+\end{table} 
+
+\begin{table} [H]
+\label{tab:func2}
+\centering
+    \begin{tabular}{|l|l|}
+       \hline
+       The system shall be an exergame that emphasises exercise and \\ physical movement.  \\ \hline
+	   The system shall be a progression game.\\ \hline
+	   The system shall have small subtasks with clear goals.\\ \hline
+	   The player shall be informed about progression and results.\\ \hline
+	   The player shall be given the possibility to choose preferred \\ difficulty level.\\ \hline
+	   The system shall create a user profile where players progression \\ and results can be saved.\\ \hline
+	   The system shall be able to adjust difficulty level after the \\ player's progression.\\ \hline
+	   The system shall allow multi play.\\ \hline
+	   Multi play shall have the possibility to be performed both as \\ collaboration and competition.\\ \hline
+	   The system shall provide players the possibility to share their \\ profile, or part of their profile, with friends. \\ \hline
+	   Activities provided by the system shall include exercises for all \\ muscle groups.\\ \hline
+	   Exercises used shall be proved to be good for training for elderly.\\ \hline
+	   Activities shall be possible to perform both sitting and standing. \\ \hline
+	   The player shall be given the possibility to choose gender on the \\ actor/avatar. \\ \hline
+	   The system shall be able to be used as a tool for physiotherapists.\\ \hline
+	   The system shall give physiotherapists the possibility to set \\ parameters to customise the exergame for each individual patient.\\ \hline
+	   The system shall give physiotherapists access to the \\ player's/patient's profile. \\ \hline  
+    \end{tabular}
+    \caption[Functional requirements]{Functional requirements}
+    \label{tab:agenda}
+\end{table} 
+
 
 \subsection{Non-Functional Requirements}
-The non-functional requirements will describe constraints to follow for our video game concept to ensure system quality.
-\begin{itemize}
-\renewcommand{\labelitemi}{$\bullet$}
-\item The system shall be able to run on both PC and Xbox. [???????] 
-\item The system shall be easy to set up (physically).
-\item The system shall include Kinect functionality, like pausing a game by holding one arm out from the body. 
-\item The system shall load within few seconds.
-\item The system shall be small in size and do not require too much space.
-\item The system shall not require too much capacity. It shall be able to run on a regular PC. 
-\item The system shall not require too much power. 
-\item The system shall avoid delay between the player's movement and action on the screen.
-\item The system shall provide good graphics, which makes the game world look real.
-\item The system shall represent the game world in 3D.
-\item The system shall have a menu, which is used by the player to make choices about game play.
-\item The menu shall be clear, simple, and intuitive.
-\item The menu shall be consistent. 
-\item The menu shall consist of only few steps.
-\item Menu buttons shall not be too sensitive. 
-\item Menu buttons requires "push" to perform any action.
-\item The navigator shall not bee too sensitive.
-\item The navigator shall be clear.
-\item Information shall be easy to read, see, and understand.
-\item Information shall be written in a familiar language with everyday words. 
-\item Information shall be written with an easy-to-read font in an appropriate size.
-\item There shall be good contrast between text and background color. 
-\item Elements that are essential to the game shall stand out.
-\item The system shall avoid using elements that are unnecessary for current game play.
-\item The system shall ensure secure storage and sharing of profiles. 
-\end{itemize}
+The non-functional requirements presented in Figure \ref{tab:nfunc} will describe constraints to follow for our video game concept to ensure good usability for the system.
+
+\begin{table} [H]
+\label{tab:nfunc}
+\centering
+    \begin{tabular}{|l|l|}
+ 
+       \hline
+       The system shall be an exergame that emphasises exercise and \\ physical movement.  \\ \hline
+       The system shall provide good graphics, which makes the game \\ world look real. \\ \hline
+	   The system shall represent the game world in 3D.\\ \hline
+	   The system shall use an actor/avatar to portray the player.\\ \hline
+	   The system shall have a menu, which is used by the player to \\ make choices about game play.\\ \hline
+	   The menu shall be clear, simple, and intuitive.\\ \hline
+	   The menu shall be consistent. \\ \hline
+	   The menu shall consist of only few steps.\\ \hline
+	   Menu buttons shall not be too sensitive.\\ \hline
+	   Menu buttons requires "push" to perform any action.\\ \hline
+	   The navigator shall not bee too sensitive. \\ \hline
+	   The navigator shall be clear.\\ \hline
+	   Information shall be easy to read, see, and understand.\\ \hline
+	   Information shall be written in a familiar language with \\ everyday words.  \\ \hline
+	   Information shall be written with an easy-to-read font in an \\ appropriate size. \\ \hline
+	   Elements that are essential to the game shall stand out.\\ \hline
+	   The system shall avoid using elements that are \\ unnecessary for current game play.\\ \hline
+    \end{tabular}
+    \caption[Non-functional requirements]{Non-functional requirements, interface requirements}
+    \label{tab:agenda}
+\end{table} 
 
 \section{Our Concept - "Out In the Nature"}
 \label{sec:outinthenature}
@@ -113,7 +129,6 @@ In this exergame concept the player will be given sufficient instruction and inf
 \label{fig:kineintro}
 \end{figure}
 
-
 \subsection{Nature trail}
 The main activity in "Out in the Nature", is what we have called "a Nature Trail". This involves a walk in the forest with quizzes along the way. The goal of the game is to complete the nature trail as fast as possible, while answering questions, and avoiding obstacles. Points will be given according to correct answers on the quiz, which will be shown up in the right corner together with a quiz icon. Because the Kinect sensor can track movement, points will also be given according to how well the player performs required movements. These points will not be shown as numbers, as movements will be difficult to measure and "grade". Therefore, gain from correct and well-performed movements are shown in a "health bar" on top of the screen. A red heart is shown together with the bar to represent health. Points for correct answers on the quiz are separated from points achieved from movements. This is because the quiz has to do with cognitive skills, while the latter is about physical skills. The time used to complete the nature trail will affect the final result of the "health bar", as this also reflects how well the player has moved during game play.   
 
@@ -137,8 +152,6 @@ The quizzes  in this nature trail will be shown as a piece of paper hanging on t
 
 Along the way in the nature trail there will be various, natural obstacles that will force the player to move their body in certain ways to avoid them. An example of an obstacle is a log that is lying across the path and that requires the player to take a big step, or a lunge, to get past it. We will come back to the other obstacles in more detail in Section ... 
 
-As the player continues along the nature trail, the surroundings will change.
-
 \begin{figure} [H]
 \centering
 \includegraphics[scale=0.45]{hindring1.jpg}
@@ -153,11 +166,7 @@ As the player continues along the nature trail, the surroundings will change.
 \label{fig:hindring2}
 \end{figure}
 
-
-
 Required movement during the nature trail will exercise the whole body, as endurance, balance, and several muscle groups. This nature trail, with the quiz and movements combined, will be good for both cognitive skills and improved health.       
-
-
 
 \subsection{The Four Single Games}
 In addition to the nature trail, "Out in the Nature" consists of four shorter games with focus on completing one single activity or challenge. The activities we have chosen for our exergame concept is wood chopping, paddling down a river, swimming in a lake, and picking apples [FORKLARE kort?]. Within every game the player has the possibility to choose number of players and difficulty level. In multi player mode, players can choose if they want to cooperate or compete against each other. When competing, the players will have the possibility to select difficulty level individually. This is to allow for players with different experience to play together, like an elderly and his/her grandchild. Figure \ref{fig:velgSpill} shows how these single games will be presented in a menu. We will describe one of these four games in more detail.
@@ -220,9 +229,16 @@ The menu starts with the choice of how you want to play. The player could choose
 \label{menu2}
 \end{figure}
 
-Figure \ref{fig:velgSpill} shows a step from the menu and the different menu elements. We have used a range of green colors, and a picture of green leaves as background, to create a theme related to forest and nature. Menu buttons are arranged as list elements or in a square, depending on what is most appropriate. The size of the elements are chosen with usability in mind, there should be room for a proper font size, and it should be easy to push the right button. The buttons have a light green, almost white, background color, with a darker green outline. The text is written in black with an easy-to-read font. The contrast between button background and text color is chosen with respect to design guidelines for elderly, presented in Section \ref{sec:designelderly}. The chosen colors is also based on \cite{blindeforbundetTekst}. Taking the element's surroundings into account when choosing colors is important if you will make the element stand out. With e.g. green vegetation as surroundings, white background color and black, dark green, or dark blue text should be chosen to create maximum contrast.   
+Figure \ref{fig:velgSpill} shows a step from the menu and the different menu elements. We have used a range of green colors, and a picture of green leaves as background, to create a theme related to forest and nature. Menu buttons are arranged as list elements or in a square, depending on what is most appropriate. The size of the elements are chosen with usability in mind, there should be room for a proper font size, and it should be easy to push the right button. The buttons have a light green, almost white, background color, with a darker green outline. The text is written in black with an easy-to-read, sans serif font. The contrast between button background and text color is chosen with respect to design guidelines for elderly, presented in Section \ref{sec:designelderly}. The chosen colors is also based on \cite{blindeforbundetTekst}. Taking the element's surroundings into account when choosing colors is important if you will make the element stand out. With e.g. green vegetation as surroundings, white background color, with black, dark green, or dark blue text should be chosen to create maximum contrast.   
 
-The title on each step is written in a bold, black, easy to read font, on a semi-transparent light-colored background. The title is stating what choice to be made at the current step. From the Eight Golden Rules presented in Section \ref{sec:designguide} we know that it is important to have an interface with visible information. These rules also states that users always should be given feedback on their actions. In addition to this, there was a general opinion at workshop 1 that the informants wanted to see clearer response on their actions. We have included this in our concept by portraying hand movements with a avatar hand, and by highlighting elements that are "in action", see Figure \ref{fig:avatarAction}. [SI noe om tydligheten på hånden?].  
+\begin{figure} [H]
+\centering
+\includegraphics[scale=0.4]{VelgSpill.jpg}
+\caption[The four single games]{Besides the walk in the nature the players can choose between four single games, picking apples, chopping wood, paddling, and swimming.}
+\label{fig:velgSpill}
+\end{figure}
+
+The title on each step is written in a bold, black, easy to read font, on a semi-transparent light-colored background. The title is stating what choice to be made at the current step. From the Eight Golden Rules presented in Section \ref{sec:designguide} we know that it is important to have an interface with visible information. These rules also states that users always should be given feedback on their actions. In addition to this, there was a general opinion at workshop 1 that the informants wanted to see clearer response on their actions. We have included this in our concept by highlighting elements that are "in action", see Figure \ref{fig:avatarAction}. The player's hand movements are portrayed on the screen as an avatar hand. The avatar hand has been given a clear color and a solid fill. This has been done to avoid having the same diffuse avatar hand as in the personal trainer game.  
 
 \begin{figure} [H]
 \centering
@@ -243,22 +259,17 @@ In the menu step where the player should choose between the four single games, w
 \end{figure} 
      
 
-\begin{figure} [ht!]
+\begin{figure} [H]
 \centering
 \includegraphics[scale=0.45]{VelgOmgivelser.jpg}
 \caption[Choice of surroundings and difficulty]{When "Take a walk in the nature" is chosen, players will get the possibility to choose surroundings and difficulty level.}
 \label{fig:omgivelseNivaa}
 \end{figure}
 
-\begin{figure} [ht!]
-\centering
-\includegraphics[scale=0.4]{VelgSpill.jpg}
-\caption[The four single games]{Besides the walk in the nature the players can choose between four single games, picking apples, chopping wood, paddling, and swimming.}
-\label{fig:velgSpill}
-\end{figure}
+
 
 \subsection{A Video Game Series}
-In our idea of a video game concept, our "out in the nature" exergame is a part of a video game series called "Kinect Experiences". This "Kinect Experiences" series consist of 4 individual games with the same structure as the game we have already presented. This means, one compounded game and four single games. The difference between the four video games are the main themes. In addition to "out in the nature", the "Kinect Experience" series consist of the video games "farm life", "on vacation" and "in the mountains". The five games within each video game will consist of activities that are connected to the main theme of each video game, like the exergame we already have presented. Examples of single games could be gathering eggs, and stacking hay bales in "farm life", and it could be a walk on the beach, or catching gold fish with a hoof in "on vacation". The idea behind this video game series is to offer a wide range of games, activities and exercises that fits the various interests the user group have. What this video game series would look like on Xbox's website is shown in Figure \ref{fig:videogameseriesHele}. The price presented is only an example [SI NOE OM VI MENER DEN ER REALISTISK ELLER IKKE?].  
+In our idea of a video game concept, our "out in the nature" exergame is a part of a video game series called "Kinect Experiences". This "Kinect Experiences" series consist of 4 individual games with the same structure as the game we have already presented. This means, one compounded game and four single games. The difference between the four video games are the main themes. In addition to "out in the nature", the "Kinect Experience" series consist of the video games "farm life", "on vacation" and "in the mountains". The five games within each video game will consist of activities that are connected to the main theme of each video game, like the exergame we already have presented. Examples of single games could be gathering eggs, and stacking hay bales in "farm life", and it could be a walk on the beach, or catching gold fish with a hoof in "on vacation". The idea behind this video game series is to offer a wide range of games, activities and exercises that fits the various interests the user group have. What this video game series would look like on Xbox's website is shown in Figure \ref{fig:videogameseriesHele}. The price presented is only an example. 
 
 
 
@@ -269,3 +280,23 @@ Delay
 Fysioterapeuter
 Enkelt å sette opp
 Lastetid. Hente fram instruksjonsvideo først, og laste opp spillet mens denne vises?
+
+\begin{table} [H]
+\label{tab:nfunc}
+\centering
+    \begin{tabular}{|l|l|}
+ 
+       \hline
+The system shall be able to run on both PC and Xbox. \\ \hline
+The system shall be easy to set up (physically).\\ \hline
+The system shall include Kinect functionality, like pausing \\ a game by holding one arm out from the body. \\ \hline
+The system shall load within few seconds.\\ \hline
+The system shall be small in size and do not require too \\ much space.\\ \hline
+The system shall not require too much capacity. It shall \\ be able to run on a regular PC. \\ \hline
+The system shall not require too much power. \\ \hline
+The system shall avoid delay between the player's \\ movement and action on the screen.\\ \hline
+The system shall ensure secure storage and sharing of \\ profiles. \\ \hline
+    \end{tabular}
+    \caption[Miscellaneous non-functional requirements]{Miscellaneous non-functional requirements}
+    \label{tab:agenda}
+\end{table} 

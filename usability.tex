@@ -18,6 +18,7 @@ Usability is a wide and quite abstract term, and it is not easy to understand, t
 \end{figure} 
 
 \subsection{Simplicity}
+\label{sec:simplicity}
 Making good, intuitive, easy to understand systems is essential for a system to be successful, accepted and used. "Make it or break it" is a slogan that connects well with success and acceptance. A system can possess the best functionality there is, but if the users do not understand how to use it, the system will fail. An example of this is Apple's huge breakthrough when they launched their iPhone in 2007 \cite{iphone2007}. One might associate the invention of the touch phone with Apple's iPhone, but the truth is that touch phones was invented long before the iPhone. The first touch screen was published as early as in 1968, where it was used for air traffic control, and the first smart phone with touch screen technology was released early in the 1990s \cite{touchphone}. Apple was an eager participant in the development of touch screen devices. Already in 1983 Apple had a prototype of a touch screen phone \cite{applefirst1983}. Apple's success with their iPhone is based on focus on user's needs throughout the development process, which has resulted in good, intuitive and user-friendly design and interfaces. 
 
 "KISS" and "Less is more" is other terms related to usability. "KISS" is an acronym that stands for "Keep it simple, stupid". This principle was formulated by the American aircraft designer Kelly Johnson in the middle of the 1900s, and it states that simple systems work better than complex ones. KISS is not related to stupidity, but rather to intelligent systems that due to their simplistic design may be perceived as stupid. The KISS principle has been adopted into software engineering, and subjects as design and usability. It states that simplicity should be the main focus in design, and that every element that leads to unnecessary complexity should be avoided \cite{kiss1} \cite{kiss2}. Ludwig Mies van der Rohe was a German architect that used the term "Less is more" to describe his extreme simplistic and minimalistic design style, and his use of that term became a guiding principle in modern design. "Less is more" has also been widely used as a slogan in association with usability. \cite{rohe}. Minimalistic design can be described as \emph{"design at its most basic, stripped of superfluous elements, colors, shapes and textures"}. With minimalistic design, the most important elements are brought into focus. In this way the user will not be distracted from, or miss out on, the content that is important \cite{lessismore}. Also big companies, like Microsoft, focus on simplicity in their design. Microsoft has launched an article called "The Importance of Simplicity" in their developer network, about how to design user-friendly systems while still keeping good functionality. Microsoft present a topic called "Simple Can Be Powerful". This means that simplistic design not necessarily implies lack of functionality. Simplistic design will provide ease of use for first timers. The idea is to present a design that is intuitive, understandable and easy to learn, but that has the opportunity to build up knowledge about the functionality needed. A possible solution could be to include customisation so the users can set up their own workspace \cite{msdnsimple}.             
@@ -41,12 +42,17 @@ When creating something completely new, it is all about understanding what the u
 The importance of user feedback throughout the development process is stated in ISO 9241-210 \cite{dis20109241}:
 
 \emph{"Feedback from the users is a critical source of information in human-centered design. Evaluation designs with users and improving them based on their feedback provides an effective means of minimizing the risk of a system not meeting user or organizational needs (including those requirements that are difficult to specify explicitly).  [...] User-centered evaluation should also take place as part of the final acceptance of the product to confirm the requirements have been met. Feedback from users during operational use of identifies long-term issues and provides input to future design."}
-  
-\subsection{The Four Pillars of Design [KANSKJE putte inn under designguidelines?]}
-\label{sec:fourpillarsofdesign}
-The work for an interactive system designer is as mentioned to combine the sense of what attracts users with system functionality. To help interface designers make successful systems, a theory called the four pillars of design has been developed. This theory does not guaranteed brilliant systems, but it could be helpful along the way in the development process. The four pillars of design consist of "user-interface requirements", "guidelines documents and processes", "user-interface software tools" and "expert reviews and usability testing" \cite{mmi}.    
 
-\emph{User-interface requirements (Ethnographic observations)}\\
+  
+\section{Design Guidelines}
+\label{sec:designguide}
+In order for a system to become successful it has to be easy to interact with, and it has to be attractive. It is the work for an interactive system designer to combine system functionality with users needs. There have been developed several guidelines to help interface designers make successful, user-friendly systems. In this section we will present two of these guidelines, a theory called "The Four Pillars of Design", and a list of eight principles for how to make a good interface design, called "The Eight Golden Rules". 
+
+\subsection{The Four Pillars of Design}
+\label{sec:fourpillarsofdesign}
+The four pillars of design is not a theory that guaranteed brilliant systems, but it could be helpful for an interactive system designer along the way in a development process. The four pillars of design consist of "user-interface requirements", "guidelines documents and processes", "user-interface software tools" and "expert reviews and usability testing" \cite{mmi}.    
+
+\subsubsection{User-interface requirements (Ethnographic observations)}   
 A major key to success when developing a system is connected to specifying the user requirements, and how well these requirements are defined and understood.  The way to specify requirements differs from system to system, but what the final results should always include the same; Who should use the system, where should it be used and what should it be used for. The requirements should focus on the role and the purpose of the system. They should include what is essential to the system, and avoid details that are unnecessary. Requirements specification is defined in \cite{systemutviklingDel1} as \emph{"A specification that sets forth the requirements for a system [...]. Typically included are: functional requirements, performance requirements, interface requirements, design requirements and development standards"}. 
 
 The different requirements are often separated into two categorisations, functional and non-functional requirements. Functional requirements is about the system behaviour and the provided functionality \cite{systemutviklingDel1}, in addition to saying something about input/output devices, range of users etc. \cite{mmi}. \cite{systemutviklingDel1} mentions some examples of functional requirements:
@@ -70,7 +76,7 @@ Non-functional requirements forms a basis for implementation design. While funct
 
 An important part of developing a system is to decide and specify functional requirements and non-functional requirements. It is not always easy to distinguish between the different requirements, in terms of if they belong under the categorisation of functional or non-functional requirements. It is important to notice that categorisation of requirements is not the essential part. What is the main goal is to define and express the requirements as clear, simple and understandable as possible \cite{systemutviklingDel1}.  
 
-\emph{Guidelines documents and process (Theories and models)}\\
+\subsubsection{Guidelines documents and process (Theories and models)}
 It is important for the interactive system designer to generate a document that obtains a set of guidelines which specifies how the design should be. Companies like e.g. Apple uses guidelines documents to specify design principles developers should follow. This is to create consistency in design across systems and products. Design may differ as different systems has different needs, but there are still some elements that should be considered in the guidelines document. It is important that the guidelines are flexible, so that they can adapt to changes in needs and experiences \cite{mmi}. Examples of guidelines that should be included in the document are:
 
 \begin{itemize}
@@ -82,15 +88,14 @@ It is important for the interactive system designer to generate a document that 
 \item Training.
 \end{itemize}
 
-\emph{User-interface software tools (Algorithms and prototypes)}\\
+\subsubsection{User-interface software tools (Algorithms and prototypes)}
 In the early stages of development, it is difficult for users to picture what the final result will look like. This may lead to situations where the system design is finished and the users are left with the feeling of not being satisfied. This would be a problem, because of the high cost associated to make changes in implemented systems. One way to address this problem is to let the users get a realistic impression of the final result early in the development process. This could be done by presenting different types of mock-ups and prototypes. These mock-ups or prototypes could be simple sketches on paper, a display proposal or a presentation with use of PowerPoint. When deciding on which development environment to use, there is a number of good products to choose from. Most of them are easy to use, and offers good features. The important part is for the developers to choose the development environment that is most suitable for the product they are going to make, due to performance, cost, and how easy it is to use and learn \cite{mmi}.
 	
-\emph{Expert reviews and usability testing (Controlled experiments)}\\
+\subsubsection{Expert reviews and usability testing (Controlled experiments)}
 To be able to launch a successful system, it is important with testing along the way in the development process. System testing could involve both experts and the intended users \cite{mmi}. 
 
-\section{Design Guidelines}
-\label{sec:designguide}
-In order for a system to become successful it has to be easy to interact with. There have been developed a list of eight principles for how to make a good interface design, called "The Eight Golden Rules". This set of guidelines has been developed over three decades with research and experiences. There does not exist a solution for how to make good and user-friendly interface design, but these "Eight Golden Rules" can serve as a starting point and a helpful design guide if they are used correctly. When using the "Eight Golden Rules", it is important that designers refines and implements the principles into the environment they are working in. 
+\subsection{The Eight Golden Rules}
+The "Eight Golden Rules" are a set of guidelines has been developed over three decades with research and experiences. There does not exist a solution for how to make good and user-friendly interface design, but these "Eight Golden Rules" can serve as a starting point and a helpful design guide if they are used correctly. When using the "Eight Golden Rules", it is important that designers refines and implements the principles into the environment they are working in. 
 
 We will now present the "Eight Golden Rules".
 
@@ -105,7 +110,7 @@ We will now present the "Eight Golden Rules".
 \item \emph{Reduce short-term memory load:} Designers should reduce the need for memorising information and how actions should be performed. The focus should be on designing an interface with visible information and intuitive actions.
 \end{itemize}
 
-These "Eight Golden Rules" is far from being the only guide for how to design a user interface. There have been done a huge amount of research in the area of usability, where Jacob Nielsen is one of the participants \cite{nielsen2005ten}. Nielsen is a Ph.D from Denmark, and an expert in human-computer interaction. He has established a movement for how to easy improve user interfaces, invented several methods for how to achieve good usability, and he has also published a great amount of articles and books with usability as main subject \cite{JNielsen}. As a part of his work Nielsen has created a list of ten usability heuristics, which can be used as general principles when designing a user interface\cite{nielsen2005ten}. We will discuss this in Section \ref{sec:heur}. 
+These presented guidelines are far from being the only guides for how to design a user interface. There have been done a huge amount of research in the area of usability, where Jacob Nielsen is one of the participants \cite{nielsen2005ten}. Nielsen is a Ph.D from Denmark, and an expert in human-computer interaction. He has established a movement for how to easy improve user interfaces, invented several methods for how to achieve good usability, and he has also published a great amount of articles and books with usability as main subject \cite{JNielsen}. As a part of his work Nielsen has created a list of ten usability heuristics, which can be used as general principles when designing a user interface\cite{nielsen2005ten}. We will discuss this in Section \ref{sec:heur}. Now, we will present difficulties and possible solutions related to developing interfaces for elderly users.
 
 \subsection{Designing User-Friendly Interfaces for Elderly Users}
 \label{sec:designelderly}

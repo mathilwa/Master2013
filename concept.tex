@@ -183,6 +183,69 @@ One of the requirements for this exergame concept is that the game has to show p
 \label{fig:omgivelseNivaa}
 \end{figure}
      
+\subsection{Functional Design for "Nature Trail"}
+The functional design for this game will be described according to video game theory discussed in Chapter \ref{chap:vg}.
+
+\textbf{Story} \\ \\
+\emph{Location/setting:} In the forest \\
+\emph{Structural objects:} Trees, the trail, heaven, rocks, log, anthill, lake, puddle \\
+\emph{Interactive objects:} The player character, rowboat with oars, certain rocks lying in the middle of the trail, logs over a creek, red hearts at random places in the field, bought \\
+\emph{Scripting Objects:} \\
+- the player character: will move to the movements received as player input\\
+- rowboat with oars: will move forward as the player uses his/her arms with the oars. \\
+- certain rocks lying in the middle of the trail: If hit, the rocks will flash red and the player will lose 1 point. \\
+- logs over creek: If the player is in touch with the creek, he or she will lose 1 point. \\
+- red hearts: If the player reaches for the heart, he or she gets 1 point. \\
+- bought: If hit, the player will lose 1 point.
+
+\emph{Player Characters:} The actors are seen in third person. They do not have a distinct personality except from being a “a normal human being”, but they are well integrated into the story. There are two different men and two women. All characters are dressed in training outfits, the women in training leggings and t-shirt, and the man in long pants and t-shirt. The different characters will have different colors on their t-shirt, showing which player they are. The men has either blue or green t-shirts, while the women has either yellow or pink t-shirts. The men have short hair, while the women have half-long hair. The characters will be described through a meaningful name. The names will international names, like Anne, Eva, Charles and David. 
+
+\emph{Mechanics:} Progression game. Solve a story. Completes each chapter or level by solving puzzles. Player has to finish different chapters to proceed to the next level. The levels are building on each other. There is a climax at the end of each chapter. 
+
+\emph{Quests:} \\
+- Walk the trail. The higher the player lifts his or her legs the faster he or she walks.\\
+- Gather red hearts to gain points. \\
+- Watch out for the rocks lying in the middle of the trail and walk pass them. This requires side-steps. \\
+- Watch out for the bought hanging from the trees over the trail. This requires squats while walking.\\
+- Balance over the log that lies over the creek. This requires walking with both arms out. \\
+- Log lying in the middle of the trail. Requires lunges. \\
+- "Branching": Trail splits, and there are two possibilities: 1. Walk one trail with rock obstacles but a lots of hearts to gather. This will require some more time, but the player can gain more points by gathering hearts. 2. Walk the other trail which is without obstacles but no hearts to gather. \\
+-"Branching": Trail splits, and there are two possibilities: 1. Keep walking the trail. 2. Row a boat over to the other side. Rowing requires legs wide apart and arms stretched out in front of the player and dragged back to their body (as actual rowing). \\
+- When rowing watch out for the water lilies. This require moving the body to the one side to steer away from the lilies. \\
+- Find all yellow question sheets. \\
+- Answer all questions. There are different categories. Which category and which question the player gets is random. The game will remember which question has been before, so that the same player does not get the same questions. The level of difficulty will increase after the player has played the game several times. \\
+- Solve puzzles. Different puzzles each time, for example link right flag to right country on the map.\\
+
+\textbf{Aesthetics}
+
+\emph{Rules:} \\
+-Interplay rules: overlapper vel egentlig litt med scripting objects. \\
+-Evaluation rules: samme her \\
+
+\emph{Geography and representation:}\\
+Sound: \\
+- music: Calm, classical music that changes to the speed of the game and to certain happenings. \\
+- vocalization: the character will not have its own voice \\
+- sound effects: \\
+- When hearts are gathered there is a cheerful "pling"-sound \\
+- When taking the question sheet there is a "swosj"-sound. \\
+- When the character is walking there is the sound of steps on the ground. Different sounds for different surface, like walking on the rocks, the earth or the logs. \\
+- The sound of shoved water when rowing. \\
+- ambient effects: birdsong, wind, waves from the lake
+
+Perspective: Third-person
+
+Dimension: 3-dimensional and isometric
+
+Exploration: Desired pace
+
+Time: ??
+
+Presented graphically: Photorealism?
+
+\emph{Number of players:} \\
+Can play up to four players at the same time. The players can either compete or cooperate. 
+
 
 \subsection{The Four Single Games}
 In addition to the nature trail, "Out in the Nature" consists of four shorter games with focus on completing one single activity or challenge. The activities we have chosen for our exergame concept is wood chopping, paddling down a river, swimming in a lake, and picking apples. Within every game the player has the possibility to choose number of players and difficulty level. In multi player mode, players can choose if they want to cooperate or compete against each other. When competing, the players will have the possibility to select difficulty level individually. This is to allow for players with different experience to play together, like an elderly and his/her grandchild. Figure \ref{fig:velgSpill} shows how these single games will be presented in a menu. We will describe one of these four games in more detail.
@@ -221,6 +284,54 @@ Apples will appear on the tree and grow in a certain tempo according to the chos
 \caption[Picking apples - multi player]{In this figure we observe two players playing together in competitive mode.}
 \label{fig:appleMultiplayer}
 \end{figure}
+
+
+\subsection{Functional Design for "Picking Apples"}
+The functional design for this game will be described according to video game theory discussed in Chapter \ref{chap:vg}.
+
+\textbf{Story} \\ \\
+\emph{Location/Setting:} Standing on a lawn with a huge apple tree in front of the player. \\
+\emph{Structural objects:} The tree, the grass, the heaven \\
+\emph{Interactive objects:} Apples on the tree, two baskets (one on each side of the player). \\
+\emph{Scripting objects:} \\
+- Apples on the tree: Will appear on the tree with a yellow-green color showing they are immature. After a while they will start to get red, and if the apples does not get picked while it  is red, it will become brown and fall to the grown. If the player picks the apple in time he or she will get 1 point. If not he or she will lose 1 point. \\
+- Baskets: The baskets will get filled with apples. The player gets 1 point if he or she manage to put the apple into the right basket. The basket is flashing when it is its turn to get an apple. If the player puts the apple in the wrong basket, he or she will not get any points. 
+
+\emph{Player Characters:} The actors are seen in third person. They do not have a distinct personality except from being a “a normal human being”, but they are well integrated into the story. There are two different men and two women. All characters are dressed in training outfits, the women in training leggings and t-shirt, and the man in long pants and t-shirt. The different characters will have different colors on their t-shirt, showing which player they are. The men has either blue or green t-shirts, while the women has either yellow or pink t-shirts. The men have short hair, while the women have half-long hair. The characters will be described through a meaningful name. The names will international names, like Anne, Eva, Charles and David. 
+ 
+\emph{Mechanics:} Progression game. Solve a story. Completes each chapter or level by solving puzzles. Player has to finish different chapters to proceed to the next level. The levels are building on each other. Litt usikker på om dette er faktisk det!
+
+\emph{Quests:} \\
+- Pick apples when they get red and ripe. This require stretching. If the apple is picked at the right time the player will get 1 point. If the apple is picked when it is still yellow-green the player will get 0 points. If the apple falls of the tree because it is rotten, the player loses 1 point. \\ 
+- Put apples in the flashing basket. This requires squats and an arm-movement from stretching up to stretching down the opposite side.
+
+\textbf{Aesthetics}
+
+\emph{Rules: } \\
+-Interplay rules: overlapper vel egentlig litt med scripting objects. \\
+-Evaluation rules: samme 
+
+\emph{Geography and representation:} \\
+Sound: \\
+- music: Calm, classical music that changes to the speed of the game and to certain happenings. \\
+- vocalization: the character will not have its own voice \\
+- sound effects: - apples making a pling-sound when getting picked \\
+- apples hitting the ground when falling of the tree.  \\
+- ambient effects: birdsong, wind, waves from the lake 
+
+Perspective: Third-person 
+
+Dimension: 3-dimensional and isometric
+
+Exploration: A mix between forced and desired pace. The pace is forced because the apples appears at random times. At the same time the pace is desired because the player can self choose when he or she wants to stretch to gather the apple. However, this will also mean that the player chooses to lose an apple. 
+
+Time: ??
+
+Presented graphically: Photorealism?
+
+\emph{Number of players:} Can play up to four players at the same time. The players can either compete or cooperate. 
+
+
 
 \subsection{The Menu}
 \label{sec:menu}

@@ -1,0 +1,1654 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2011.11.7)  12 MAY 2013 13:01
+entering extended mode
+**report.tex
+(C:\Users\Line\Documents\GitHub\Master2013\report.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
+vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
+an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
+romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
+sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
+senglishmax, welsh, loaded.
+("C:\Program Files (x86)\Miktex\tex\latex\base\report.cls"
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\Miktex\tex\latex\base\size11.clo"
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files (x86)\Miktex\tex\latex\acronym\acronym.sty"
+Package: acronym 2010/09/08 v1.36 Support for acronyms (Tobias Oetiker)
+
+("C:\Program Files (x86)\Miktex\tex\latex\bigfoot\suffix.sty"
+Package: suffix 2006/07/15 1.5 Variant command support
+)
+\AC@clearlist=\toks14
+)
+("C:\Program Files (x86)\Miktex\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\Miktex\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+("C:\Program Files (x86)\Miktex\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\Miktex\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\Miktex\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files (x86)\Miktex\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\Miktex\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+("C:\Program Files (x86)\Miktex\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\cite\cite.sty"
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 373.
+Package: cite 2010/09/10  v 5.3
+)
+("C:\Program Files (x86)\Miktex\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count89
+\float@exts=\toks16
+\float@box=\box26
+\@float@everytoks=\toks17
+\@floatcapt=\box27
+)
+("C:\Program Files (x86)\Miktex\tex\latex\base\inputenc.sty"
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks18
+\inpenc@posthook=\toks19
+
+("C:\Program Files (x86)\Miktex\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+("C:\Program Files (x86)\Miktex\tex\latex\base\t1enc.dfu"
+File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+("C:\Program Files (x86)\Miktex\tex\latex\base\ot1enc.dfu"
+File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+("C:\Program Files (x86)\Miktex\tex\latex\base\omsenc.dfu"
+File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+("C:\Program Files (x86)\Miktex\tex\latex\ltxmisc\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\rotating\rotating.sty"
+Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
+
+("C:\Program Files (x86)\Miktex\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count90
+\rotFPtop=\skip43
+\rotFPbot=\skip44
+\rot@float@box=\box28
+\rot@mess@toks=\toks20
+)
+("C:\Program Files (x86)\Miktex\tex\latex\ams\math\amsmath.sty"
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip45
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files (x86)\Miktex\tex\latex\ams\math\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files (x86)\Miktex\tex\latex\ams\math\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks21
+\ex@=\dimen105
+))
+("C:\Program Files (x86)\Miktex\tex\latex\ams\math\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen106
+)
+("C:\Program Files (x86)\Miktex\tex\latex\ams\math\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count91
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count92
+\leftroot@=\count93
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count94
+\DOTSCASE@=\count95
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box29
+\strutbox@=\box30
+\big@size=\dimen107
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count96
+\c@MaxMatrixCols=\count97
+\dotsspace@=\muskip11
+\c@parentequation=\count98
+\dspbrk@lvl=\count99
+\tag@help=\toks22
+\row@=\count100
+\column@=\count101
+\maxfields@=\count102
+\andhelp@=\toks23
+\eqnshift@=\dimen108
+\alignsep@=\dimen109
+\tagshift@=\dimen110
+\tagwidth@=\dimen111
+\totwidth@=\dimen112
+\lineht@=\dimen113
+\@envbody=\toks24
+\multlinegap=\skip46
+\multlinetaggap=\skip47
+\mathdisplay@stack=\toks25
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+\fancy@headwidth=\skip48
+\f@ncyO@elh=\skip49
+\f@ncyO@erh=\skip50
+\f@ncyO@olh=\skip51
+\f@ncyO@orh=\skip52
+\f@ncyO@elf=\skip53
+\f@ncyO@erf=\skip54
+\f@ncyO@olf=\skip55
+\f@ncyO@orf=\skip56
+)
+("C:\Program Files (x86)\Miktex\tex\latex\ltxmisc\parskip.sty"
+Package: parskip 2001/04/09 non-zero parskip adjustments
+)
+(C:\Users\Line\Documents\GitHub\Master2013\report.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count103
+\scratchdimen=\dimen114
+\scratchbox=\box31
+\nofMPsegments=\count104
+\nofMParguments=\count105
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count106
+\MPscratchDim=\dimen115
+\MPnumerator=\count107
+\makeMPintoPDFobject=\count108
+\everyMPtoPDFconversion=\toks27
+) <NTNU-logo.png, id=1, 241.3818pt x 52.998pt>
+File: NTNU-logo.png Graphic file (type png)
+ <use NTNU-logo.png>
+Package pdftex.def Info: NTNU-logo.png used on input line 18.
+(pdftex.def)             Requested size: 144.83018pt x 31.79903pt.
+ [1
+
+{C:/Users/Line/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Lin
+e/Documents/GitHub/Master2013/NTNU-logo.png>] [2
+
+] [1] [2
+
+] [3
+
+] [4
+
+]
+(C:\Users\Line\Documents\GitHub\Master2013\report.toc [1
+
+] [2] [3]
+Overfull \hbox (1.18349pt too wide) in paragraph at lines 111--111
+ [][] []\OT1/cmr/m/n/10.95 Miscellaneous As-pects to Con-sider About the Ex-erg
+ame Con- 
+ []
+
+)
+\tf@toc=\write3
+ [4] (C:\Users\Line\Documents\GitHub\Master2013\acronyms.tex) [5
+
+
+] [6
+
+]
+(C:\Users\Line\Documents\GitHub\Master2013\report.lof [7
+
+])
+\tf@lof=\write4
+ [8]
+(C:\Users\Line\Documents\GitHub\Master2013\report.lot)
+\tf@lot=\write5
+ [9
+
+
+] [10
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 83--88
+
+ []
+
+[1
+
+] [2
+
+] (C:\Users\Line\Documents\GitHub\Master2013\motivation.tex
+Chapter 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--13
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--13
+
+ []
+
+[3
+
+] [4]
+Underfull \hbox (badness 10000) in paragraph at lines 14--16
+
+ []
+
+
+Underfull \vbox (badness 3919) has occurred while \output is active []
+
+ [5]
+Underfull \vbox (badness 3919) has occurred while \output is active []
+
+ [6])
+[7] [8
+
+] (C:\Users\Line\Documents\GitHub\Master2013\elderlyandexercise.tex
+Chapter 2.
+
+Underfull \vbox (badness 1014) has occurred while \output is active []
+
+ [9
+
+]
+<exercisegl.png, id=88, 732.48656pt x 548.80031pt>
+File: exercisegl.png Graphic file (type png)
+ <use exercisegl.png>
+Package pdftex.def Info: exercisegl.png used on input line 7.
+(pdftex.def)             Requested size: 366.24237pt x 274.39948pt.
+
+Overfull \hbox (10.24237pt too wide) in paragraph at lines 7--8
+ [] 
+ []
+
+<typeofexercise.png, id=89, 347.04657pt x 490.08093pt>
+File: typeofexercise.png Graphic file (type png)
+
+<use typeofexercise.png>
+Package pdftex.def Info: typeofexercise.png used on input line 15.
+(pdftex.def)             Requested size: 208.22954pt x 294.05083pt.
+
+Underfull \vbox (badness 2351) has occurred while \output is active []
+
+ [10 <C:/Users/Line/Documents/GitHub/Master2013/exercisegl.png>] [11 <C:/Users/
+Line/Documents/GitHub/Master2013/typeofexercise.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12]
+[13] [14] [15]) [16] (C:\Users\Line\Documents\GitHub\Master2013\background.tex
+Chapter 3.
+[17
+
+
+] [18] [19] [20] [21]
+Overfull \hbox (19.79637pt too wide) in paragraph at lines 29--29
+[]\OT1/cmr/bx/n/14.4 Microsoft Kinect for Xbox 360 and Win-dows 
+ []
+
+Package acronym Info: Label `acro:sdk' newly defined as it shall be overridden
+although it is yet undefined on input line 30.
+[22] <kinect.jpg, id=131, 637.38126pt x 301.125pt>
+File: kinect.jpg Graphic file (type jpg)
+ <use kinect.jpg>
+Package pdftex.def Info: kinect.jpg used on input line 34.
+(pdftex.def)             Requested size: 254.94798pt x 120.44786pt.
+) [23 <C:/Users/Line/Documents/GitHub/Master2013/kinect.jpg>] [24
+
+]
+(C:\Users\Line\Documents\GitHub\Master2013\gamesforelderly.tex
+Chapter 4.
+[25
+
+]
+Package acronym Info: Label `acro:dtc' newly defined as it shall be overridden
+although it is yet undefined on input line 9.
+Package acronym Info: Label `acro:d3' newly defined as it shall be overridden
+although it is yet undefined on input line 11.
+Package acronym Info: Label `acro:usid' newly defined as it shall be overridden
+
+although it is yet undefined on input line 11.
+ [26]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 15.
+ ("C:\Program Files (x86)\Miktex\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 15.
+ [27]
+Package acronym Info: Label `acro:ucd' newly defined as it shall be overridden
+although it is yet undefined on input line 31.
+
+[28] [29] [30] [31]
+Overfull \hbox (20.22133pt too wide) in paragraph at lines 78--78
+[]\OT1/cmr/bx/n/14.4 Guidelines for De-vel-op-ing Games for El-derly 
+ []
+
+[32] [33] [34]) [35] [36
+
+]
+(C:\Users\Line\Documents\GitHub\Master2013\videogames.tex
+Chapter 5.
+
+Underfull \vbox (badness 1824) has occurred while \output is active []
+
+ [37
+
+]
+[38] [39]
+Overfull \hbox (0.72707pt too wide) in paragraph at lines 49--50
+[]\OT1/cmr/m/n/10.95 It has to be de-cided if the game will be two-dimensional 
+or three-dimensional
+ []
+
+[40]
+Underfull \vbox (badness 3919) has occurred while \output is active []
+
+ [41]
+<playertoken.png, id=193, 264.23718pt x 332.74312pt>
+File: playertoken.png Graphic file (type png)
+ <use playertoken.png>
+Package pdftex.def Info: playertoken.png used on input line 65.
+(pdftex.def)             Requested size: 132.11826pt x 166.37114pt.
+
+[42] <playerinterface.png, id=197, 268.75406pt x 417.05812pt>
+File: playerinterface.png Graphic file (type png)
+
+<use playerinterface.png>
+Package pdftex.def Info: playerinterface.png used on input line 78.
+(pdftex.def)             Requested size: 134.3767pt x 208.52855pt.
+ [43 <C:/Users/Line/Documents/GitHub/Master2013/playertoken.png>] [44 <C:/Users
+/Line/Documents/GitHub/Master2013/playerinterface.png>] [45]
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--107
+
+ []
+
+[46] <linearFiction.jpg, id=211, 185.19188pt x 103.13531pt>
+File: linearFiction.jpg Graphic file (type jpg)
+
+<use linearFiction.jpg>
+Package pdftex.def Info: linearFiction.jpg used on input line 136.
+(pdftex.def)             Requested size: 185.1914pt x 103.13504pt.
+
+<interactiveFiction.jpg, id=212, 239.39438pt x 97.11281pt>
+File: interactiveFiction.jpg Graphic file (type jpg)
+
+<use interactiveFiction.jpg>
+Package pdftex.def Info: interactiveFiction.jpg used on input line 143.
+(pdftex.def)             Requested size: 239.39378pt x 97.11256pt.
+ [47] [48 <C:/Users/Line/Documents/GitHub/Master2013/linearFiction.jpg> <C:/Use
+rs/Line/Documents/GitHub/Master2013/interactiveFiction.jpg>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [49])
+[50] (C:\Users\Line\Documents\GitHub\Master2013\usability.tex
+Chapter 6.
+[51
+
+
+] [52]
+Overfull \hbox (9.01305pt too wide) in paragraph at lines 27--27
+[]\OT1/cmr/bx/n/10.95 Expert re-views and us-abil-ity test-ing (Con-trolled ex-
+per-i-ments) 
+ []
+
+[53] [54]
+Overfull \hbox (1.33626pt too wide) in paragraph at lines 48--49
+[]\OT1/cmr/m/it/10.95 Requirements to phys-i-cal con-di-tions like tem-per-a-tu
+re, hu-mid-ity, power,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [55]
+[56] <contextOfUse.jpg, id=244, 378.66469pt x 320.69812pt>
+File: contextOfUse.jpg Graphic file (type jpg)
+
+<use contextOfUse.jpg>
+Package pdftex.def Info: contextOfUse.jpg used on input line 69.
+(pdftex.def)             Requested size: 151.46318pt x 128.27696pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [57]
+[58 <C:/Users/Line/Documents/GitHub/Master2013/contextOfUse.jpg>] [59] [60]
+[61]
+Overfull \hbox (17.61124pt too wide) in paragraph at lines 103--103
+[]\OT1/cmr/bx/n/12 Designing User-Friendly In-ter-faces for El-derly Users 
+ []
+
+[62] <fontExample.jpg, id=264, 495.35063pt x 258.9675pt>
+File: fontExample.jpg Graphic file (type jpg)
+ <use fontExample.jpg>
+Package pdftex.def Info: fontExample.jpg used on input line 117.
+(pdftex.def)             Requested size: 445.81145pt x 233.06857pt.
+
+Overfull \hbox (89.81145pt too wide) in paragraph at lines 117--118
+ [][] 
+ []
+
+[63]
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+
+ []
+
+[64 <C:/Users/Line/Documents/GitHub/Master2013/fontExample.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+
+ []
+
+[65] <readingcolors.jpg, id=275, 413.29407pt x 343.2825pt>
+File: readingcolors.jpg Graphic file (type jpg)
+
+<use readingcolors.jpg>
+Package pdftex.def Info: readingcolors.jpg used on input line 155.
+(pdftex.def)             Requested size: 330.6357pt x 274.62636pt.
+ [66 <C:/Users/Line/Documents/GitHub/Master2013/readingcolors.jpg>] [67]
+Overfull \hbox (8.66579pt too wide) in paragraph at lines 177--178
+[]\OT1/cmr/m/n/10.95 Even though Federoff's study was aimed to-wards game de-ve
+l-op-ment, Sweetser
+ []
+
+[68] <gameflow1.png, id=285, 389.20406pt x 583.42969pt>
+File: gameflow1.png Graphic file (type png)
+ <use gameflow1.png>
+Package pdftex.def Info: gameflow1.png used on input line 181.
+(pdftex.def)             Requested size: 350.28041pt x 525.08186pt.
+
+
+LaTeX Warning: Float too large for page by 91.61916pt on input line 184.
+
+<gameflow2.png, id=286, 525.965pt x 342.27875pt>
+File: gameflow2.png Graphic file (type png)
+ <use gameflow2.png>
+Package pdftex.def Info: gameflow2.png used on input line 188.
+(pdftex.def)             Requested size: 368.17297pt x 239.59348pt.
+
+Overfull \hbox (12.17297pt too wide) in paragraph at lines 188--189
+ [][] 
+ []
+
+[69])
+Underfull \vbox (badness 3919) has occurred while \output is active []
+
+ [70]
+[71] [72 <C:/Users/Line/Documents/GitHub/Master2013/gameflow1.png>] [73 <C:/Use
+rs/Line/Documents/GitHub/Master2013/gameflow2.png>] [74
+
+]
+(C:\Users\Line\Documents\GitHub\Master2013\methodology.tex
+Chapter 7.
+[75
+
+] [76] <userdesign.jpg, id=314, 298.86656pt x 232.61906pt>
+File: userdesign.jpg Graphic file (type jpg)
+
+<use userdesign.jpg>
+Package pdftex.def Info: userdesign.jpg used on input line 17.
+(pdftex.def)             Requested size: 239.09355pt x 186.09549pt.
+ [77 <C:/Users/Line/Documents/GitHub/Master2013/userdesign.jpg>] [78] [79]
+Overfull \hbox (0.84892pt too wide) in paragraph at lines 47--49
+\OT1/cmr/m/n/10.95 kjrende sys-te-mer), pre-sisjon (de-taljnivaet i pro-to-ty
+pen), in-ter-ak-tivitet (sier
+ []
+
+[80] [81] [82]
+Overfull \hbox (74.32541pt too wide) in paragraph at lines 58--59
+\OT1/cmr/m/n/10.95 et stort num-mer tilbakemeldinger til en lav kost-nad. http:
+//www.telono.com/fr/articles/lo-
+ []
+
+
+Overfull \hbox (107.67123pt too wide) in paragraph at lines 60--61
+\OT1/cmr/m/n/10.95 gath-er-ing", "guide later de-vel-op-ment stages". http://ww
+w.inovdesigns.com/prototypes.php 
+ []
+
+[83]
+Underfull \vbox (badness 3919) has occurred while \output is active []
+
+ [84]
+Underfull \vbox (badness 3919) has occurred while \output is active []
+
+ [85]
+[86] [87] <circumplex.png, id=350, 730.22812pt x 522.45187pt>
+File: circumplex.png Graphic file (type png)
+
+<use circumplex.png>
+Package pdftex.def Info: circumplex.png used on input line 95.
+(pdftex.def)             Requested size: 365.11316pt x 261.2253pt.
+
+Overfull \hbox (9.11316pt too wide) in paragraph at lines 95--96
+ [] 
+ []
+
+[88] [89 <C:/Users/Line/Documents/GitHub/Master2013/circumplex.png>] [90]
+Underfull \hbox (badness 10000) in paragraph at lines 104--106
+
+ []
+
+[91]
+Package acronym Info: Label `acro:sdi' newly defined as it shall be overridden
+although it is yet undefined on input line 114.
+Package acronym Info: Label `acro:nsd' newly defined as it shall be overridden
+although it is yet undefined on input line 117.
+ [92]
+Underfull \hbox (badness 10000) in paragraph at lines 122--128
+
+ []
+
+
+Overfull \hbox (13.94824pt too wide) in paragraph at lines 122--128
+\OT1/cmr/m/n/10.95 par-tic-i-pant con-fi-dent. This means that the in-for-ma-ti
+on have to be anonymized.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--128
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--128
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--128
+
+ []
+
+[93] [94] [95] [96] [97] [98] <sdi.png, id=385, 257.46187pt x 407.27156pt>
+File: sdi.png Graphic file (type png)
+
+<use sdi.png>
+Package pdftex.def Info: sdi.png used on input line 158.
+(pdftex.def)             Requested size: 205.96976pt x 325.81767pt.
+ [99] [100 <C:/Users/Line/Documents/GitHub/Master2013/sdi.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [101]
+[102] [103]
+Overfull \hbox (36.39467pt too wide) in paragraph at lines 186--186
+[]\OT1/cmr/bx/n/14.4 Recruitment of Par-tic-i-pants for the Work-shops 
+ []
+
+[104] [105] [106] [107] [108] [109] [110] [111] [112]) [113] [114
+
+]
+(C:\Users\Line\Documents\GitHub\Master2013\findingsW1.tex
+Chapter 8.
+[115
+
+] [116]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [117]
+[118] [119] [120] [121] [122] [123] [124] [125] [126]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [127]
+[128]
+Overfull \hbox (26.38127pt too wide) in paragraph at lines 103--103
+[]\OT1/cmr/bx/n/14.4 Experience and Un-der-stand-ing of Tech-nol-ogy 
+ []
+
+[129]) [130] (C:\Users\Line\Documents\GitHub\Master2013\concept.tex
+Chapter 9.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [131
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [132]
+Overfull \hbox (5.26036pt too wide) in paragraph at lines 34--53
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [133]
+[134] [135] [136] <choosePlay.jpg, id=507, 774.64406pt x 583.42969pt>
+File: choosePlay.jpg Graphic file (type jpg)
+
+<use choosePlay.jpg>
+Package pdftex.def Info: choosePlay.jpg used on input line 98.
+(pdftex.def)             Requested size: 348.58661pt x 262.54092pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [137]
+[138 <C:/Users/Line/Documents/GitHub/Master2013/choosePlay.jpg>]
+<PickingApplesAlone.jpg, id=514, 747.54282pt x 438.13687pt>
+File: PickingApplesAlone.jpg Graphic file (type jpg)
+
+<use PickingApplesAlone.jpg>
+Package pdftex.def Info: PickingApplesAlone.jpg used on input line 109.
+(pdftex.def)             Requested size: 523.27641pt x 306.69371pt.
+
+Overfull \hbox (167.27641pt too wide) in paragraph at lines 109--110
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [139 <C:/Users/Line/Documents/GitHub/Master2013/PickingApplesAlone.jpg>]
+<introKineEng.jpg, id=518, 1409.265pt x 2078.76625pt>
+File: introKineEng.jpg Graphic file (type jpg)
+ <use introKineEng.jpg>
+Package pdftex.def Info: introKineEng.jpg used on input line 119.
+(pdftex.def)             Requested size: 281.848pt x 415.7459pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [140]
+Overfull \vbox (36.07489pt too high) has occurred while \output is active []
+
+
+[141 <C:/Users/Line/Documents/GitHub/Master2013/introKineEng.jpg>]
+<game1engelsk.jpg, id=526, 803.0pt x 536.0025pt>
+File: game1engelsk.jpg Graphic file (type jpg)
+ <use game1engelsk.jpg>
+Package pdftex.def Info: game1engelsk.jpg used on input line 131.
+(pdftex.def)             Requested size: 361.34666pt x 241.1989pt.
+
+Overfull \hbox (5.34666pt too wide) in paragraph at lines 131--132
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [142]
+<quiz.jpg, id=530, 722.7pt x 450.0717pt>
+File: quiz.jpg Graphic file (type jpg)
+ <use quiz.jpg>
+Package pdftex.def Info: quiz.jpg used on input line 140.
+(pdftex.def)             Requested size: 361.3491pt x 225.0353pt.
+
+Overfull \hbox (5.3491pt too wide) in paragraph at lines 140--141
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [143 <C:/Users/Line/Documents/GitHub/Master2013/game1engelsk.jpg>]
+
+LaTeX Warning: Reference `rowing' on page 144 undefined on input line 145.
+
+
+LaTeX Warning: Reference `fig:hindring2' on page 144 undefined on input line 14
+5.
+
+[144 <C:/Users/Line/Documents/GitHub/Master2013/quiz.jpg>]
+<hindringerEng.jpg, id=537, 594.72188pt x 600.74437pt>
+File: hindringerEng.jpg Graphic file (type jpg)
+ <use hindringerEng.jpg>
+Package pdftex.def Info: hindringerEng.jpg used on input line 149.
+(pdftex.def)             Requested size: 356.83588pt x 360.4494pt.
+
+Overfull \hbox (0.83588pt too wide) in paragraph at lines 149--150
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [145]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [146 <C:/Users/Line/Documents/GitHub/Master2013/hindringerEng.jpg>]
+<chooseEnvironment.jpg, id=544, 774.64406pt x 581.92406pt>
+File: chooseEnvironment.jpg Graphic file (type jpg)
+
+<use chooseEnvironment.jpg>
+Package pdftex.def Info: chooseEnvironment.jpg used on input line 160.
+(pdftex.def)             Requested size: 348.58661pt x 261.8634pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [147]
+Underfull \hbox (badness 10000) in paragraph at lines 168--179
+
+ []
+
+[148 <C:/Users/Line/Documents/GitHub/Master2013/chooseEnvironment.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 184--197
+
+ []
+
+[149]
+Underfull \hbox (badness 10000) in paragraph at lines 200--203
+
+ []
+
+[150] [151] <gameappletreeEng.jpg, id=561, 3276.24pt x 2457.18pt>
+File: gameappletreeEng.jpg Graphic file (type jpg)
+
+<use gameappletreeEng.jpg>
+Package pdftex.def Info: gameappletreeEng.jpg used on input line 237.
+(pdftex.def)             Requested size: 327.64319pt x 245.73239pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [152]
+<squatppletreeEng.jpg, id=565, 3276.24pt x 2457.18pt>
+File: squatppletreeEng.jpg Graphic file (type jpg)
+
+<use squatppletreeEng.jpg>
+Package pdftex.def Info: squatppletreeEng.jpg used on input line 244.
+(pdftex.def)             Requested size: 327.64319pt x 245.73239pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [153 <C:/Users/Line/Documents/GitHub/Master2013/gameappletreeEng.jpg>]
+<appletreeendEng.jpg, id=570, 3276.24pt x 2457.18pt>
+File: appletreeendEng.jpg Graphic file (type jpg)
+ <use appletreeendEng.jpg>
+Package pdftex.def Info: appletreeendEng.jpg used on input line 253.
+(pdftex.def)             Requested size: 327.64319pt x 245.73239pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [154 <C:/Users/Line/Documents/GitHub/Master2013/squatppletreeEng.jpg>]
+<gameapple2playerEngelsk.jpg, id=574, 4658.40375pt x 2438.10875pt>
+File: gameapple2playerEngelsk.jpg Graphic file (type jpg)
+
+<use gameapple2playerEngelsk.jpg>
+Package pdftex.def Info: gameapple2playerEngelsk.jpg used on input line 263.
+(pdftex.def)             Requested size: 349.3652pt x 182.85027pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [155 <C:/Users/Line/Documents/GitHub/Master2013/appletreeendEng.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 272--279
+
+ []
+
+[156 <C:/Users/Line/Documents/GitHub/Master2013/gameapple2playerEngelsk.jpg>]
+[157] [158] <menuEnglishStep1.jpg, id=587, 386.94562pt x 885.3075pt>
+File: menuEnglishStep1.jpg Graphic file (type jpg)
+
+<use menuEnglishStep1.jpg>
+Package pdftex.def Info: menuEnglishStep1.jpg used on input line 327.
+(pdftex.def)             Requested size: 174.12392pt x 398.38469pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [159]
+<menuEnglishStep2.jpg, id=592, 387.69844pt x 885.3075pt>
+File: menuEnglishStep2.jpg Graphic file (type jpg)
+
+<use menuEnglishStep2.jpg>
+Package pdftex.def Info: menuEnglishStep2.jpg used on input line 334.
+(pdftex.def)             Requested size: 174.46268pt x 398.38469pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [160 <C:/Users/Line/Documents/GitHub/Master2013/menuEnglishStep1.jpg>]
+Overfull \vbox (5.11368pt too high) has occurred while \output is active []
+
+
+[161 <C:/Users/Line/Documents/GitHub/Master2013/menuEnglishStep2.jpg>]
+<chooseGame.jpg, id=599, 773.13844pt x 578.91281pt>
+File: chooseGame.jpg Graphic file (type jpg)
+ <use chooseGame.jpg>
+Package pdftex.def Info: chooseGame.jpg used on input line 343.
+(pdftex.def)             Requested size: 309.2499pt x 231.56102pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [162]
+<menuAction.jpg, id=603, 386.19281pt x 590.95781pt>
+File: menuAction.jpg Graphic file (type jpg)
+ <use menuAction.jpg>
+Package pdftex.def Info: menuAction.jpg used on input line 352.
+(pdftex.def)             Requested size: 193.09592pt x 295.47818pt.
+
+[163 <C:/Users/Line/Documents/GitHub/Master2013/chooseGame.jpg>]
+Underfull \vbox (badness 2073) has occurred while \output is active []
+
+ [164 <C:/Users/Line/Documents/GitHub/Master2013/menuAction.jpg>]
+<menuIconApple.jpg, id=610, 386.19281pt x 587.94656pt>
+File: menuIconApple.jpg Graphic file (type jpg)
+ <use menuIconApple.jpg>
+Package pdftex.def Info: menuIconApple.jpg used on input line 363.
+(pdftex.def)             Requested size: 193.09592pt x 293.97256pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [165]
+[166 <C:/Users/Line/Documents/GitHub/Master2013/menuIconApple.jpg>]
+<videoGameSeriesAlone.jpg, id=618, 557.83406pt x 222.8325pt>
+File: videoGameSeriesAlone.jpg Graphic file (type jpg)
+
+<use videoGameSeriesAlone.jpg>
+Package pdftex.def Info: videoGameSeriesAlone.jpg used on input line 373.
+(pdftex.def)             Requested size: 362.58783pt x 144.8394pt.
+
+Overfull \hbox (6.58783pt too wide) in paragraph at lines 373--374
+ [][] 
+ []
+
+<videoGameSeries.jpg, id=619, 735.49782pt x 418.56375pt>
+File: videoGameSeries.jpg Graphic file (type jpg)
+
+<use videoGameSeries.jpg>
+Package pdftex.def Info: videoGameSeries.jpg used on input line 380.
+(pdftex.def)             Requested size: 367.74802pt x 209.28136pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [167 <C:/Users/Line/Documents/GitHub/Master2013/videoGameSeriesAlone.jpg>]) [1
+68 <C:/Users/Line/Documents/GitHub/Master2013/videoGameSeries.jpg>]
+(C:\Users\Line\Documents\GitHub\Master2013\findingsW2.tex
+Chapter 10.
+[169
+
+
+] [170] [171]
+Overfull \hbox (0.79965pt too wide) in paragraph at lines 28--28
+[]\OT1/cmr/bx/n/14.4 Information, In-struc-tions, and the Menu 
+ []
+
+[172] [173]) [174] (C:\Users\Line\Documents\GitHub\Master2013\discussion.tex
+Chapter 11.
+[175
+
+
+]
+Overfull \hbox (4.83305pt too wide) in paragraph at lines 28--28
+[]\OT1/cmr/bx/n/14.4 Miscellaneous As-pects to Con-sider About the
+ []
+
+)
+Underfull \hbox (badness 10000) in paragraph at lines 55--111
+
+ []
+
+[176] [177] [178
+
+] (C:\Users\Line\Documents\GitHub\Master2013\conclusion.tex
+Chapter 12.
+) [179
+
+] [180
+
+] (C:\Users\Line\Documents\GitHub\Master2013\report.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 10--16
+[]\OT1/cmr/m/n/10.95 Helsedirektoratet.  Velferd-ste-knologi. fa-grap-port om i
+m-ple-
+ []
+
+
+Underfull \hbox (badness 2261) in paragraph at lines 10--16
+\OT1/cmr/m/n/10.95 menter-ing av velferd-ste-knologi i de kom-mu-nale helse- og
+ om-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--16
+\OT1/cmr/m/n/10.95 sorgst-jen-estene 2013-2030.  $\OT1/cmtt/m/n/10.95 http : / 
+/ www . helsedirektoratet .$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--16
+$\OT1/cmtt/m/n/10.95 no / publikasjoner / velferdsteknologi -[] fagrapport -[] 
+om -[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--16
+$\OT1/cmtt/m/n/10.95 implementering -[] av -[] velferdsteknologi -[] i -[] de -
+[] kommunale -[] helse -[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--30
+[]\OT1/cmr/m/n/10.95 The Fed-eral In-ter-a-gency Fo-rum on Aging-Related Statis
+-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--30
+$\OT1/cmtt/m/n/10.95 http : / / www . agingstats . gov / agingstatsdotnet / Mai
+n _ Site / Data /$
+ []
+
+
+Underfull \vbox (badness 1496) has occurred while \output is active []
+
+ [181
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 72--76
+[]\OT1/cmr/m/n/10.95 Carlton Reeve.  Be-haviourism and games.  $\OT1/cmtt/m/n/1
+0.95 http : / /$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--76
+$\OT1/cmtt/m/n/10.95 playwithlearning . com / 2012 / 01 / 06 / behaviourism -[]
+ and -[] games/$\OT1/cmr/m/n/10.95 .
+ []
+
+
+Underfull \hbox (badness 7649) in paragraph at lines 94--99
+[]\OT1/cmr/m/n/10.95 IDATE.  Se-ri-ous games - a 10 bil-lion euro mar-ket in
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--99
+\OT1/cmr/m/n/10.95 2015.  $\OT1/cmtt/m/n/10.95 http : / / www . idate . org / 2
+009 / pages / download . php ? id =$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--99
+$\OT1/cmtt/m/n/10.95 147&idl = 21&t = f _ telech _ actu&fic = 518 _ Serious _ G
+ames _ VA .$
+ []
+
+[182]
+Underfull \hbox (badness 2042) in paragraph at lines 114--118
+[]\OT1/cmr/m/n/10.95 Stephanie Craw-ford.  How mi-crosoft kinect works.  $\OT1/
+cmtt/m/n/10.95 http : / /$
+ []
+
+
+Underfull \hbox (badness 2326) in paragraph at lines 120--125
+[]\OT1/cmr/m/n/10.95 Matt Matthews.  Anal-y-sis: Where do kinect sales go from
+ []
+
+
+Underfull \hbox (badness 2368) in paragraph at lines 120--125
+$\OT1/cmtt/m/n/10.95 Where _ do _ Kinect _ sales _ go _ from _ here . php # .UT
+daDKVwpBk$\OT1/cmr/m/n/10.95 .  vis-
+ []
+
+
+Underfull \hbox (badness 5563) in paragraph at lines 134--140
+[]\OT1/cmr/m/n/10.95 Microsoft.  'kinect ef-fect' magic pushes be-yond the liv-
+ing
+ []
+
+
+Underfull \hbox (badness 1360) in paragraph at lines 134--140
+\OT1/cmr/m/n/10.95 room.  $\OT1/cmtt/m/n/10.95 http : / / www . microsoft . com
+ / en -[] us / news / features / 2011 /$
+ []
+
+[183]
+Underfull \hbox (badness 1565) in paragraph at lines 189--193
+[]\OT1/cmr/m/n/10.95 Ivan Be-ram.  Lev-els of com-plex-ity: A level-design meth
+od-ol-
+ []
+
+[184]
+Underfull \hbox (badness 1728) in paragraph at lines 236--241
+[]\OT1/cmr/m/n/10.95 About.com Mary Bel-lis.  Who in-vented touch screen tech-n
+ol-
+ []
+
+
+Underfull \hbox (badness 1796) in paragraph at lines 236--241
+\OT1/cmr/m/n/10.95 ogy?  $\OT1/cmtt/m/n/10.95 http : / / inventors . about . co
+m / od / tstartinventions / a /$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--254
+[]\OT1/cmr/m/n/10.95 Keep it sim-ple stupid prin-ci-ple (kiss prin-ci-ple).  $\
+OT1/cmtt/m/n/10.95 http :$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--254
+$\OT1/cmtt/m/n/10.95 / / www . techopedia . com / definition / 20262 / keep -[]
+ it -[] simple -[]$
+ []
+
+
+Underfull \hbox (badness 2744) in paragraph at lines 261--265
+[]\OT1/cmr/m/n/10.95 About.com Jackie Craven.  Mies van der rohe, mod-ern ar-
+ []
+
+
+Underfull \hbox (badness 3449) in paragraph at lines 261--265
+\OT1/cmr/m/n/10.95 chi-tect.  $\OT1/cmtt/m/n/10.95 http : / / architecture . ab
+out . com / od / architectsaz / p /$
+ []
+
+
+Underfull \hbox (badness 3118) in paragraph at lines 267--272
+[]\OT1/cmr/m/n/10.95 Webdesigner De-pot.  Min-i-mal-ist web de-sign: When less 
+is
+ []
+
+[185]
+Underfull \hbox (badness 5345) in paragraph at lines 296--301
+[]\OT1/cmr/m/n/10.95 Bjrn Nygard.  Tek-sten - slik vi vil ha den.  $\OT1/cmtt
+/m/n/10.95 https :$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 296--301
+$\OT1/cmtt/m/n/10.95 / / www . blindeforbundet . no / nbf / publikasjoner / bro
+sjyrer /$
+ []
+
+
+Underfull \hbox (badness 3029) in paragraph at lines 303--307
+[]\OT1/cmr/m/n/10.95 Making it clear.  $\OT1/cmtt/m/n/10.95 http : / / www . ac
+tionforblindpeople . org . uk /$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--307
+$\OT1/cmtt/m/n/10.95 assets / Uploads / downloads / making -[] it -[] clear -[]
+ colour -[] 690 . pdf$\OT1/cmr/m/n/10.95 .
+ []
+
+
+Underfull \hbox (badness 1163) in paragraph at lines 314--317
+[]\OT1/cmr/m/n/10.95 Om oss.  $\OT1/cmtt/m/n/10.95 https : / / www . blindeforb
+undet . no / internett / om -[] oss$\OT1/cmr/m/n/10.95 .
+ []
+
+
+Underfull \hbox (badness 3168) in paragraph at lines 329--333
+[]\OT1/cmr/m/n/10.95 4 easy steps to make your site more us-able to older peo-
+ []
+
+[186]
+Underfull \hbox (badness 1009) in paragraph at lines 348--353
+$\OT1/cmtt/m/n/10.95 www . gamasutra . com / features / 20010815 / shelley _ 01
+ . htm$\OT1/cmr/m/n/10.95 , Au-gust
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 395--400
+$\OT1/cmtt/m/n/10.95 com . au / usabilityresources / participatorydesign/$\OT1/
+cmr/m/n/10.95 .  vis-ited:
+ []
+
+[187]) [1] [2
+
+] (C:\Users\Line\Documents\GitHub\Master2013\appendix.tex [3]
+<Walking.jpg, id=697, 417.05812pt x 592.46344pt>
+File: Walking.jpg Graphic file (type jpg)
+ <use Walking.jpg>
+Package pdftex.def Info: Walking.jpg used on input line 19.
+(pdftex.def)             Requested size: 291.93869pt x 414.72157pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4]
+<Rowing.jpg, id=701, 413.29407pt x 649.67719pt>
+File: Rowing.jpg Graphic file (type jpg)
+ <use Rowing.jpg>
+Package pdftex.def Info: Rowing.jpg used on input line 25.
+(pdftex.def)             Requested size: 289.30386pt x 454.77094pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5 <C:/Users/Line/Documents/GitHub/Master2013/Walking.jpg>]
+<PickingApples.jpg, id=705, 408.77719pt x 576.65437pt>
+File: PickingApples.jpg Graphic file (type jpg)
+ <use PickingApples.jpg>
+Package pdftex.def Info: PickingApples.jpg used on input line 31.
+(pdftex.def)             Requested size: 286.14207pt x 403.6553pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6 <C:/Users/Line/Documents/GitHub/Master2013/Rowing.jpg>]
+<WeightShift.jpg, id=709, 407.27156pt x 595.47469pt>
+File: WeightShift.jpg Graphic file (type jpg)
+ <use WeightShift.jpg>
+Package pdftex.def Info: WeightShift.jpg used on input line 37.
+(pdftex.def)             Requested size: 325.81767pt x 476.38039pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7 <C:/Users/Line/Documents/GitHub/Master2013/PickingApples.jpg>]
+Overfull \vbox (16.58018pt too high) has occurred while \output is active []
+
+
+[8 <C:/Users/Line/Documents/GitHub/Master2013/WeightShift.jpg>]
+<Swimming.jpg, id=717, 427.5975pt x 568.37344pt>
+File: Swimming.jpg Graphic file (type jpg)
+ <use Swimming.jpg>
+Package pdftex.def Info: Swimming.jpg used on input line 43.
+(pdftex.def)             Requested size: 342.07846pt x 454.69937pt.
+
+<StrechFlank.jpg, id=718, 423.08063pt x 678.28406pt>
+File: StrechFlank.jpg Graphic file (type jpg)
+ <use StrechFlank.jpg>
+Package pdftex.def Info: StrechFlank.jpg used on input line 49.
+(pdftex.def)             Requested size: 338.46495pt x 542.62798pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9 <C:/Users/Line/Documents/GitHub/Master2013/Swimming.jpg>]
+Overfull \vbox (82.82777pt too high) has occurred while \output is active []
+
+
+[10 <C:/Users/Line/Documents/GitHub/Master2013/StrechFlank.jpg>]
+<LiftingYourLegs.jpg, id=725, 410.2828pt x 595.47469pt>
+File: LiftingYourLegs.jpg Graphic file (type jpg)
+
+<use LiftingYourLegs.jpg>
+Package pdftex.def Info: LiftingYourLegs.jpg used on input line 55.
+(pdftex.def)             Requested size: 328.22668pt x 476.38039pt.
+
+Overfull \vbox (16.58018pt too high) has occurred while \output is active []
+
+
+[11 <C:/Users/Line/Documents/GitHub/Master2013/LiftingYourLegs.jpg>]
+<Squats.jpg, id=729, 411.78844pt x 584.93532pt>
+File: Squats.jpg Graphic file (type jpg)
+ <use Squats.jpg>
+Package pdftex.def Info: Squats.jpg used on input line 62.
+(pdftex.def)             Requested size: 329.43118pt x 467.94888pt.
+
+Overfull \vbox (8.14868pt too high) has occurred while \output is active []
+
+
+[12 <C:/Users/Line/Documents/GitHub/Master2013/Squats.jpg>]
+<GoSideways.jpg, id=733, 409.53pt x 611.28375pt>
+File: GoSideways.jpg Graphic file (type jpg)
+ <use GoSideways.jpg>
+Package pdftex.def Info: GoSideways.jpg used on input line 68.
+(pdftex.def)             Requested size: 327.62444pt x 489.02766pt.
+
+Overfull \vbox (29.22746pt too high) has occurred while \output is active []
+
+
+[13 <C:/Users/Line/Documents/GitHub/Master2013/GoSideways.jpg>]
+<menuStep1.jpg, id=737, 386.94562pt x 886.81313pt>
+File: menuStep1.jpg Graphic file (type jpg)
+ <use menuStep1.jpg>
+Package pdftex.def Info: menuStep1.jpg used on input line 80.
+(pdftex.def)             Requested size: 174.12392pt x 399.06221pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14]
+<menuStep2.jpg, id=742, 377.91188pt x 880.03781pt>
+File: menuStep2.jpg Graphic file (type jpg)
+ <use menuStep2.jpg>
+Package pdftex.def Info: menuStep2.jpg used on input line 86.
+(pdftex.def)             Requested size: 170.05876pt x 396.01335pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15 <C:/Users/Line/Documents/GitHub/Master2013/menuStep1.jpg>]
+<menuStep3.jpg, id=746, 387.69844pt x 885.3075pt>
+File: menuStep3.jpg Graphic file (type jpg)
+ <use menuStep3.jpg>
+Package pdftex.def Info: menuStep3.jpg used on input line 92.
+(pdftex.def)             Requested size: 174.46268pt x 398.38469pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16 <C:/Users/Line/Documents/GitHub/Master2013/menuStep2.jpg>]
+<menuStep4.jpg, id=750, 386.19281pt x 805.50937pt>
+File: menuStep4.jpg Graphic file (type jpg)
+ <use menuStep4.jpg>
+Package pdftex.def Info: menuStep4.jpg used on input line 98.
+(pdftex.def)             Requested size: 173.78514pt x 362.47586pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17 <C:/Users/Line/Documents/GitHub/Master2013/menuStep3.jpg>] [18 <C:/Users/L
+ine/Documents/GitHub/Master2013/menuStep4.jpg>]
+<KineIntro.jpg, id=757, 381.1038pt x 542.025pt>
+File: KineIntro.jpg Graphic file (type jpg)
+ <use KineIntro.jpg>
+Package pdftex.def Info: KineIntro.jpg used on input line 108.
+(pdftex.def)             Requested size: 266.77083pt x 379.4149pt.
+
+<hjerter.jpg, id=758, 723.1818pt x 493.3632pt>
+File: hjerter.jpg Graphic file (type jpg)
+ <use hjerter.jpg>
+Package pdftex.def Info: hjerter.jpg used on input line 114.
+(pdftex.def)             Requested size: 361.59001pt x 246.681pt.
+
+Overfull \hbox (5.59001pt too wide) in paragraph at lines 114--116
+ [][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19 <C:/Users/Line/Documents/GitHub/Master2013/KineIntro.jpg>]
+<hindring1.jpg, id=762, 496.10344pt x 947.79094pt>
+File: hindring1.jpg Graphic file (type jpg)
+ <use hindring1.jpg>
+Package pdftex.def Info: hindring1.jpg used on input line 120.
+(pdftex.def)             Requested size: 223.24448pt x 426.50198pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20 <C:/Users/Line/Documents/GitHub/Master2013/hjerter.jpg>]
+<hindring2.jpg, id=767, 451.6875pt x 929.72343pt>
+File: hindring2.jpg Graphic file (type jpg)
+ <use hindring2.jpg>
+Package pdftex.def Info: hindring2.jpg used on input line 126.
+(pdftex.def)             Requested size: 203.25749pt x 418.37167pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21 <C:/Users/Line/Documents/GitHub/Master2013/hindring1.jpg>]
+<gameappletree.jpg, id=771, 3276.24pt x 2457.18pt>
+File: gameappletree.jpg Graphic file (type jpg)
+ <use gameappletree.jpg>
+Package pdftex.def Info: gameappletree.jpg used on input line 132.
+(pdftex.def)             Requested size: 327.64319pt x 245.73239pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22 <C:/Users/Line/Documents/GitHub/Master2013/hindring2.jpg>]
+<squateple.jpg, id=775, 722.7pt x 542.025pt>
+File: squateple.jpg Graphic file (type jpg)
+ <use squateple.jpg>
+Package pdftex.def Info: squateple.jpg used on input line 138.
+(pdftex.def)             Requested size: 325.21199pt x 243.90898pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23 <C:/Users/Line/Documents/GitHub/Master2013/gameappletree.jpg>]
+<appletreeend.jpg, id=779, 3276.24pt x 2457.18pt>
+File: appletreeend.jpg Graphic file (type jpg)
+ <use appletreeend.jpg>
+Package pdftex.def Info: appletreeend.jpg used on input line 144.
+(pdftex.def)             Requested size: 327.64319pt x 245.73239pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24 <C:/Users/Line/Documents/GitHub/Master2013/squateple.jpg>]
+<multiplayereple.jpg, id=783, 417.81094pt x 255.20343pt>
+File: multiplayereple.jpg Graphic file (type jpg)
+
+<use multiplayereple.jpg>
+Package pdftex.def Info: multiplayereple.jpg used on input line 150.
+(pdftex.def)             Requested size: 334.2492pt x 204.16301pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25 <C:/Users/Line/Documents/GitHub/Master2013/appletreeend.jpg>]
+<menuStart.jpg, id=787, 773.89125pt x 582.67688pt>
+File: menuStart.jpg Graphic file (type jpg)
+ <use menuStart.jpg>
+Package pdftex.def Info: menuStart.jpg used on input line 158.
+(pdftex.def)             Requested size: 348.24785pt x 262.20218pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26 <C:/Users/Line/Documents/GitHub/Master2013/multiplayereple.jpg>]
+<VelgSpill.jpg, id=792, 775.39688pt x 581.92406pt>
+File: VelgSpill.jpg Graphic file (type jpg)
+ <use VelgSpill.jpg>
+Package pdftex.def Info: VelgSpill.jpg used on input line 164.
+(pdftex.def)             Requested size: 310.15326pt x 232.7655pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27 <C:/Users/Line/Documents/GitHub/Master2013/menuStart.jpg>]
+<menuAvatarAction.jpg, id=796, 386.94562pt x 590.95781pt>
+File: menuAvatarAction.jpg Graphic file (type jpg)
+
+<use menuAvatarAction.jpg>
+Package pdftex.def Info: menuAvatarAction.jpg used on input line 170.
+(pdftex.def)             Requested size: 193.47234pt x 295.47818pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28 <C:/Users/Line/Documents/GitHub/Master2013/VelgSpill.jpg>]
+<IconEple.jpg, id=800, 386.19281pt x 588.69937pt>
+File: IconEple.jpg Graphic file (type jpg)
+ <use IconEple.jpg>
+Package pdftex.def Info: IconEple.jpg used on input line 176.
+(pdftex.def)             Requested size: 193.09592pt x 294.34895pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29 <C:/Users/Line/Documents/GitHub/Master2013/menuAvatarAction.jpg>]
+<VelgOmgivelser.jpg, id=804, 776.14969pt x 583.42969pt>
+File: VelgOmgivelser.jpg Graphic file (type jpg)
+
+<use VelgOmgivelser.jpg>
+Package pdftex.def Info: VelgOmgivelser.jpg used on input line 182.
+(pdftex.def)             Requested size: 349.26413pt x 262.54092pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30 <C:/Users/Line/Documents/GitHub/Master2013/IconEple.jpg>]
+<SpillXboxNYNY.jpg, id=808, 858.95906pt x 545.78906pt>
+File: SpillXboxNYNY.jpg Graphic file (type jpg)
+ <use SpillXboxNYNY.jpg>
+Package pdftex.def Info: SpillXboxNYNY.jpg used on input line 188.
+(pdftex.def)             Requested size: 429.47849pt x 272.89386pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31 <C:/Users/Line/Documents/GitHub/Master2013/VelgOmgivelser.jpg>]) [32 <C:/U
+sers/Line/Documents/GitHub/Master2013/SpillXboxNYNY.jpg>]
+(C:\Users\Line\Documents\GitHub\Master2013\report.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 3346 strings out of 494045
+ 45417 string characters out of 3147584
+ 103829 words of memory out of 3000000
+ 6497 multiletter control sequences out of 15000+200000
+ 10297 words of font info for 37 fonts, out of 3000000 for 9000
+ 715 hyphenation exceptions out of 8191
+ 27i,12n,43p,6806b,309s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/Miktex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/
+Program Files (x86)/Miktex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Progra
+m Files (x86)/Miktex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files
+ (x86)/Miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)
+/Miktex/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/Mikte
+x/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on report.pdf (235 pages, 18560093 bytes).
+PDF statistics:
+ 845 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 306 words of extra memory for PDF output out of 10000 (max. 10000000)
+

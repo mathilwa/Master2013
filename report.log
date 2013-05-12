@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2011.11.7)  12 MAY 2013 13:01
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2011.11.7)  12 MAY 2013 17:40
 entering extended mode
 **report.tex
 (C:\Users\Line\Documents\GitHub\Master2013\report.tex
@@ -686,18 +686,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--51
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [55]
-[56] <contextOfUse.jpg, id=244, 378.66469pt x 320.69812pt>
-File: contextOfUse.jpg Graphic file (type jpg)
+[56]
 
-<use contextOfUse.jpg>
+LaTeX Warning: Citation `bevan1995human' on page 57 undefined on input line 65.
+
+
+<contextOfUse.jpg, id=244, 185.19188pt x 350.81062pt>
+File: contextOfUse.jpg Graphic file (type jpg)
+ <use contextOfUse.jpg>
 Package pdftex.def Info: contextOfUse.jpg used on input line 69.
-(pdftex.def)             Requested size: 151.46318pt x 128.27696pt.
+(pdftex.def)             Requested size: 92.5957pt x 175.40488pt.
+
+
+LaTeX Warning: Citation `bevan1995human' on page 57 undefined on input line 70.
+
+
+
+LaTeX Warning: Citation `bevan1995human' on page 57 undefined on input line 70.
+
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [57]
-[58 <C:/Users/Line/Documents/GitHub/Master2013/contextOfUse.jpg>] [59] [60]
-[61]
+[58 <C:/Users/Line/Documents/GitHub/Master2013/contextOfUse.jpg>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [59]
+[60] [61]
 Overfull \hbox (17.61124pt too wide) in paragraph at lines 103--103
 []\OT1/cmr/bx/n/12 Designing User-Friendly In-ter-faces for El-derly Users 
  []
@@ -712,12 +728,12 @@ Overfull \hbox (89.81145pt too wide) in paragraph at lines 117--118
  [][] 
  []
 
-[63]
+[63] [64 <C:/Users/Line/Documents/GitHub/Master2013/fontExample.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
 
-[64 <C:/Users/Line/Documents/GitHub/Master2013/fontExample.jpg>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 140--141
 
  []
@@ -728,7 +744,10 @@ File: readingcolors.jpg Graphic file (type jpg)
 <use readingcolors.jpg>
 Package pdftex.def Info: readingcolors.jpg used on input line 155.
 (pdftex.def)             Requested size: 330.6357pt x 274.62636pt.
- [66 <C:/Users/Line/Documents/GitHub/Master2013/readingcolors.jpg>] [67]
+ [66]
+Underfull \vbox (badness 2005) has occurred while \output is active []
+
+ [67 <C:/Users/Line/Documents/GitHub/Master2013/readingcolors.jpg>]
 Overfull \hbox (8.66579pt too wide) in paragraph at lines 177--178
 []\OT1/cmr/m/n/10.95 Even though Federoff's study was aimed to-wards game de-ve
 l-op-ment, Sweetser
@@ -753,143 +772,153 @@ Overfull \hbox (12.17297pt too wide) in paragraph at lines 188--189
  [][] 
  []
 
-[69])
-Underfull \vbox (badness 3919) has occurred while \output is active []
-
- [70]
-[71] [72 <C:/Users/Line/Documents/GitHub/Master2013/gameflow1.png>] [73 <C:/Use
-rs/Line/Documents/GitHub/Master2013/gameflow2.png>] [74
+[69] [70]) [71] [72 <C:/Users/Line/Documents/GitHub/Master2013/gameflow1.png>]
+[73 <C:/Users/Line/Documents/GitHub/Master2013/gameflow2.png>] [74
 
 ]
 (C:\Users\Line\Documents\GitHub\Master2013\methodology.tex
 Chapter 7.
 [75
 
-] [76] <userdesign.jpg, id=314, 298.86656pt x 232.61906pt>
-File: userdesign.jpg Graphic file (type jpg)
+] <userCenteredDesign.jpg, id=311, 409.53pt x 319.94531pt>
+File: userCenteredDesign.jpg Graphic file (type jpg)
 
-<use userdesign.jpg>
-Package pdftex.def Info: userdesign.jpg used on input line 17.
-(pdftex.def)             Requested size: 239.09355pt x 186.09549pt.
- [77 <C:/Users/Line/Documents/GitHub/Master2013/userdesign.jpg>] [78] [79]
-Overfull \hbox (0.84892pt too wide) in paragraph at lines 47--49
-\OT1/cmr/m/n/10.95 kjrende sys-te-mer), pre-sisjon (de-taljnivaet i pro-to-ty
-pen), in-ter-ak-tivitet (sier
- []
-
-[80] [81] [82]
-Overfull \hbox (74.32541pt too wide) in paragraph at lines 58--59
-\OT1/cmr/m/n/10.95 et stort num-mer tilbakemeldinger til en lav kost-nad. http:
-//www.telono.com/fr/articles/lo-
- []
+<use userCenteredDesign.jpg>
+Package pdftex.def Info: userCenteredDesign.jpg used on input line 13.
+(pdftex.def)             Requested size: 286.66904pt x 223.96017pt.
 
 
-Overfull \hbox (107.67123pt too wide) in paragraph at lines 60--61
-\OT1/cmr/m/n/10.95 gath-er-ing", "guide later de-vel-op-ment stages". http://ww
-w.inovdesigns.com/prototypes.php 
- []
+LaTeX Warning: Citation `jokela2003standard' on page 76 undefined on input line
+ 14.
 
-[83]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [76]
+[77 <C:/Users/Line/Documents/GitHub/Master2013/userCenteredDesign.jpg>]
+[78]
 Underfull \vbox (badness 3919) has occurred while \output is active []
 
- [84]
-Underfull \vbox (badness 3919) has occurred while \output is active []
+ [79]
+[80] [81] <prototypemodelDobbel.jpg, id=331, 907.89188pt x 341.77687pt>
+File: prototypemodelDobbel.jpg Graphic file (type jpg)
 
- [85]
-[86] [87] <circumplex.png, id=350, 730.22812pt x 522.45187pt>
+<use prototypemodelDobbel.jpg>
+Package pdftex.def Info: prototypemodelDobbel.jpg used on input line 44.
+(pdftex.def)             Requested size: 363.15031pt x 136.70831pt.
+
+Overfull \hbox (7.15031pt too wide) in paragraph at lines 44--45
+ [][] 
+ []
+
+[82 <C:/Users/Line/Documents/GitHub/Master2013/prototypemodelDobbel.jpg>]
+<circumplex.png, id=335, 730.22812pt x 522.45187pt>
 File: circumplex.png Graphic file (type png)
-
-<use circumplex.png>
-Package pdftex.def Info: circumplex.png used on input line 95.
+ <use circumplex.png>
+Package pdftex.def Info: circumplex.png used on input line 62.
 (pdftex.def)             Requested size: 365.11316pt x 261.2253pt.
 
-Overfull \hbox (9.11316pt too wide) in paragraph at lines 95--96
+Overfull \hbox (9.11316pt too wide) in paragraph at lines 62--63
  [] 
  []
 
-[88] [89 <C:/Users/Line/Documents/GitHub/Master2013/circumplex.png>] [90]
-Underfull \hbox (badness 10000) in paragraph at lines 104--106
+
+Underfull \vbox (badness 2096) has occurred while \output is active []
+
+ [83 <C:/Users/Line/Documents/GitHub/Master2013/circumplex.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 71--73
 
  []
 
-[91]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [84]
+[85]
 Package acronym Info: Label `acro:sdi' newly defined as it shall be overridden
-although it is yet undefined on input line 114.
+although it is yet undefined on input line 81.
 Package acronym Info: Label `acro:nsd' newly defined as it shall be overridden
-although it is yet undefined on input line 117.
- [92]
-Underfull \hbox (badness 10000) in paragraph at lines 122--128
+although it is yet undefined on input line 84.
+ [86]
+Underfull \hbox (badness 10000) in paragraph at lines 89--95
 
  []
 
 
-Overfull \hbox (13.94824pt too wide) in paragraph at lines 122--128
+Overfull \hbox (13.94824pt too wide) in paragraph at lines 89--95
 \OT1/cmr/m/n/10.95 par-tic-i-pant con-fi-dent. This means that the in-for-ma-ti
 on have to be anonymized.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--128
+Underfull \hbox (badness 10000) in paragraph at lines 89--95
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--128
+Underfull \hbox (badness 10000) in paragraph at lines 89--95
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--128
+Underfull \hbox (badness 10000) in paragraph at lines 89--95
 
  []
 
-[93] [94] [95] [96] [97] [98] <sdi.png, id=385, 257.46187pt x 407.27156pt>
+[87] [88] [89] [90] [91]
+Underfull \vbox (badness 3679) has occurred while \output is active []
+
+ [92]
+<sdi.png, id=367, 257.46187pt x 407.27156pt>
 File: sdi.png Graphic file (type png)
-
-<use sdi.png>
-Package pdftex.def Info: sdi.png used on input line 158.
+ <use sdi.png>
+Package pdftex.def Info: sdi.png used on input line 125.
 (pdftex.def)             Requested size: 205.96976pt x 325.81767pt.
- [99] [100 <C:/Users/Line/Documents/GitHub/Master2013/sdi.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [93] [94 <C:/Users/Line/Documents/GitHub/Master2013/sdi.png>] [95]
+Underfull \vbox (badness 3492) has occurred while \output is active []
 
- [101]
-[102] [103]
-Overfull \hbox (36.39467pt too wide) in paragraph at lines 186--186
+ [96]
+[97]
+Overfull \hbox (36.39467pt too wide) in paragraph at lines 153--153
 []\OT1/cmr/bx/n/14.4 Recruitment of Par-tic-i-pants for the Work-shops 
  []
 
-[104] [105] [106] [107] [108] [109] [110] [111] [112]) [113] [114
+[98] [99] [100] [101] [102]
+Underfull \vbox (badness 3919) has occurred while \output is active []
+
+ [103]
+[104] [105] [106]) [107] [108
 
 ]
 (C:\Users\Line\Documents\GitHub\Master2013\findingsW1.tex
 Chapter 8.
-[115
+[109
 
-] [116]
+] [110]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [117]
-[118] [119] [120] [121] [122] [123] [124] [125] [126]
+ [111]
+[112] [113] [114] [115] [116] [117] [118] [119] [120]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [127]
-[128]
+ [121]
+[122]
 Overfull \hbox (26.38127pt too wide) in paragraph at lines 103--103
 []\OT1/cmr/bx/n/14.4 Experience and Un-der-stand-ing of Tech-nol-ogy 
  []
 
-[129]) [130] (C:\Users\Line\Documents\GitHub\Master2013\concept.tex
+[123]) [124] (C:\Users\Line\Documents\GitHub\Master2013\concept.tex
 Chapter 9.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [131
+ [125
 
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [132]
+ [126]
 Overfull \hbox (5.26036pt too wide) in paragraph at lines 34--53
  [][] 
  []
@@ -897,8 +926,8 @@ Overfull \hbox (5.26036pt too wide) in paragraph at lines 34--53
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [133]
-[134] [135] [136] <choosePlay.jpg, id=507, 774.64406pt x 583.42969pt>
+ [127]
+[128] [129] [130] <choosePlay.jpg, id=489, 774.64406pt x 583.42969pt>
 File: choosePlay.jpg Graphic file (type jpg)
 
 <use choosePlay.jpg>
@@ -907,9 +936,9 @@ Package pdftex.def Info: choosePlay.jpg used on input line 98.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [137]
-[138 <C:/Users/Line/Documents/GitHub/Master2013/choosePlay.jpg>]
-<PickingApplesAlone.jpg, id=514, 747.54282pt x 438.13687pt>
+ [131]
+[132 <C:/Users/Line/Documents/GitHub/Master2013/choosePlay.jpg>]
+<PickingApplesAlone.jpg, id=496, 747.54282pt x 438.13687pt>
 File: PickingApplesAlone.jpg Graphic file (type jpg)
 
 <use PickingApplesAlone.jpg>
@@ -923,8 +952,8 @@ Overfull \hbox (167.27641pt too wide) in paragraph at lines 109--110
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [139 <C:/Users/Line/Documents/GitHub/Master2013/PickingApplesAlone.jpg>]
-<introKineEng.jpg, id=518, 1409.265pt x 2078.76625pt>
+ [133 <C:/Users/Line/Documents/GitHub/Master2013/PickingApplesAlone.jpg>]
+<introKineEng.jpg, id=500, 1409.265pt x 2078.76625pt>
 File: introKineEng.jpg Graphic file (type jpg)
  <use introKineEng.jpg>
 Package pdftex.def Info: introKineEng.jpg used on input line 119.
@@ -932,12 +961,12 @@ Package pdftex.def Info: introKineEng.jpg used on input line 119.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [140]
+ [134]
 Overfull \vbox (36.07489pt too high) has occurred while \output is active []
 
 
-[141 <C:/Users/Line/Documents/GitHub/Master2013/introKineEng.jpg>]
-<game1engelsk.jpg, id=526, 803.0pt x 536.0025pt>
+[135 <C:/Users/Line/Documents/GitHub/Master2013/introKineEng.jpg>]
+<game1engelsk.jpg, id=508, 803.0pt x 536.0025pt>
 File: game1engelsk.jpg Graphic file (type jpg)
  <use game1engelsk.jpg>
 Package pdftex.def Info: game1engelsk.jpg used on input line 131.
@@ -950,8 +979,8 @@ Overfull \hbox (5.34666pt too wide) in paragraph at lines 131--132
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [142]
-<quiz.jpg, id=530, 722.7pt x 450.0717pt>
+ [136]
+<quiz.jpg, id=512, 722.7pt x 450.0717pt>
 File: quiz.jpg Graphic file (type jpg)
  <use quiz.jpg>
 Package pdftex.def Info: quiz.jpg used on input line 140.
@@ -964,16 +993,16 @@ Overfull \hbox (5.3491pt too wide) in paragraph at lines 140--141
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [143 <C:/Users/Line/Documents/GitHub/Master2013/game1engelsk.jpg>]
+ [137 <C:/Users/Line/Documents/GitHub/Master2013/game1engelsk.jpg>]
 
-LaTeX Warning: Reference `rowing' on page 144 undefined on input line 145.
+LaTeX Warning: Reference `rowing' on page 138 undefined on input line 145.
 
 
-LaTeX Warning: Reference `fig:hindring2' on page 144 undefined on input line 14
+LaTeX Warning: Reference `fig:hindring2' on page 138 undefined on input line 14
 5.
 
-[144 <C:/Users/Line/Documents/GitHub/Master2013/quiz.jpg>]
-<hindringerEng.jpg, id=537, 594.72188pt x 600.74437pt>
+[138 <C:/Users/Line/Documents/GitHub/Master2013/quiz.jpg>]
+<hindringerEng.jpg, id=519, 594.72188pt x 600.74437pt>
 File: hindringerEng.jpg Graphic file (type jpg)
  <use hindringerEng.jpg>
 Package pdftex.def Info: hindringerEng.jpg used on input line 149.
@@ -986,11 +1015,11 @@ Overfull \hbox (0.83588pt too wide) in paragraph at lines 149--150
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [145]
+ [139]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [146 <C:/Users/Line/Documents/GitHub/Master2013/hindringerEng.jpg>]
-<chooseEnvironment.jpg, id=544, 774.64406pt x 581.92406pt>
+ [140 <C:/Users/Line/Documents/GitHub/Master2013/hindringerEng.jpg>]
+<chooseEnvironment.jpg, id=526, 774.64406pt x 581.92406pt>
 File: chooseEnvironment.jpg Graphic file (type jpg)
 
 <use chooseEnvironment.jpg>
@@ -999,22 +1028,22 @@ Package pdftex.def Info: chooseEnvironment.jpg used on input line 160.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [147]
+ [141]
 Underfull \hbox (badness 10000) in paragraph at lines 168--179
 
  []
 
-[148 <C:/Users/Line/Documents/GitHub/Master2013/chooseEnvironment.jpg>]
+[142 <C:/Users/Line/Documents/GitHub/Master2013/chooseEnvironment.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 184--197
 
  []
 
-[149]
+[143]
 Underfull \hbox (badness 10000) in paragraph at lines 200--203
 
  []
 
-[150] [151] <gameappletreeEng.jpg, id=561, 3276.24pt x 2457.18pt>
+[144] [145] <gameappletreeEng.jpg, id=543, 3276.24pt x 2457.18pt>
 File: gameappletreeEng.jpg Graphic file (type jpg)
 
 <use gameappletreeEng.jpg>
@@ -1023,8 +1052,8 @@ Package pdftex.def Info: gameappletreeEng.jpg used on input line 237.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [152]
-<squatppletreeEng.jpg, id=565, 3276.24pt x 2457.18pt>
+ [146]
+<squatppletreeEng.jpg, id=547, 3276.24pt x 2457.18pt>
 File: squatppletreeEng.jpg Graphic file (type jpg)
 
 <use squatppletreeEng.jpg>
@@ -1033,8 +1062,8 @@ Package pdftex.def Info: squatppletreeEng.jpg used on input line 244.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [153 <C:/Users/Line/Documents/GitHub/Master2013/gameappletreeEng.jpg>]
-<appletreeendEng.jpg, id=570, 3276.24pt x 2457.18pt>
+ [147 <C:/Users/Line/Documents/GitHub/Master2013/gameappletreeEng.jpg>]
+<appletreeendEng.jpg, id=552, 3276.24pt x 2457.18pt>
 File: appletreeendEng.jpg Graphic file (type jpg)
  <use appletreeendEng.jpg>
 Package pdftex.def Info: appletreeendEng.jpg used on input line 253.
@@ -1042,8 +1071,8 @@ Package pdftex.def Info: appletreeendEng.jpg used on input line 253.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [154 <C:/Users/Line/Documents/GitHub/Master2013/squatppletreeEng.jpg>]
-<gameapple2playerEngelsk.jpg, id=574, 4658.40375pt x 2438.10875pt>
+ [148 <C:/Users/Line/Documents/GitHub/Master2013/squatppletreeEng.jpg>]
+<gameapple2playerEngelsk.jpg, id=556, 4658.40375pt x 2438.10875pt>
 File: gameapple2playerEngelsk.jpg Graphic file (type jpg)
 
 <use gameapple2playerEngelsk.jpg>
@@ -1052,13 +1081,13 @@ Package pdftex.def Info: gameapple2playerEngelsk.jpg used on input line 263.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [155 <C:/Users/Line/Documents/GitHub/Master2013/appletreeendEng.jpg>]
+ [149 <C:/Users/Line/Documents/GitHub/Master2013/appletreeendEng.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 272--279
 
  []
 
-[156 <C:/Users/Line/Documents/GitHub/Master2013/gameapple2playerEngelsk.jpg>]
-[157] [158] <menuEnglishStep1.jpg, id=587, 386.94562pt x 885.3075pt>
+[150 <C:/Users/Line/Documents/GitHub/Master2013/gameapple2playerEngelsk.jpg>]
+[151] [152] <menuEnglishStep1.jpg, id=569, 386.94562pt x 885.3075pt>
 File: menuEnglishStep1.jpg Graphic file (type jpg)
 
 <use menuEnglishStep1.jpg>
@@ -1067,8 +1096,8 @@ Package pdftex.def Info: menuEnglishStep1.jpg used on input line 327.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [159]
-<menuEnglishStep2.jpg, id=592, 387.69844pt x 885.3075pt>
+ [153]
+<menuEnglishStep2.jpg, id=574, 387.69844pt x 885.3075pt>
 File: menuEnglishStep2.jpg Graphic file (type jpg)
 
 <use menuEnglishStep2.jpg>
@@ -1077,12 +1106,12 @@ Package pdftex.def Info: menuEnglishStep2.jpg used on input line 334.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [160 <C:/Users/Line/Documents/GitHub/Master2013/menuEnglishStep1.jpg>]
+ [154 <C:/Users/Line/Documents/GitHub/Master2013/menuEnglishStep1.jpg>]
 Overfull \vbox (5.11368pt too high) has occurred while \output is active []
 
 
-[161 <C:/Users/Line/Documents/GitHub/Master2013/menuEnglishStep2.jpg>]
-<chooseGame.jpg, id=599, 773.13844pt x 578.91281pt>
+[155 <C:/Users/Line/Documents/GitHub/Master2013/menuEnglishStep2.jpg>]
+<chooseGame.jpg, id=581, 773.13844pt x 578.91281pt>
 File: chooseGame.jpg Graphic file (type jpg)
  <use chooseGame.jpg>
 Package pdftex.def Info: chooseGame.jpg used on input line 343.
@@ -1090,18 +1119,18 @@ Package pdftex.def Info: chooseGame.jpg used on input line 343.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [162]
-<menuAction.jpg, id=603, 386.19281pt x 590.95781pt>
+ [156]
+<menuAction.jpg, id=585, 386.19281pt x 590.95781pt>
 File: menuAction.jpg Graphic file (type jpg)
  <use menuAction.jpg>
 Package pdftex.def Info: menuAction.jpg used on input line 352.
 (pdftex.def)             Requested size: 193.09592pt x 295.47818pt.
 
-[163 <C:/Users/Line/Documents/GitHub/Master2013/chooseGame.jpg>]
+[157 <C:/Users/Line/Documents/GitHub/Master2013/chooseGame.jpg>]
 Underfull \vbox (badness 2073) has occurred while \output is active []
 
- [164 <C:/Users/Line/Documents/GitHub/Master2013/menuAction.jpg>]
-<menuIconApple.jpg, id=610, 386.19281pt x 587.94656pt>
+ [158 <C:/Users/Line/Documents/GitHub/Master2013/menuAction.jpg>]
+<menuIconApple.jpg, id=592, 386.19281pt x 587.94656pt>
 File: menuIconApple.jpg Graphic file (type jpg)
  <use menuIconApple.jpg>
 Package pdftex.def Info: menuIconApple.jpg used on input line 363.
@@ -1109,9 +1138,9 @@ Package pdftex.def Info: menuIconApple.jpg used on input line 363.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [165]
-[166 <C:/Users/Line/Documents/GitHub/Master2013/menuIconApple.jpg>]
-<videoGameSeriesAlone.jpg, id=618, 557.83406pt x 222.8325pt>
+ [159]
+[160 <C:/Users/Line/Documents/GitHub/Master2013/menuIconApple.jpg>]
+<videoGameSeriesAlone.jpg, id=600, 557.83406pt x 222.8325pt>
 File: videoGameSeriesAlone.jpg Graphic file (type jpg)
 
 <use videoGameSeriesAlone.jpg>
@@ -1122,7 +1151,7 @@ Overfull \hbox (6.58783pt too wide) in paragraph at lines 373--374
  [][] 
  []
 
-<videoGameSeries.jpg, id=619, 735.49782pt x 418.56375pt>
+<videoGameSeries.jpg, id=601, 735.49782pt x 418.56375pt>
 File: videoGameSeries.jpg Graphic file (type jpg)
 
 <use videoGameSeries.jpg>
@@ -1131,21 +1160,21 @@ Package pdftex.def Info: videoGameSeries.jpg used on input line 380.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [167 <C:/Users/Line/Documents/GitHub/Master2013/videoGameSeriesAlone.jpg>]) [1
-68 <C:/Users/Line/Documents/GitHub/Master2013/videoGameSeries.jpg>]
+ [161 <C:/Users/Line/Documents/GitHub/Master2013/videoGameSeriesAlone.jpg>]) [1
+62 <C:/Users/Line/Documents/GitHub/Master2013/videoGameSeries.jpg>]
 (C:\Users\Line\Documents\GitHub\Master2013\findingsW2.tex
 Chapter 10.
-[169
+[163
 
 
-] [170] [171]
+] [164] [165]
 Overfull \hbox (0.79965pt too wide) in paragraph at lines 28--28
 []\OT1/cmr/bx/n/14.4 Information, In-struc-tions, and the Menu 
  []
 
-[172] [173]) [174] (C:\Users\Line\Documents\GitHub\Master2013\discussion.tex
+[166] [167]) [168] (C:\Users\Line\Documents\GitHub\Master2013\discussion.tex
 Chapter 11.
-[175
+[169
 
 
 ]
@@ -1158,13 +1187,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--111
 
  []
 
-[176] [177] [178
+[170] [171] [172
 
 ] (C:\Users\Line\Documents\GitHub\Master2013\conclusion.tex
 Chapter 12.
-) [179
+) [173
 
-] [180
+] [174
 
 ] (C:\Users\Line\Documents\GitHub\Master2013\report.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 10--16
@@ -1211,7 +1240,7 @@ n _ Site / Data /$
 
 Underfull \vbox (badness 1496) has occurred while \output is active []
 
- [181
+ [175
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 72--76
@@ -1242,7 +1271,7 @@ $\OT1/cmtt/m/n/10.95 147&idl = 21&t = f _ telech _ actu&fic = 518 _ Serious _ G
 ames _ VA .$
  []
 
-[182]
+[176]
 Underfull \hbox (badness 2042) in paragraph at lines 114--118
 []\OT1/cmr/m/n/10.95 Stephanie Craw-ford.  How mi-crosoft kinect works.  $\OT1/
 cmtt/m/n/10.95 http : / /$
@@ -1271,13 +1300,13 @@ Underfull \hbox (badness 1360) in paragraph at lines 134--140
  / en -[] us / news / features / 2011 /$
  []
 
-[183]
+[177]
 Underfull \hbox (badness 1565) in paragraph at lines 189--193
 []\OT1/cmr/m/n/10.95 Ivan Be-ram.  Lev-els of com-plex-ity: A level-design meth
 od-ol-
  []
 
-[184]
+[178]
 Underfull \hbox (badness 1728) in paragraph at lines 236--241
 []\OT1/cmr/m/n/10.95 About.com Mary Bel-lis.  Who in-vented touch screen tech-n
 ol-
@@ -1318,7 +1347,7 @@ Underfull \hbox (badness 3118) in paragraph at lines 267--272
 is
  []
 
-[185]
+[179]
 Underfull \hbox (badness 5345) in paragraph at lines 296--301
 []\OT1/cmr/m/n/10.95 Bjrn Nygard.  Tek-sten - slik vi vil ha den.  $\OT1/cmtt
 /m/n/10.95 https :$
@@ -1353,7 +1382,7 @@ Underfull \hbox (badness 3168) in paragraph at lines 329--333
 []\OT1/cmr/m/n/10.95 4 easy steps to make your site more us-able to older peo-
  []
 
-[186]
+[180]
 Underfull \hbox (badness 1009) in paragraph at lines 348--353
 $\OT1/cmtt/m/n/10.95 www . gamasutra . com / features / 20010815 / shelley _ 01
  . htm$\OT1/cmr/m/n/10.95 , Au-gust
@@ -1365,10 +1394,10 @@ $\OT1/cmtt/m/n/10.95 com . au / usabilityresources / participatorydesign/$\OT1/
 cmr/m/n/10.95 .  vis-ited:
  []
 
-[187]) [1] [2
+[181] [182]) [1] [2
 
-] (C:\Users\Line\Documents\GitHub\Master2013\appendix.tex [3]
-<Walking.jpg, id=697, 417.05812pt x 592.46344pt>
+] (C:\Users\Line\Documents\GitHub\Master2013\appendix.tex
+[3] <Walking.jpg, id=682, 417.05812pt x 592.46344pt>
 File: Walking.jpg Graphic file (type jpg)
  <use Walking.jpg>
 Package pdftex.def Info: Walking.jpg used on input line 19.
@@ -1377,7 +1406,7 @@ Package pdftex.def Info: Walking.jpg used on input line 19.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [4]
-<Rowing.jpg, id=701, 413.29407pt x 649.67719pt>
+<Rowing.jpg, id=686, 413.29407pt x 649.67719pt>
 File: Rowing.jpg Graphic file (type jpg)
  <use Rowing.jpg>
 Package pdftex.def Info: Rowing.jpg used on input line 25.
@@ -1386,7 +1415,7 @@ Package pdftex.def Info: Rowing.jpg used on input line 25.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5 <C:/Users/Line/Documents/GitHub/Master2013/Walking.jpg>]
-<PickingApples.jpg, id=705, 408.77719pt x 576.65437pt>
+<PickingApples.jpg, id=690, 408.77719pt x 576.65437pt>
 File: PickingApples.jpg Graphic file (type jpg)
  <use PickingApples.jpg>
 Package pdftex.def Info: PickingApples.jpg used on input line 31.
@@ -1395,7 +1424,7 @@ Package pdftex.def Info: PickingApples.jpg used on input line 31.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6 <C:/Users/Line/Documents/GitHub/Master2013/Rowing.jpg>]
-<WeightShift.jpg, id=709, 407.27156pt x 595.47469pt>
+<WeightShift.jpg, id=694, 407.27156pt x 595.47469pt>
 File: WeightShift.jpg Graphic file (type jpg)
  <use WeightShift.jpg>
 Package pdftex.def Info: WeightShift.jpg used on input line 37.
@@ -1408,13 +1437,13 @@ Overfull \vbox (16.58018pt too high) has occurred while \output is active []
 
 
 [8 <C:/Users/Line/Documents/GitHub/Master2013/WeightShift.jpg>]
-<Swimming.jpg, id=717, 427.5975pt x 568.37344pt>
+<Swimming.jpg, id=702, 427.5975pt x 568.37344pt>
 File: Swimming.jpg Graphic file (type jpg)
  <use Swimming.jpg>
 Package pdftex.def Info: Swimming.jpg used on input line 43.
 (pdftex.def)             Requested size: 342.07846pt x 454.69937pt.
 
-<StrechFlank.jpg, id=718, 423.08063pt x 678.28406pt>
+<StrechFlank.jpg, id=703, 423.08063pt x 678.28406pt>
 File: StrechFlank.jpg Graphic file (type jpg)
  <use StrechFlank.jpg>
 Package pdftex.def Info: StrechFlank.jpg used on input line 49.
@@ -1427,7 +1456,7 @@ Overfull \vbox (82.82777pt too high) has occurred while \output is active []
 
 
 [10 <C:/Users/Line/Documents/GitHub/Master2013/StrechFlank.jpg>]
-<LiftingYourLegs.jpg, id=725, 410.2828pt x 595.47469pt>
+<LiftingYourLegs.jpg, id=710, 410.2828pt x 595.47469pt>
 File: LiftingYourLegs.jpg Graphic file (type jpg)
 
 <use LiftingYourLegs.jpg>
@@ -1438,7 +1467,7 @@ Overfull \vbox (16.58018pt too high) has occurred while \output is active []
 
 
 [11 <C:/Users/Line/Documents/GitHub/Master2013/LiftingYourLegs.jpg>]
-<Squats.jpg, id=729, 411.78844pt x 584.93532pt>
+<Squats.jpg, id=714, 411.78844pt x 584.93532pt>
 File: Squats.jpg Graphic file (type jpg)
  <use Squats.jpg>
 Package pdftex.def Info: Squats.jpg used on input line 62.
@@ -1448,7 +1477,7 @@ Overfull \vbox (8.14868pt too high) has occurred while \output is active []
 
 
 [12 <C:/Users/Line/Documents/GitHub/Master2013/Squats.jpg>]
-<GoSideways.jpg, id=733, 409.53pt x 611.28375pt>
+<GoSideways.jpg, id=718, 409.53pt x 611.28375pt>
 File: GoSideways.jpg Graphic file (type jpg)
  <use GoSideways.jpg>
 Package pdftex.def Info: GoSideways.jpg used on input line 68.
@@ -1458,7 +1487,7 @@ Overfull \vbox (29.22746pt too high) has occurred while \output is active []
 
 
 [13 <C:/Users/Line/Documents/GitHub/Master2013/GoSideways.jpg>]
-<menuStep1.jpg, id=737, 386.94562pt x 886.81313pt>
+<menuStep1.jpg, id=723, 386.94562pt x 886.81313pt>
 File: menuStep1.jpg Graphic file (type jpg)
  <use menuStep1.jpg>
 Package pdftex.def Info: menuStep1.jpg used on input line 80.
@@ -1467,7 +1496,7 @@ Package pdftex.def Info: menuStep1.jpg used on input line 80.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [14]
-<menuStep2.jpg, id=742, 377.91188pt x 880.03781pt>
+<menuStep2.jpg, id=727, 377.91188pt x 880.03781pt>
 File: menuStep2.jpg Graphic file (type jpg)
  <use menuStep2.jpg>
 Package pdftex.def Info: menuStep2.jpg used on input line 86.
@@ -1476,7 +1505,7 @@ Package pdftex.def Info: menuStep2.jpg used on input line 86.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [15 <C:/Users/Line/Documents/GitHub/Master2013/menuStep1.jpg>]
-<menuStep3.jpg, id=746, 387.69844pt x 885.3075pt>
+<menuStep3.jpg, id=731, 387.69844pt x 885.3075pt>
 File: menuStep3.jpg Graphic file (type jpg)
  <use menuStep3.jpg>
 Package pdftex.def Info: menuStep3.jpg used on input line 92.
@@ -1485,7 +1514,7 @@ Package pdftex.def Info: menuStep3.jpg used on input line 92.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [16 <C:/Users/Line/Documents/GitHub/Master2013/menuStep2.jpg>]
-<menuStep4.jpg, id=750, 386.19281pt x 805.50937pt>
+<menuStep4.jpg, id=735, 386.19281pt x 805.50937pt>
 File: menuStep4.jpg Graphic file (type jpg)
  <use menuStep4.jpg>
 Package pdftex.def Info: menuStep4.jpg used on input line 98.
@@ -1495,13 +1524,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [17 <C:/Users/Line/Documents/GitHub/Master2013/menuStep3.jpg>] [18 <C:/Users/L
 ine/Documents/GitHub/Master2013/menuStep4.jpg>]
-<KineIntro.jpg, id=757, 381.1038pt x 542.025pt>
+<KineIntro.jpg, id=742, 381.1038pt x 542.025pt>
 File: KineIntro.jpg Graphic file (type jpg)
  <use KineIntro.jpg>
 Package pdftex.def Info: KineIntro.jpg used on input line 108.
 (pdftex.def)             Requested size: 266.77083pt x 379.4149pt.
 
-<hjerter.jpg, id=758, 723.1818pt x 493.3632pt>
+<hjerter.jpg, id=743, 723.1818pt x 493.3632pt>
 File: hjerter.jpg Graphic file (type jpg)
  <use hjerter.jpg>
 Package pdftex.def Info: hjerter.jpg used on input line 114.
@@ -1515,7 +1544,7 @@ Overfull \hbox (5.59001pt too wide) in paragraph at lines 114--116
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19 <C:/Users/Line/Documents/GitHub/Master2013/KineIntro.jpg>]
-<hindring1.jpg, id=762, 496.10344pt x 947.79094pt>
+<hindring1.jpg, id=748, 496.10344pt x 947.79094pt>
 File: hindring1.jpg Graphic file (type jpg)
  <use hindring1.jpg>
 Package pdftex.def Info: hindring1.jpg used on input line 120.
@@ -1524,7 +1553,7 @@ Package pdftex.def Info: hindring1.jpg used on input line 120.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [20 <C:/Users/Line/Documents/GitHub/Master2013/hjerter.jpg>]
-<hindring2.jpg, id=767, 451.6875pt x 929.72343pt>
+<hindring2.jpg, id=752, 451.6875pt x 929.72343pt>
 File: hindring2.jpg Graphic file (type jpg)
  <use hindring2.jpg>
 Package pdftex.def Info: hindring2.jpg used on input line 126.
@@ -1533,7 +1562,7 @@ Package pdftex.def Info: hindring2.jpg used on input line 126.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [21 <C:/Users/Line/Documents/GitHub/Master2013/hindring1.jpg>]
-<gameappletree.jpg, id=771, 3276.24pt x 2457.18pt>
+<gameappletree.jpg, id=756, 3276.24pt x 2457.18pt>
 File: gameappletree.jpg Graphic file (type jpg)
  <use gameappletree.jpg>
 Package pdftex.def Info: gameappletree.jpg used on input line 132.
@@ -1542,7 +1571,7 @@ Package pdftex.def Info: gameappletree.jpg used on input line 132.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [22 <C:/Users/Line/Documents/GitHub/Master2013/hindring2.jpg>]
-<squateple.jpg, id=775, 722.7pt x 542.025pt>
+<squateple.jpg, id=760, 722.7pt x 542.025pt>
 File: squateple.jpg Graphic file (type jpg)
  <use squateple.jpg>
 Package pdftex.def Info: squateple.jpg used on input line 138.
@@ -1551,7 +1580,7 @@ Package pdftex.def Info: squateple.jpg used on input line 138.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [23 <C:/Users/Line/Documents/GitHub/Master2013/gameappletree.jpg>]
-<appletreeend.jpg, id=779, 3276.24pt x 2457.18pt>
+<appletreeend.jpg, id=764, 3276.24pt x 2457.18pt>
 File: appletreeend.jpg Graphic file (type jpg)
  <use appletreeend.jpg>
 Package pdftex.def Info: appletreeend.jpg used on input line 144.
@@ -1560,7 +1589,7 @@ Package pdftex.def Info: appletreeend.jpg used on input line 144.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24 <C:/Users/Line/Documents/GitHub/Master2013/squateple.jpg>]
-<multiplayereple.jpg, id=783, 417.81094pt x 255.20343pt>
+<multiplayereple.jpg, id=768, 417.81094pt x 255.20343pt>
 File: multiplayereple.jpg Graphic file (type jpg)
 
 <use multiplayereple.jpg>
@@ -1570,7 +1599,7 @@ Package pdftex.def Info: multiplayereple.jpg used on input line 150.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [25 <C:/Users/Line/Documents/GitHub/Master2013/appletreeend.jpg>]
-<menuStart.jpg, id=787, 773.89125pt x 582.67688pt>
+<menuStart.jpg, id=773, 773.89125pt x 582.67688pt>
 File: menuStart.jpg Graphic file (type jpg)
  <use menuStart.jpg>
 Package pdftex.def Info: menuStart.jpg used on input line 158.
@@ -1579,7 +1608,7 @@ Package pdftex.def Info: menuStart.jpg used on input line 158.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [26 <C:/Users/Line/Documents/GitHub/Master2013/multiplayereple.jpg>]
-<VelgSpill.jpg, id=792, 775.39688pt x 581.92406pt>
+<VelgSpill.jpg, id=777, 775.39688pt x 581.92406pt>
 File: VelgSpill.jpg Graphic file (type jpg)
  <use VelgSpill.jpg>
 Package pdftex.def Info: VelgSpill.jpg used on input line 164.
@@ -1588,7 +1617,7 @@ Package pdftex.def Info: VelgSpill.jpg used on input line 164.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [27 <C:/Users/Line/Documents/GitHub/Master2013/menuStart.jpg>]
-<menuAvatarAction.jpg, id=796, 386.94562pt x 590.95781pt>
+<menuAvatarAction.jpg, id=781, 386.94562pt x 590.95781pt>
 File: menuAvatarAction.jpg Graphic file (type jpg)
 
 <use menuAvatarAction.jpg>
@@ -1598,7 +1627,7 @@ Package pdftex.def Info: menuAvatarAction.jpg used on input line 170.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [28 <C:/Users/Line/Documents/GitHub/Master2013/VelgSpill.jpg>]
-<IconEple.jpg, id=800, 386.19281pt x 588.69937pt>
+<IconEple.jpg, id=785, 386.19281pt x 588.69937pt>
 File: IconEple.jpg Graphic file (type jpg)
  <use IconEple.jpg>
 Package pdftex.def Info: IconEple.jpg used on input line 176.
@@ -1607,7 +1636,7 @@ Package pdftex.def Info: IconEple.jpg used on input line 176.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [29 <C:/Users/Line/Documents/GitHub/Master2013/menuAvatarAction.jpg>]
-<VelgOmgivelser.jpg, id=804, 776.14969pt x 583.42969pt>
+<VelgOmgivelser.jpg, id=789, 776.14969pt x 583.42969pt>
 File: VelgOmgivelser.jpg Graphic file (type jpg)
 
 <use VelgOmgivelser.jpg>
@@ -1617,7 +1646,7 @@ Package pdftex.def Info: VelgOmgivelser.jpg used on input line 182.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [30 <C:/Users/Line/Documents/GitHub/Master2013/IconEple.jpg>]
-<SpillXboxNYNY.jpg, id=808, 858.95906pt x 545.78906pt>
+<SpillXboxNYNY.jpg, id=793, 858.95906pt x 545.78906pt>
 File: SpillXboxNYNY.jpg Graphic file (type jpg)
  <use SpillXboxNYNY.jpg>
 Package pdftex.def Info: SpillXboxNYNY.jpg used on input line 188.
@@ -1633,22 +1662,22 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3346 strings out of 494045
- 45417 string characters out of 3147584
- 103829 words of memory out of 3000000
- 6497 multiletter control sequences out of 15000+200000
+ 3359 strings out of 494045
+ 45698 string characters out of 3147584
+ 98847 words of memory out of 3000000
+ 6509 multiletter control sequences out of 15000+200000
  10297 words of font info for 37 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 27i,12n,43p,6806b,309s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 27i,12n,43p,3126b,309s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/Miktex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/
 Program Files (x86)/Miktex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Progra
 m Files (x86)/Miktex/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files
  (x86)/Miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)
 /Miktex/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/Mikte
 x/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on report.pdf (235 pages, 18560093 bytes).
+Output written on report.pdf (230 pages, 18567863 bytes).
 PDF statistics:
- 845 PDF objects out of 1000 (max. 8388607)
+ 830 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 306 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 311 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,6 +1,8 @@
-\chapter{Concept for an Exergame for Elderly}
+\chapter{Design Document - Concept for an Exergame for Elderly}
 \label{chap:concept}
 From video game theory, findings from workshop 1, knowledge about elderly and exercise, and studies done on elderly and video games, we have created a video game concept for an exergame for elderly. This exergame focus on including movement and exercise in real-life and well-known activities in an entertaining and motivating way. We will start to present the requirements that this video concept is built upon, before we continue with describing our exergame concept in more detail. This will include games and challenges, the exercises used, goals, obstacles, and how to achieve points. Based on a course in \ac{hci} at NTNU, and guidelines for developing interfaces for elderly, we have also designed a menu for this exergame. This will be presented in Section \ref{sec:menu}. In addition to the concept we have created, there are other important aspects to consider when developing an exergame for elderly. These are not the main focus in our master thesis, but they will be mentioned and discussed in Section \ref{sec:misc}.
+
+This chapter will primarily be a design document, as described in Chapter \ref{sec:designphase}. Here we present the concept, with its requirements, its story, and the elements that needs to be included in the game. We will also provide medium-fidelity prototypes for some scenarios to show "sketches" of the  This document can serve as guidelines for the development team to understand how the game shall function so that they see what they need to create. 
 
 \section{Requirements}
 \label{sec:req}
@@ -83,7 +85,7 @@ The non-functional requirements presented in Table \ref{tab:nfunc} will describe
 \caption[Non-functional requirements]{Non-functional requirements, interface requirements}
 \end{table} 
 
-\section{The Exergame Concept - "Out In the Nature"}
+\section{The Overall Story-Line - "Out In the Nature"}
 \label{sec:outinthenature}
 
 "Out in the nature" ("Ut i naturen" in Norwegian) is the title of our exergame concept. This is a game based on a forest theme and it consists of real-life activities that are familiar to most people. The different activities are natural to find and do in the forest or in the nature, hence the game name. The goal is to experience beautiful nature while playing, and at the same time exercise and achieve physical activity. The exergame consists of five individual games, one longer, compounded game that will engage the whole body, and four, shorter single games with various challenges and exercises, both for the mind and body.    
@@ -107,7 +109,7 @@ The activities we have selected for our exergame are based upon findings from wo
 
 \begin{figure} [H]
 \centering
-\includegraphics[scale=0.7]{PickingApplesAlone.jpg}
+\includegraphics[scale=0.5]{PickingApplesAlone.jpg}
 \caption[Exercise - picking apples]{}
 \label{pickingapples}
 \end{figure}
@@ -164,71 +166,7 @@ One of the requirements for this exergame concept is that the game has to show p
 The nature trail offers three different forest environments to walk in, a pine wood, and two deciduous woods, showing both summer and fall. Within each environment, there are three difficulty levels, easy, medium, and hard. First time playing, only the easy level will be available. The higher levels will be unlocked when the player is "good enough". 
 A higher difficulty level will require more from the player, both mentally and physically. Obstacles will occur more frequently, which will require concentration, and the movements and exercises will be harder to perform, and therefore require control of the body. Within one environment the obstacles from the easy level will follow to the next levels. This is done to include some familiar elements in the higher levels, in addition to the new obstacles that will be added. To at the same time support variation between the environments, new and different obstacles will be used within each of the three environments.  
 
-Required movement during the nature trail we now have presented will exercise the whole body. This involves endurance, balance, and exercise of several muscle groups. This nature trail, with the quiz and movements combined, will be good for both cognitive skills and improved physical health.    
-     
-\subsection{Functional Design for "Nature Trail"}
-\label{subsec:designnature}
-The functional design for this game will be described according to system requirements, and to video game theory discussed in Chapter \ref{chap:vg}.
-
-\textbf{Story} \\ \\
-\emph{Location/setting:} In the forest \\
-\emph{Structural objects:} Trees, the trail, heaven, rocks, log, anthill, lake, puddle \\
-\emph{Interactive objects:} The player character, rowboat with oars, certain rocks lying in the middle of the trail, logs over a creek, red hearts at random places in the field, bought \\
-\emph{Scripting Objects:} \\
-- the player character: will move to the movements received as player input\\
-- rowboat with oars: will move forward as the player uses his/her arms with the oars. \\
-- certain rocks lying in the middle of the trail: If hit, the rocks will flash red and the player will lose 1 point. \\
-- logs over creek: If the player is in touch with the creek, he or she will lose 1 point. \\
-- red hearts: If the player reaches for the heart, he or she gets 1 point. \\
-- bought: If hit, the player will lose 1 point.
-
-\emph{Player Characters:} The actors are seen in third person. They do not have a distinct personality except from being a “a normal human being”, but they are well integrated into the story. There are two different men and two women. All characters are dressed in training outfits, the women in training leggings and t-shirt, and the man in long pants and t-shirt. The different characters will have different colors on their t-shirt, showing which player they are. The men has either blue or green t-shirts, while the women has either yellow or pink t-shirts. The men have short hair, while the women have half-long hair. The characters will be described through a meaningful name. The names will international names, like Anne, Eva, Charles and David. 
-
-\emph{Mechanics:} Progression game. Solve a story. Completes each chapter or level by solving puzzles. Player has to finish different chapters to proceed to the next level. The levels are building on each other. There is a climax at the end of each chapter. 
-
-\emph{Quests:} \\
-- Walk the trail. The higher the player lifts his or her legs the faster he or she walks.\\
-- Gather red hearts to gain points. \\
-- Watch out for the rocks lying in the middle of the trail and walk pass them. This requires side-steps. \\
-- Watch out for the bought hanging from the trees over the trail. This requires squats while walking.\\
-- Balance over the log that lies over the creek. This requires walking with both arms out. \\
-- Log lying in the middle of the trail. Requires lunges. \\
-- "Branching": Trail splits, and there are two possibilities: 1. Walk one trail with rock obstacles but a lots of hearts to gather. This will require some more time, but the player can gain more points by gathering hearts. 2. Walk the other trail which is without obstacles but no hearts to gather. \\
--"Branching": Trail splits, and there are two possibilities: 1. Keep walking the trail. 2. Row a boat over to the other side. Rowing requires legs wide apart and arms stretched out in front of the player and dragged back to their body (as actual rowing). \\
-- When rowing watch out for the water lilies. This require moving the body to the one side to steer away from the lilies. \\
-- Find all yellow question sheets. \\
-- Answer all questions. There are different categories. Which category and which question the player gets is random. The game will remember which question has been before, so that the same player does not get the same questions. The level of difficulty will increase after the player has played the game several times. \\
-- Solve puzzles. Different puzzles each time, for example link right flag to right country on the map.\\
-
-\textbf{Aesthetics}
-
-\emph{Rules:} \\
--Interplay rules: overlapper vel egentlig litt med scripting objects. \\
--Evaluation rules: samme her \\
-
-\emph{Geography and representation:}\\
-Sound: \\
-- music: Calm, classical music that changes to the speed of the game and to certain happenings. \\
-- vocalization: the character will not have its own voice \\
-- sound effects: \\
-- When hearts are gathered there is a cheerful "pling"-sound \\
-- When taking the question sheet there is a "swosj"-sound. \\
-- When the character is walking there is the sound of steps on the ground. Different sounds for different surface, like walking on the rocks, the earth or the logs. \\
-- The sound of shoved water when rowing. \\
-- ambient effects: birdsong, wind, waves from the lake
-
-Perspective: Third-person
-
-Dimension: 3-dimensional and isometric
-
-Exploration: Desired pace
-
-Time: ??
-
-Presented graphically: Photorealism?
-
-\emph{Number of players:} \\
-Can play up to four players at the same time. The players can either compete or cooperate. 
+Required movement during the nature trail we now have presented will exercise the whole body. This involves endurance, balance, and exercise of several muscle groups. This nature trail, with the quiz and movements combined, will be good for both cognitive skills and improved physical health.     
 
 
 \subsection{The Four Single Games}
@@ -271,54 +209,172 @@ Apples will appear on the tree and grow in a certain tempo according to the chos
 \end{figure}
 
 
-\subsection{Functional Design for "Picking Apples"}
+\section{Functional Design for "Nature Trail"}
+\label{subsec:designnature}
 The functional design for this game will be described according to system requirements, and to video game theory discussed in Chapter \ref{chap:vg}.
 
-\textbf{Story} \\ \\
-\emph{Location/Setting:} Standing on a lawn with a huge apple tree in front of the player. \\
-\emph{Structural objects:} The tree, the grass, the heaven \\
-\emph{Interactive objects:} Apples on the tree, two baskets (one on each side of the player). \\
-\emph{Scripting objects:} \\
-- Apples on the tree: Will appear on the tree with a yellow-green color showing they are immature. After a while they will start to get red, and if the apples does not get picked while it  is red, it will become brown and fall to the grown. If the player picks the apple in time he or she will get 1 point. If not he or she will lose 1 point. \\
-- Baskets: The baskets will get filled with apples. The player gets 1 point if he or she manage to put the apple into the right basket. The basket is flashing when it is its turn to get an apple. If the player puts the apple in the wrong basket, he or she will not get any points. 
+\subsection{Story} 
 
-\emph{Player Characters:} The actors are seen in third person. They do not have a distinct personality except from being a “a normal human being”, but they are well integrated into the story. There are two different men and two women. All characters are dressed in training outfits, the women in training leggings and t-shirt, and the man in long pants and t-shirt. The different characters will have different colors on their t-shirt, showing which player they are. The men has either blue or green t-shirts, while the women has either yellow or pink t-shirts. The men have short hair, while the women have half-long hair. The characters will be described through a meaningful name. The names will international names, like Anne, Eva, Charles and David. 
+\subsubsection{The fictional world} 
+
+\begin{table} [H]
+\centering
+    \begin{tabular}{|l|l|}
+       \hline
+        \emph{Location/setting} & In the forest  \\ \hline
+       \emph{Structural objects} & Trees, the trail, heaven, rocks, log, \\ & anthill, lake, puddle  \\ \hline
+       \emph{Interactive objects:} & The player character, rowboat with oars, \\ &  certain rocks lying in the middle \\ &  of the trail, logs over a creek, red hearts at \\ &  random places in the field, bought \\ \hline
+	   \emph{Scripting objects} & the player character: will move to the \\ &  movements received as player input\\ \hline
+	     & rowboat with oars: will move forward as the player \\ &  uses his/her arms with the oars.\\ \hline
+	       & certain rocks lying in the middle of the trail: \\ &  If hit, the rocks will flash red and the player \\ &  will lose 1 point. \\ \hline
+	        & logs over creek: If the player is in touch with \\ & the creek, he or she  will lose 1 point. \\ \hline
+	         &  red hearts: If the player reaches for the heart, \\ &  he or she gets 1 point. \\ \hline
+	          &  bought: If hit, the player will lose 1 point. \\ \hline
+    \end{tabular}
+    \caption[Different types of objects]{Different types of objects}
+    \label{tab:objects1}
+\end{table}  
  
-\emph{Mechanics:} Progression game. Solve a story. Completes each chapter or level by solving puzzles. Player has to finish different chapters to proceed to the next level. The levels are building on each other. Litt usikker på om dette er faktisk det!
+\emph{Characters} \\
+In this game the player character will be the only one included. As described in Chapter \ref{subsub:fictionalworld} the player character can be described by three different categories: avatars, actors and roleplaying. From the definition the player character here will be an actor. However, in commercial Kinect games the player character is called an avatar. Therefore, we do the same. The avatars are seen in third person. They do not have a distinct personality except from being a "a normal human being", but they are well integrated into the story. There are two different men and two women. All characters are dressed in training outfits, the women in training leggings and t-shirt, and the man in long pants and t-shirt. The different characters will have different colors on their t-shirt, showing which player they are. The men has either blue or green t-shirts, while the women has either yellow or pink t-shirts. The men have short hair, while the women have half-long hair. The characters will be described through a meaningful name. The names will international names, like Anne, Eva, Charles and David. 
+
+\subsubsection{Mechanics} 
+
+Progression game. Solve a story. Completes each chapter or level by solving puzzles. Player has to finish different chapters to proceed to the next level. The levels are building on each other. There is a climax at the end of each chapter. 
 
 \emph{Quests:} \\
-- Pick apples when they get red and ripe. This require stretching. If the apple is picked at the right time the player will get 1 point. If the apple is picked when it is still yellow-green the player will get 0 points. If the apple falls of the tree because it is rotten, the player loses 1 point. \\ 
-- Put apples in the flashing basket. This requires squats and an arm-movement from stretching up to stretching down the opposite side.
+\begin{itemize}
+\item Walk the trail. The higher the player lifts his or her legs the faster he or she walks.
+\item Gather red hearts to gain points. 
+\item Watch out for the rocks lying in the middle of the trail and walk pass them. This requires side-steps. 
+\item Watch out for the bought hanging from the trees over the trail. This requires squats while walking.
+\item Balance over the log that lies over the creek. This requires walking with both arms out. 
+\item Log lying in the middle of the trail. Requires lunges. 
+\item "Branching": Trail splits, and there are two possibilities: 1. Walk one trail with rock obstacles but a lots of hearts to gather. This will require some more time, but the player can gain more points by gathering hearts. 2. Walk the other trail which is without obstacles but no hearts to gather. 
+\item "Branching": Trail splits, and there are two possibilities: 1. Keep walking the trail. 2. Row a boat over to the other side. Rowing requires legs wide apart and arms stretched out in front of the player and dragged back to their body (as actual rowing). 
+\item When rowing watch out for the water lilies. This require moving the body to the one side to steer away from the lilies. 
+\item Find all yellow question sheets. 
+\item Answer all questions. There are different categories. Which category and which question the player gets is random. The game will remember which question has been before, so that the same player does not get the same questions. The level of difficulty will increase after the player has played the game several times. 
+\item Solve puzzles. Different puzzles each time, for example link right flag to right country on the map.
+\end{itemize}
 
-\textbf{Aesthetics}
+\subsection{Aesthetics}
 
-\emph{Rules: } \\
+\subsubsection{Rules} 
+-Interplay rules: overlapper vel egentlig litt med scripting objects. \\
+-Evaluation rules: samme her \\
+
+\subsubsection{Geography and representation}
+
+\begin{table} [H]
+\centering
+    \begin{tabular}{|l|l|}
+       \hline
+       {Music} & calm, classical music that changes to the speed \\ & of the game and to certain happenings. \\ \hline
+       \emph{Vocalization} & the character will not have its own voice \\ \hline
+       \emph{Sound effects} &  when hearts are gathered there is a cheerful \\ &  "pling"-sound  \\ \hline
+	    &  when taking the question sheet there is a \\ & "swosj"-sound.\\ \hline
+	     & when the character is walking there is the \\ & sound of steps on the ground. Different sounds \\ &  for different surface, like walking on the rocks, the \\ &  earth or the logs.\\ \hline
+	       & the sound of shoved water when rowing. \\ \hline
+	       \emph{Ambient effects} & birdsong \\ \hline
+	         & wind \\ \hline
+	         & waves from the lake \\ \hline
+    \end{tabular}
+    \caption[Different types of sound]{Different types of sound}
+    \label{tab:sound1}
+\end{table}  
+
+\begin{table} [H]
+\centering
+    \begin{tabular}{|l|l|}
+       \hline
+      \emph {Perspective} & Third-person \\ \hline
+       \emph{Dimension} &  3-dimensional and isometric \\ \hline
+	       \emph{Exploration} & Desired pace \\ \hline
+	       \emph{Time} & The game time will behave as a normal clock, \\ & counting upwards. \\ \hline
+	       \emph{Graphical representation} & The environment will be presented as close \\ & to photorealism as possible. However, there will \\ & be some unrealistic elements present in the game world.  \\ \hline
+    \end{tabular}
+    \caption[Graphical game characteristics]{Graphical game characteristics}
+    \label{tab:graphical1}
+\end{table}  
+
+\subsubsection{Number of players}
+Can play up to four players at the same time. The players can either compete or cooperate.
+
+\section{Functional Design for "Picking Apples"}
+The functional design for this game will be described according to system requirements, and to video game theory discussed in Chapter \ref{chap:vg}.
+
+\subsection{Story}
+
+\subsubsection{The fictional world} 
+
+\begin{table} [H]
+\centering
+    \begin{tabular}{|l|l|}
+       \hline
+        \emph{Location/setting} & standing on a lawn with a huge apple tree in front \\ & of the player. \\ \hline
+       \emph{Structural objects} & the tree, the grass, the heaven  \\ \hline
+       \emph{Interactive objects:} & apples on the tree, two baskets \\ & (one on each side of the player). \\ \hline
+	   \emph{Scripting objects:} &  apples on the tree: Will appear on the tree with a \\ & yellow-green color showing they are immature. \\ & After a while they will start to get red, and \\ & if the apples does not get picked while it  is red,\\ & it will become brown and fall to the grown. \\ & If the player picks the apple in time he or she will \\ & get 1 point. If not he or she will lose 1 point.\\ \hline
+	     & baskets: The baskets will get filled with apples. \\ & The player gets 1 point if he or she manage to put \\ & the apple into the right basket. The basket is flashing \\ &when it is its turn  to get an apple. If the player \\ & puts the apple in the wrong basket, he or she will not \\ & get any points.\\ \hline
+    \end{tabular}
+    \caption[Different types of objects]{Different types of objects}
+    \label{tab:objects2}
+\end{table}  
+
+\emph{Characters} \\
+In this game the player character will be the only one included. As described in Chapter \ref{subsub:fictionalworld} the player character can be described by three different categories: avatars, actors and roleplaying. From the definition the player character here will be an actor. However, in commercial Kinect games the player character is called an avatar. Therefore, we do the same. The avatars are seen in third person. They do not have a distinct personality except from being a "a normal human being", but they are well integrated into the story. There are two different men and two women. All characters are dressed in training outfits, the women in training leggings and t-shirt, and the man in long pants and t-shirt. The different characters will have different colors on their t-shirt, showing which player they are. The men has either blue or green t-shirts, while the women has either yellow or pink t-shirts. The men have short hair, while the women have half-long hair. The characters will be described through a meaningful name. The names will international names, like Anne, Eva, Charles and David. 
+ 
+\subsubsection{Mechanics} 
+Progression game. Solve a story. Completes each chapter or level by solving puzzles. Player has to finish different chapters to proceed to the next level. The levels are building on each other. Litt usikker på om dette er faktisk det!
+
+\emph{Quests:} 
+\begin{itemize}
+\item Pick apples when they get red and ripe. This require stretching. If the apple is picked at the right time the player will get 1 point. If the apple is picked when it is still yellow-green the player will get 0 points. If the apple falls of the tree because it is rotten, the player loses 1 point. 
+\item Put apples in the flashing basket. This requires squats and an arm-movement from stretching up to stretching down the opposite side.
+\end{itemize}
+
+\subsection{Aesthetics}
+
+\subsubsection{Rules} 
 -Interplay rules: overlapper vel egentlig litt med scripting objects. \\
 -Evaluation rules: samme 
 
-\emph{Geography and representation:} \\
-Sound: \\
-- music: Calm, classical music that changes to the speed of the game and to certain happenings. \\
-- vocalization: the character will not have its own voice \\
-- sound effects: - apples making a pling-sound when getting picked \\
-- apples hitting the ground when falling of the tree.  \\
-- ambient effects: birdsong, wind, waves from the lake 
+\subsubsection{Geography and representation}
 
-Perspective: Third-person 
+\begin{table} [H]
+\centering
+    \begin{tabular}{|l|l|}
+       \hline
+       {Music} & calm, classical music that changes to the speed \\ & of the game and to certain happenings. \\ \hline
+       \emph{Vocalization} & the character will not have its own voice \\ \hline
+       \emph{Sound effects} &   apples making a "pling"-sound when getting picked  \\ \hline
+	    &  apples hitting the ground when falling from the tree. \\ \hline
+	       \emph{Ambient effects} & birdsong \\ \hline
+	         & wind \\ \hline
+    \end{tabular}
+    \caption[Different types of sound]{Different types of sound}
+    \label{tab:sound2}
+\end{table}  
 
-Dimension: 3-dimensional and isometric
+\begin{table} [H]
+\centering
+    \begin{tabular}{|l|l|}
+       \hline
+      \emph {Perspective} & Third-person \\ \hline
+       \emph{Dimension} &  3-dimensional and isometric \\ \hline
+	       \emph{Exploration} &  A mix between forced and desired pace. The pace \\ & is forced because the apples appears at random times. \\ & At the same time the pace is desired because the player \\ & can self choose when he or she wants to stretch \\ & to gather the apple. However, this will also \\ & mean that the player chooses to lose an apple. \\ \hline
+	       \emph{Time} & Real-time. However, the time of clock will not be shown. \\ & There will be a clock that counts from 2 \\ &minutes and down to 0 minutes. \\ \hline
+	       \emph{Graphical representation} & The environment will be presented as close \\ & to photorealism as possible.  \\ \hline
+    \end{tabular}
+    \caption[Graphical game characteristics]{Graphical game characteristics}
+    \label{tab:graphical2}
+\end{table}  
 
-Exploration: A mix between forced and desired pace. The pace is forced because the apples appears at random times. At the same time the pace is desired because the player can self choose when he or she wants to stretch to gather the apple. However, this will also mean that the player chooses to lose an apple. 
+\subsubsection{Number of players} 
+Can play up to four players at the same time. The players can either compete or cooperate. 
 
-Time: ??
-
-Presented graphically: Photorealism?
-
-\emph{Number of players:} Can play up to four players at the same time. The players can either compete or cooperate. 
-
-
-
-\subsection{The Menu}
+\section{The Menu}
 \label{sec:menu}
 
 One of the main problems we observed during workshop 1 was related to handling the menus in the various games they played. The general perception from workshop 1, in addition to our own experience from playing, was that the menus were complex, difficult to follow, demanding to navigate through, and that they were too sensitive. Therefore, we have made a prototype for a menu, which we will present in this section. The menu prototype is developed with Microsoft PowerPoint.
@@ -371,19 +427,12 @@ In the menu step where the player should choose between the four single games, w
 \end{figure} 
      
 \subsection{A Video Game Series}
-In our idea of a video game concept, our "out in the nature" exergame is a part of a video game series called "Kinect Experiences", see Figure \ref{fig:videogameseriesAlone}. This "Kinect Experiences" series consist of 4 individual games with the same structure as the game we have already presented. This means, one compounded game and four single games. The difference between the four video games are the main themes. In addition to "out in the nature", the "Kinect Experience" series consist of the video games "farm life", "on vacation" and "in the mountains". The five games within each video game will consist of activities that are connected to the main theme of each video game, like the exergame we already have presented. Examples of single games could be gathering eggs, and stacking hay bales in "farm life", and it could be a walk on the beach, or catching gold fish with a hoof in "on vacation". The idea behind this video game series is to offer a wide range of games, activities and exercises that fits the various interests the user group have. What this video game series would look like on Xbox's website is shown in Figure \ref{fig:videogameseriesHele}. The price presented is only an example. 
+In our idea of a video game concept, our "out in the nature" exergame is a part of a video game series called "Kinect Experiences". This "Kinect Experiences" series consist of 4 individual games with the same structure as the game we have already presented. This means, one compounded game and four single games. The difference between the four video games are the main themes. In addition to "out in the nature", the "Kinect Experience" series consist of the video games "farm life", "on vacation" and "in the mountains". The five games within each video game will consist of activities that are connected to the main theme of each video game, like the exergame we already have presented. Examples of single games could be gathering eggs, and stacking hay bales in "farm life", and it could be a walk on the beach, or catching gold fish with a hoof in "on vacation". The idea behind this video game series is to offer a wide range of games, activities and exercises that fits the various interests the user group have. What this video game series would look like is shown in Figure \ref{fig:videogameseriesAlone}. 
 
 \begin{figure} [H]
 \centering
 \includegraphics[scale=0.65]{videoGameSeriesAlone.jpg}
 \caption[Presentation of our video game series]{A presentation of our video game series "Kinect Experiences" [modified from \cite{XboxNettside}].}
 \label{fig:videogameseriesAlone}
-\end{figure}
-
-\begin{figure} [H]
-\centering
-\includegraphics[scale=0.5, angle=90]{videoGameSeries.jpg}
-\caption[Presentation of our video game series in a Xbox website view]{A presentation of how our video game series would look like on Xbox's website [modified from \cite{XboxNettside}].}
-\label{fig:videogameseriesHele}
 \end{figure}
 

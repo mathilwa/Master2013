@@ -1,6 +1,16 @@
-\chapter{Characteristics of Video Games} 
+\chapter{Designing Video Games} 
 \label{chap:vg}
-In this chapter we will review the characteristics of video games and what aspects need to be included when designing a video game. This chapter will help help us to make a functional design for our concept. 
+There are different phases of video game development. Making a design document is mainly the one video game designers are concerned about. This design document consists of several aspects of the video game, which are important for the developer to describe. In this chapter we will briefly describe the development phases, with emphasise on the design document. Then we will describe characteristics of video games, and all the aspects that needs to be considered and described in the design document. 
+
+\section{The Design Phase}
+
+In \cite{understandingvg} four phases of video game development are discussed: \emph{a conceptual phase}, \emph{a design phase}, \emph{a pre production phase} and \emph{a testing phase}. The first is a short description of the video game concept to sell the idea. This formulation often describes which platform the game will be build on and sometimes also concept arts. The next part of this phase is for the developers to make a \emph{game proposal} which includes market analysis, technical issues, budget projections, audiovisual style and how the game would feel to play \cite{understandingvg}. The following phase is the \emph{design phase}, which includes making a design document. The design document is what the game designers are most concerned about \cite{gamedesign}, and its goal is \emph{"[...] to fully describe and detail the gameplay of the game"} \cite{gamedesign}.  In \cite{gamedesign} they state that the design document should not include  technical details of the game design. However, in \cite{understandingvg} they include both the functional and technical specifications in the design document. The design document should at least include the story of the game, the different levels in the game world, what the players are allowed to do in the game and how they do it. In addition the design document will describe what characters and objects will be included in the game world \cite{gamedesign}. In \cite{understandingvg} they also include text, illustrations, mock-ups and concept drawings. In \cite{understandingvg} they include illustrations and mock-ups in the design document, while in \cite{gamedesign} they have separate documents for this which they describe as art bible, flow charts, and storyboards. Flow charts can be useful for visually showing decision making in the game, and is quite useful for scenarios where a lot of branching are involved. The art bible is described as \emph{"[...] the place where the look and feel of the game is comprehensively established in detail"} \cite{gamedesign}. Here it will be described what kind of art style will be used, in addition to sketches of the style. Making storyboards is a way to sketch or mock-up shots before they are filmed, and can for example be used as concept sketches to show how the game world will be seen from the player's view. The design document, should include the overall story. With a complex story line, the details can be described in what \cite{gamedesign} call the story bible.  The technical design document is in \cite{gamedesign} separated from the design document, while they include them in \cite{understandingvg}. This document focus on how the functionality will be implemented. This is out of the scope of this thesis, and will not be discussed any further. After the design document is finished the decision on the game engine must be made. The game engine is the software which provides the basic architecture of the game but not the concrete content, and includes handling the artificial intelligence, the audiovisuals and the physics. In addition, third-party software tools can be used to make for example some of the graphics. After the development of the design document, and the choices of the game engine and third-party software, it is common to start making working prototypes. These do not need to be playable \cite{understandingvg}. The next phases include production and testing. These phases will not be discussed any further, as we will not get to this phase. 
+
+It is important to remember that the names of the different documents described in this section, in addition to the way they are divided or joined, is not the standard way of making game development documentation. This varies from company to company. 
+
+We will now move on to the next section, where we will describe the different elements that needs to be included in video games.
+
+\section{Characteristics of Video Games}
 
 Game designer Sid Meier came up with one of the most famous definitions of a game: "A game is a series of interesting choices" \cite{understandingvg}. This of course, does not apply for every video game. In \cite{understandingvg} the authors present the MDA-model, which was developed by Robin Hunicke, Marc LeBlanc and Robert Zubeck, after several workshops conducted at the "Game Developers Conference" in California between 2001 and 2004. This model divides games into three elements: \emph{mechanics}, \emph{dynamics}, and \emph{aesthetics}, and is a very useful tool for designers to understand games. \emph{Mechanics} are not something we can see or hear, but rather the rules and basic code of the game. This is for example the algorithms that lies in the ground for creating the reaction pattern of a computer-controlled character. \emph{Dynamics} are based on the mechanics and describes what events do and can occur during the gameplay, seen from the players point of view. \emph{Aesthetics} say something about the emotions triggered when interacting with the game. A list of elements  that attract us to games is provided in the book "Understanding Videogames" (directly drawn from \cite{understandingvg}): 
 
@@ -17,24 +27,24 @@ One or more of these can be included in a game, but usually not all of them.
 The MDA model has its limitations. It is very simple and it does not really represents how gameplay works. Also the aspects around playing experience fall outside this model, as well as the expressive side of the game. However, the writers of \cite{understandingvg} suggest that Sid Meier's definition and the MDA-model provide the most salient definitions of game, and works good for helping developers in their design work. In this thesis the \emph{aesthetics} is the most important entity, because this are all the aspects that the players experience, and it describes the entities that actually form a game. Gameplay is in \cite{understandingvg} an entity that falls under aesthetics. However, since this is a quite important entity, we will provide an own section for this. We will also describe the importance of a story, with settings and characters. First we present what aesthetics are and include. Some definitions and words used in this chapter might differ from how these words are used in "the real world". We will remind the reader that this chapter describes video games, which have virtual worlds, and that therefore some definitions would not be used in the same way in real life.    
 
 
-\section{Aesthetics}
+\subsection{Aesthetics}
 The aesthetics describe everything that can be experienced by the player. These are the elements that actually makes the game. The aesthetics can be divided in three, namely \emph{rules}, \emph{geography and representation}, and \emph{number of players}. The rules say something about what the players can and cannot do, as well as what actions will make the score increase or decrease. The geography and representation element says something about how the video game is represented through graphics and sound. Here there are a lot of different design possibilities. The number of players is important, because there are huge differences between a single-player game and a multi-player game \cite{understandingvg}. We will come back to this in Section \ref{subsec:numbers}
 
 We will now look a little closer into the three different categories.
 
-\subsection{Rules}
+\subsubsection{Rules}
 In \cite{understandingvg}, they distinguish between two types of rules; \emph{interplay rules} and \emph{evaluation rules}. The former are the physical laws in the gamespace, and determines what properties the different elements in the game should have, what can be done, as well as what will happen corresponding to the player input. An example of this is "What will happen when the player presses button A? Jump". The latter defines what rewarding and punishments will be given at certain actions \cite{understandingvg}. 
 
-\subsection{Geography and representation}
+\subsubsection{Geography and representation}
 \label{sec:georep}
 Geography and representation is about how the game is represented through graphics and sounds \cite{understandingvg}. Graphics and sounds are used to set the games environment and enhance the players enjoyment of the game, but has no effect on how the game is played. Graphics are needed in a videogame to in a best possible way imitate reality and enhance the player experience. This means that instead of telling out what is happening, it will be shown visually. 
 
-\subsubsection{Sounds}
+\emph{Sounds}\\
 Sounds are important in video games for the same reasons as why graphics are important. Background music can set the atmosphere of the game, as well as give an indication on when actions will change and if the atmosphere is changing (for example from happy to sad). Sound can also be used as feedback to the player \cite{umlapproach}. There are different types of sound included in a  video game. \cite{understandingvg} distinguish between four categories:
 \emph{vocalization}, which is the game’s characters’ voices,
 \emph{sound effects}, which are sounds made by the different objects in the game, \emph{ambient effects}, which are non-specific sounds that makes the atmosphere in the game, and \emph{music}, which is the game’s soundtrack, but also a part of setting the atmosphere. The latter is a very important part of the game. Elements that can affect sound effects are \emph{the environment}, \emph{spatiality} and \emph{physics}. An example of how the environment can affect the sounds is what kind of floor the characters are walking on or what kind of weather conditions there are in the scene. The sound will also be affected by where in space it will come from. For example, a sound from far away sounds different from a sound close up. In addition, sound will be affected by movements. Imagine the sound of the sirens on a fast passing ambulance.
 
-\subsubsection{Graphics}
+\emph{Graphics}\\
 There are many aspects to consider when it comes to how the game should be represented. Table \ref{tab:graphic} shows an overview of basic geographical and representational characteristics. We will only discuss the choice of perspective, dimension and exploration in this thesis. 
 
 \begin{table}
@@ -63,11 +73,11 @@ There are many different ways to present a game graphically. In \cite{understand
 \item \emph{Abstractionism:} In this category there are no real people or real-life objects involved. Instead  the game has a rather abstract form. An example of this is the well known game Tetris. A problem with these kind of games is that they often face a hard time on the market. This is because humans mostly get attracted by the story, and it can therefore be hard to create attention just around the mechanics of the game. Therefore, it is within this category very important with the story \cite{understandingvg}. 
 \end{itemize}
 
-\subsection{Number of players}
+\subsubsection{Number of players}
 \label{subsec:numbers}
 The number of players is an important choice because it affects a number of game elements. In a single-player game artificial intelligence (AI) is important, because the player has to play against the computer and not real humans. The computer can never be as intelligent as the human brain, and generally employ a very limited set of strategies. Therefore, it can be easy for an experienced player to win over the opponent. When designing multi-player games, artificial intelligence is not necessarily needed, as the player will play against other human players. In multi-player games it has be possible to distinguish between characters. This can be done by giving them different unique features, but at the same avoid making any character superior. It is also important to facilitate social interaction between the players, like for example cooperation or competition \cite{understandingvg}. Often in multi-player games, it is possible to chat with the opponents or team members. 
 
-\section{Gameplay}
+\subsection{Gameplay}
 
 "[...] gameplay is the most important element when designing a game" \cite{umlapproach}.  In \cite{understandingvg} gameplay is defined as "the game dynamics emerging from the interplay between rules and game geography". Gameplay is a result of the game's rules, while the feeling of the gameplay is influenced by the sounds and graphics. The dynamics can be of different types. They can be entertaining or they can be predictable, or they can be none of those. In a video game, everything really depends on the gameplay because it defines how the game is played. In short, gameplay can be describes as the interaction between the player and the game \cite{umlapproach}. Siang et al. describe two different kinds of interactions: player-object and object-object. When creating a game, a set of rules about what kind of interactions can be made have to be set. These rules are set by determining what kind of interactions are allowed between the two components: players and game objects. \cite{umlapproach} describes the player-token, or what we have called player-object, interactions with Figure \ref{fig:playerobject} (a), which is a description of gameplay, set aside the players experience.
 \begin{figure}
@@ -81,12 +91,12 @@ The number of players is an important choice because it affects a number of game
 
 As a part of gameplay there is a user interface. The interface is necessary to enable interaction between the player and the object. In \cite{umlapproach} Siang et al. present a figure describing the gameplay, see Figure \ref{fig:playerobject} (b). The interface is where and what the player interacts with the game and includes the input that is sent through the input devices, like a game control, and the output the user receives on the screen and through the speakers \cite{umlapproach}.
 
-\section{Story}
+\subsection{Story}
 One important element of a video game is the story, or the narrative. The story is included in the game to make the involvement and enjoyment better for the player. The story is just a part of the game, and is not the game \cite{umlapproach}.  Different events make up the narrative and will usually contain settings and characters \cite{understandingvg}. Unlike literature and film, which centers on the story, the game centers on play. Therefore, the narrative should be looked at in a player-centric context \cite{gametheory}. The game designer is kind of creating the story together with the audience. This is because the player often make their own story throughout the game \cite{umlapproach}. This means that the game designer creates the background storyline, while the player creates the experimental story while interacting with the game or others. 
 
 In \cite{understandingvg} they introduce interesting elements of the narrative in a video game, and discuss three different categories: "The fictional world: settings and actors", "Mechanics: organizing narrative action", and "Reception: the player's experience of story".
 
-\subsection{The fictional world}
+\subsubsection{The fictional world}
 This category includes settings and actors, which can also be thought of as the \emph{what} and \emph{who}. In \cite{beram}, this is describes as objects. Objects are defined as the elements that form the gameplay by adding depth, atmosphere and interactivity to the setting. The setting, or location as called in \cite{beram}, can also be considered as an object. The setting will be described in more detail below.
 
 \cite{beram} defines three categories of objects:
@@ -126,7 +136,7 @@ The characters can also be described through their actions, through their relati
 
 Usually, the use of avatars implies that the view is in first-person, which means that the avatars can not be seen, while actors usually will be seen in third-person. In addition, actors will usually have a personality and they are well integrated in the story, while an avatar usually do not have a personality at all. Roleplayers are quite different. Here the player create their own characters. The player can choose their name, and their abilities, as well as if they want to play in first-person or third-person.  
 
-\subsection{Mechanics}
+\subsubsection{Mechanics}
 This category describes how to organise narrative action. There is a basic concept for how to organise the story in a game, which is called "branching". This means to have multiple paths in the story. 
 
 \begin{figure}

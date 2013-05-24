@@ -121,23 +121,24 @@ As an additional guideline, it is worth mentioning that both in \cite{bruin} and
 \section{Official Guidelines for Designing User-Friendly Interfaces for Elderly Users}
 \label{sec:designelderly}
 
-As listed as characteristics in the previous section, ageing will often lead to both physical and psychological negative changes, like decline in cognitive skills, visual and auditory acuity, and in balance and physical strength. Many elderly also experience memory loss, and difficulties moving around due to decreased flexibility. An important part of game development is designing the user interface. When working on interface design, visual decline may be the most important aspect to focus on. Visual decline implies less contrast sensitivity, decrease in peripheral vision, and more dark adoption (KILDE). 
+As listed as characteristics in the previous section, ageing will often lead to both physical and psychological negative changes, like decline in cognitive skills, visual and auditory acuity, and in balance and physical strength. Many elderly also experience memory loss, and difficulties moving around due to decreased flexibility. An important part of game development is designing the user interface. When working on interface design, visual decline may be the most important aspect to focus on. Visual decline implies less contrast sensitivity, decrease in peripheral vision, and more dark adoption \cite{ijsselsteijn2007digital}. 
 
 There exist various examples of guidelines for how to design good and user-friendly interfaces for elderly, or people in general, that are partially sighted or visually impaired. Some of the main guidelines are simple design, large font size, and sharp contrast between background color and font color. The users might have different levels of visual decline, so it is preferable to allow users to change settings themselves \cite{blindeforbundetTekst} \cite{actionforblindpeopleTekst} \cite{w3cTekst}. Design guidelines are provided by various organisations, as e.g. "Blindeforbundet", a Norwegian federation for everyone with poor vision \cite{blindeforbundet}, "Action for Blind People", a charity in the UK which provides support to people that are blind or partially sighted \cite{actionforblindpeople}, and "World Wide Web Consortium (W3C)", a community working together to create web standards \cite{w3c}. These web standards are meant to be used as guidelines for making usable interfaces for the general user, regardless of age or disabilities \cite{w3cTekst}. These three organisations are just a few out of several others with focus on making technology accessible for elderly and people with visual disabilities. 
 
 We will now present a summary of guidelines to consider when designing an interface for elderly, mostly gathered from the three organisations mentioned above.
 
-\begin{figure} [ht!]
-\centering
-\includegraphics[scale=0.9]{fontExample.jpg}
-\caption[Fonts]{Font with and without serifs [modified from \cite{blindeforbundetTekst}]}
-\label{fig:fonts}
-\end{figure}
 
 \textbf{Make the text easy to read}
 \begin{enumerate}[{o}.1]
 \item Use a relatively large font size, minimum 12 pt \cite{blindeforbundetTekst} \cite{evengrounds}. A font size of 14-16 pt is preferable for those who are visually impaired. For large prints use 16-22 pt \cite{actionforblindpeopleTekst}. Use of font size larger than 20 pt will not increase readability in a text.     
 \item Use a clear print. This mean that a sans serif font should be used, see Figure \ref{fig:fonts}. Arial, Helvetica and Futura are fonts that are easy to read \cite{actionforblindpeopleTekst}.
+\begin{figure} [ht!]
+\centering
+\includegraphics[scale=0.75]{fontExample.jpg}
+\caption[Fonts]{Font with and without serifs [modified from \cite{blindeforbundetTekst}]}
+\label{fig:fonts}
+\end{figure}
+
 \item Avoid fonts with special styles \cite{blindeforbundetTekst} \cite{actionforblindpeopleTekst}.
 \item For titles, use upper-case letters in beginning of words \cite{actionforblindpeopleTekst}. Do not use capital letters in large amounts. They give little variation, which makes the text difficult to read \cite{blindeforbundetTekst}. 
 \item Do not use italics, underlining and bold typing in a larger coherent text, that will disturb the reading \cite{blindeforbundetTekst} \cite{actionforblindpeopleTekst}.  
@@ -161,15 +162,31 @@ We will now present a summary of guidelines to consider when designing an interf
 \item People are different. Some might prefer the opposite, like light font colors on dark background \cite{blindeforbundetTekst}. This again emphasises that it should be possible to customise settings. When using light font colors on dark background, the font should be both bigger and bolder to make the text more readable \cite{actionforblindpeopleTekst}.
 \item Avoid pale colors on colored background \cite{blindeforbundetTekst}.  
 \item Choose a one-colored background. Try not to write text on pictures. The picture will take the attention away from the text, and make the text harder to read. If necessary, put the text where there is light areas in the picture  \cite{blindeforbundetTekst}.  
-\item Reading speed and distant reading is also highly connected to colors and contrast  \cite{blindeforbundetTekst}. Black text on white background provides the highest reading speed in a text. For more combinations, see Figure \ref{fig:colors}.
-
+\item Reading speed is also highly connected to colors and contrast  \cite{blindeforbundetTekst}. Black text on white background provides the highest reading speed in a text. For more combinations, see Figure \ref{fig:contrastreadingspeed}.
 
 \begin{figure} [ht!]
 \centering
 \includegraphics[scale=0.5]{readingcolors.jpg}
-\caption[Colors and contrasts]{Relationship between reading speed and distant reading, and colors and contrasts. The best combinations are those shown on top [translated from Norwegian, \cite{blindeforbundetTekst}]}
-\label{fig:colors}
+\caption[Colors and contrasts - reading speed]{Relationship between choice of text and background color, and reading speed. The best combinations are those shown on top. [Translated from Norwegian, \cite{blindeforbundetTekst}]}
+\label{fig:contrastreadingspeed}
 \end{figure}
+
+\item By choosing text and background color according to the surrounding environment, readability can be increased \cite{blindeforbundetTekst}. Table \ref{tab:contrastenvironment} shows appropriate color combinations for four environments. (These combinations are meant for digital information boards out in the real world).  
+
+\begin{table} [ht!]
+\centering
+    \begin{tabular}{|p{3,8cm}|p{2,3cm}|p{4,9cm}|}
+       \hline
+       \textbf{Environment} & \textbf{Background} & \textbf{Text} \\ \hline
+		Red brick, dark stone & White & Black, dark green, dark blue \\ \hline
+		Light brick, light stone & Black, dark & White, yellow \\ \hline
+		Whitewashed wall & Black, dark & White, yellow \\ \hline
+		Green vegetation & White & Black, dark green, dark blue \\ \hline
+    \end{tabular}
+    \caption[Colors and contrasts - environment]{This figure shows how text and background color should be chosen according to the environment to ensure good readability. [Translated from Norwegian, \cite{blindeforbundetTekst}]}
+    \label{tab:contrastenvironment}
+\end{table} 
+
 
 \textbf{Provide necessary information}
 \item Provide alternatives for how to present information. For those who are visually impaired, an audio presentation might be preferable \cite{blindeforbundetTekst} \cite{w3cTekst}. 

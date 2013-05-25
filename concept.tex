@@ -6,7 +6,7 @@ The exergame concept will be presented based on theory on designing video games,
 
 When creating the exergame concept, we have highly focused on the intended user group. The concept is based upon the requirement specification. In addition to this, expressed thoughts and opinions from the informants during workshop 1 are emphasised. The figures in this chapter are prototypes presenting what the exergame concept will look like. We will use these prototypes to present the concept idea and design for elderly in a second workshop, and we have therefore focused on making prototypes that gives the users a realistic impression of the final result. The prototypes are medium-fidelity prototypes, made with software tools as PowerPoint and Photoshop. We have chosen to use these software tools, as they are familiar to us, and therefore did not require spending time learning new tools. Because this concept is in an early stage of a development process, we did not want to spend too much time and effort making prototypes. The prototypes presented in this chapter will be in English, to be in accordance with the language this master thesis is written in. The original prototypes are in Norwegian and can be found in Appendix C and D. 
 
-We will start by presenting the system requirements for the exergame concept in Section \ref{sec:req}, before we continue with describing our exergame concept with its story and included elements. Various scenarios will be presented with the use of medium-fidelity prototypes. This will be presented in \ref{sec:outinthenature}. We will support our choice of design during the same section, by referring to characteristics and guidelines listed in Section \ref{sec:summaryguidelines}. Functional design for the concept will also be described, see Section \ref{sec:designnature} and \ref{sec:funcdesignapple}. Design and description of the menu for the exergame concept are shown in \ref{sec:menu}. This chapter can be used as guidelines for a developer team, for them to understand how this game shall function. Beside those requirements that will be presented in this chapter, there exist other aspects to consider when developing an exergame for elderly. These aspects goes beyond our area of competence, and are therefore not the focus in our master thesis. However, they will be presented in Section \ref{sec:misc}.
+We will start by presenting the system requirements for the exergame concept in Section \ref{sec:req}, before we continue with describing our exergame concept with its story and included elements. Various scenarios will be presented with the use of medium-fidelity prototypes. This will be presented in \ref{sec:outinthenature}. We will support our choice of design during the same section, by referring to characteristics and guidelines listed in Section \ref{sec:summaryguidelines}. Functional design for the concept will also be described, see Section \ref{sec:functionaldesign}. Design and description of the menu for the exergame concept are shown in \ref{sec:menu}. This chapter can be used as guidelines for a developer team, for them to understand how this game shall function. Beside those requirements that will be presented in this chapter, there exist other aspects to consider when developing an exergame for elderly. These aspects goes beyond our area of competence, and are therefore not the focus in our master thesis. However, they will be presented in Section \ref{sec:misc}.
 
 \section{Requirements}
 \label{sec:req}
@@ -60,7 +60,7 @@ The functional requirements in Table \ref{tab:func1} and \ref{tab:func2} present
 \label{tab:func2}
 \end{table} 
 
-These requirements will be used as a foundation for the exergame concept, and they will serve as input to the functional design presented in Section \ref{sec:designnature} and \ref{sec:funcdesignapple}. Requirement 1.25, 1.26 and 1.27 focus in the physiotherapists view of the system. As mentioned in the introduction [??? background???], we have in this thesis emphasised interface design for the end users, the elderly. However, it is important that these three requirements are included in future work.
+These requirements will be used as a foundation for the exergame concept, and they will serve as input to the functional design presented in Section \ref{sec:functionaldesign}. Requirement 1.25, 1.26 and 1.27 focus in the physiotherapists view of the system. As mentioned in the introduction [??? background???], we have in this thesis emphasised interface design for the end users, the elderly. However, it is important that these three requirements are included in future work.
 
 \subsection{Non-Functional Requirements}
 The non-functional requirements presented in Table \ref{tab:nfunc} will describe constraints to follow for the exergame concept to ensure good usability in terms of interface design.
@@ -217,7 +217,6 @@ Points will be given according to how many apples the player has picked, see Fig
 
 Apples will appear on the tree and grow in a certain tempo according to the chosen difficult level. Higher difficulty will result in more apples on the tree at the same time, and a faster ripening rate. An extra challenge to be added at a higher difficulty level is requirements to which of the two buckets the newly picked apple should be put. This is to train cognitive skills and to include more variation in movements and exercises. As mentioned, this game allows for multi-player mode where the players could collaborate on picking apples, or compete on who can pick the most apples, see Figure \ref{fig:appleMultiplayer}. 
 
-
 \begin{figure} [H]
 \centering
 \includegraphics[scale=0.075]{gameapple2playerEngelsk.jpg}
@@ -225,231 +224,14 @@ Apples will appear on the tree and grow in a certain tempo according to the chos
 \label{fig:appleMultiplayer}
 \end{figure}
 
-
-\section{Functional Design for the "Nature Trail"}
-\label{sec:designnature}
-
-The functional design for this game will be described according to system requirements presented in Section \ref{sec:req}, and to video game theory discussed in Chapter \ref{chap:vg}. The functional design will provide a more concrete representation of the exergame concept than what have been presented earlier in this chapter. Here, all the elements the game should contain will be presented shortly. Functional design will vary according to the chosen difficulty level, however, in this thesis we will only focus on presenting functional design for one difficulty level.
-
-\subsection{Story}
-
-\subsubsection{The Fictional World} 
-
-\begin{table} [H]
-\centering
-    \begin{tabular}{|p{3,2cm}|p{7,8cm}|}
-       \hline
-        \emph{Location/setting} & In the forest  \\ \hline
-       \emph{Structural objects} & Trees, the trail, heaven, rocks, log, anthill, lake, puddle, creek, river.  \\ \hline
-       \emph{Interactive objects} & The player character, row boat with oars, rocks lying in the middle of the trail, rocks in the river, logs over a creek, red hearts in the field, bought, question sheets. \\ \hline
-	   \emph{Scripting objects} & Quiz points: Shown as an icon similar to a sheet of paper, with the text "points" after it. Increments with 5 points as the player answer the right question.\\ \hline
-	     & "Health-bar": Increase as player performs right movements. Decrease as player do not manage the right movements. Increase when player gather hearts. Increase based on time spend in game world compared to previous sessions. 
-	      \\ \hline
-	       & Time: Increases as a normal clock \\ \hline
-	       \emph{Characters} & An avatar (from how Kinect defines a character) seen in third-person perspective, described by its name. \\ \hline
-    \end{tabular}
-    \caption[Various objects in the "Nature Trail"]{Different types of objects}
-    \label{tab:objects1}
-\end{table}  
-
-\subsubsection{Mechanics} 
-
-The game is a progression game, where a story should be solved. Each level will be completed by solving puzzles. The player has to finish different quests within a level to proceed to the next level, and the levels are building on each other. It is common to have a climax at the end of each chapter in these type of games. However, this is not included here, as this will interfere with the natural environment and the gaming experience for this type of users. In Table \ref{tab:quests1} we will present different quests in this game. 
-  
-\begin{table}
-     \begin{tabular}{|>{\raggedright}p{3,5cm}|>{\raggedright}p{4cm}|p{3,5cm}|}
-       \hline
-        \textbf{What do do} & \textbf{Goal} & \textbf{Exercise required}  \\ \hline
-       Walk the trail & Get forward in the game world & Lift legs high, walking  \\ \hline
-       Gather hearts & Use body to get heart and "get better health" &  Stretching \\ \hline
-	   Watch out for rocks lying in the middle of the trail & Change movements to get forward & Side steps or step touch  \\ \hline
-	     Watch out for branches hanging over the trail & Change movements to get forward & Squats
-	      \\ \hline
-	       Balance over a log that lies over a creek & Change movements to get to the other side of the creek & Toe-to-heel stepping with arms out \\ \hline
-	       Get over the log lying across the trail & Change movements to get forward & Lunges \\ \hline
-	       Jump from rock to rock to get over the creek & Change movements to get to the other side of the creek & Step touch or skaters \\ \hline
-	       Row boat over to the other side of the lake & Change movements to get over the lake  & Rowing \\ \hline
-	       When rowing watch out for the water lilies & Change movements to get over the lake without hitting the lilies  & Lean upper body from side to side \\ \hline
-	       Find question sheets & Use body to get question sheet  & Stretching \\ \hline
-	       Answer one of the four answer alternatives & Answer the right question  & Use knowledge and cognitive skills \\ \hline
-	       Solve puzzle & Solve puzzle right  & Use knowledge and cognitive skills \\ \hline
-      \end{tabular}
-      \caption[Quests in the "Nature trail" game]{Quests}
-    \label{tab:quests1}
- \end{table}
- 
-\emph{Branching} \\ \\ 
-"Branching": Trail splits, and there are two possibilities: 1. Walk one trail with rock obstacles but a lots of hearts to gather. This will require some more time, but the player can gain more points by gathering hearts. 2. Walk the other trail which is without obstacles but no hearts to gather. 
-
-"Branching": Trail splits, and there are two possibilities: 1. Keep walking the trail. 2. Row a boat over to the other side. Rowing requires legs wide apart and arms stretched out in front of the player and dragged back to their body, as actual rowing movements. 
-
-\subsection{Aesthetics}
-
-\subsubsection{Rules} 
- 
-\begin{table} [H]
-\centering
-    \begin{tabular}{|p{2,8cm}|p{8,2cm}|}
-       \hline
-	   \emph{Interplay rules} & \textbf{1. The player character:} will move to the movements received as player input. \\ \cline{2-2}
-	     & \textbf{2. Rowboat with oars:} will move forward as the player  uses her arms with the oars. \\ \cline{2-2}
-	       & \textbf{3. Rocks lying in the middle of the trail:} If hit, the  rocks will flash red.  \\ \cline{2-2}
-	        & \textbf{4. Log over creek:} If the avatar falls off, the log will flash red. The player will automatically get up on the log again. \\ \cline{2-2}
-	        & \textbf{5. Rocks in river:} If the avatar miss a rock and fall of, the rock will flash red. The player will automatically get up on the side of the river again. \\ \cline{2-2}
-	         &  \textbf{6. Red hearts:} When touched by the avatar it disappears. \\ \cline{2-2}
-	          &  \textbf{7. Bought:} If hit, it will flash red \\ \cline{2-2}
-	           &  \textbf{8. Question sheets:} When touched by the avatar  it  disappears from the game world and fills the screen with  a  question or puzzle. \\ \hline
-	            \emph{Evaluation rules} & \textbf{if 1}: Player gets forward in the game, and health-bar fills with red color. \\ \cline{2-2}
-	               & \textbf{if 2:} Player gets forward in the game, and the health-bar fills with red color.   \\ \cline{2-2}
-	               & \textbf{if 3:} Player gets slowed down, and red color in the health-bar reduces.   \\ \cline{2-2}
-	               & \textbf{if 4:} Player gets slowed down, and red color in the health-bar reduces   \\ \cline{2-2}
-             	   & \textbf{if 5:} Player gets slowed down, and red color in the health-bar reduces.   \\ \cline{2-2}
-	               & \textbf{if 6:} Health-bar fills with red color.  \\ \cline{2-2}
-	               & \textbf{if 7:} Player gets slowed down, and red color in the health-bar reduces.  \\ \cline{2-2}
-	               & \textbf{if 8:} If player answers right she gets +5 points. If player answers wrong she gets 0 points.  \\ \hline
-    \end{tabular}
-    \caption[Rules in the "Nature Trail" game]{Rules}
-    \label{tab:rules1}
-\end{table}  
-
-\subsubsection{Geography and Representation}
-
-\begin{table} [H]
-\centering
-    \begin{tabular}{|p{2,7cm}|p{8,3cm}|}
-       \hline
-       \emph{Music} & Calm, classical music that changes to the speed of the game and to certain happenings. \\ \hline
-       \emph{Vocalization} & The avatar will not have its own voice. \\ \hline
-       \emph{Sound effects} &  When hearts are gathered there is a cheerful "pling" sound.  \\ \cline{2-2}
-	    &  When taking the question sheet there is a "swosj" sound.\\ \cline{2-2}
-	     & When the character is walking there is the sound of steps on the ground. Different sounds for \\ & different surface, like walking on the rocks, earth or logs.\\ \cline{2-2}
-	       & The sound of shoved water when rowing. \\ \hline
-	       \emph{Ambient effects} & Birdsong. \\ \cline{2-2}
-	         & Wind. \\ \cline{2-2}
-	         & Water flowing in the river. \\ \cline{2-2}
-	         & Waves from the lake.\\ \hline
-	         \emph{Feedback} & Calm lady voice. \\ \hline
-    \end{tabular}
-    \caption[Different types of sound]{Different types of sound}
-    \label{tab:sound1}
-\end{table}  
-
-\begin{table} [H]
-\centering
-    \begin{tabular}{|p{2,5cm}|p{8,5cm}|}
-       \hline
-      \emph {Perspective} & Third-person. \\ \hline
-       \emph{Dimension} &  3-dimensional and isometric. \\ \hline
-	       \emph{Exploration} & Desired pace. \\ \hline
-	       \emph{Time} & The game time will behave as a normal clock, counting upwards. \\ \hline
-	       \emph{Graphical representation} & The environment will be presented as close to photorealism as possible.  However, there will be some unrealistic elements present in the game world.  \\ \hline
-    \end{tabular}
-    \caption[Graphical game characteristics]{Graphical game characteristics}
-    \label{tab:graphical1}
-\end{table}  
-
-\subsubsection{Number of players}
-The game supports two simultaneous players. The players can either compete or cooperate.
-
-\section{Functional Design for "Picking Apples"}
-\label{sec:funcdesignapple}
-The functional design for this game will be described according to system requirements, and to video game theory discussed in Chapter \ref{chap:vg}.
-
-\subsection{Story}
-
-\subsubsection{The Fictional World} 
-
-\begin{table} [H]
-\centering
-    \begin{tabular}{|p{3,2cm}|p{7,8cm}|}
-       \hline
-        \emph{Location/setting} & Standing on a lawn with a apple tree in front of the player. \\ \hline
-       \emph{Structural objects} & Tree, grass, heaven.  \\ \hline
-       \emph{Interactive objects} & Apples on the tree, two baskets, one on each side of the player. \\ \hline
-	   \emph{Scripting objects} &  Points: Shown as an apple icon with the text "points" after it. Increments with 3 points as ripe apples are picked and decrements with -1 point if a unripe apple is picked, and -2 points if an apple gets rotten \\ \cline{2-2}
-	   & "Health-bar": Increase as player performs right  movements. Decrease as player do not manage the right  movements.  \\ \cline{2-2}
-	   & Time: Decrease from 2 minutes \\ \hline
-	   \emph{Characters} & An avatar (from how Kinect defines a character) seen in third-person perspective, described by its name. \\ \hline
-    \end{tabular}
-    \caption[Various objects in the "Picking Apples" game]{Different type of objects}
-    \label{tab:objects2}
-\end{table}  
- 
-\subsubsection{Mechanics} 
-This is a progression game where different levels of the game is finished by solving the apple-picking task. Player has to finish different levels to proceed to the next level. The levels are building on each other and the difficulty level get higher as the player proceeds through the game.
-
-\emph{Quests:} 
-
-\begin{table}
-     \begin{tabular}{|>{\raggedright}p{3,5cm}|>{\raggedright}p{4cm}|p{3,5cm}|}
-       \hline
-        \textbf{What do do} & \textbf{Goal} & \textbf{Exercise required}  \\ \hline
-       Pick apples when they get red and ripe. & Pick as many ripe apples as possible and move body & Stretching  \\ \hline
-       Put ripe apples in baskets & Fill baskets with ripe apples and move body &  Squats with downward arm movement \\ \hline
-      \end{tabular}
-      \caption[Quests in the "Apple Picking" game]{Quests}
-    \label{tab:quests2}
- \end{table}
-
-\subsection{Aesthetics}
-
-\subsubsection{Rules} 
-
-\begin{table} [H]
-\centering
-    \begin{tabular}{|p{2,8cm}|p{8,2cm}|}
-       \hline
-        \emph{Interplay rules} &  \textbf{1. apples on the tree:} Will appear on the tree with a yellow-green color showing they are not yet ripe. After a while they will start to get red, and if the apples does not get picked while they are red, they will become brown and fall to the grown. \\ \cline{2-2}
-	     & \textbf{2. baskets:} The baskets will get filled with apples. \\ \hline
-	     \emph{Evaluation rules} & \textbf{if 1:} If player picks a ripe apple she gets +3 points. If apple becomes rotten player gets  -2 points. If player picks unripe apple she gets -1 point. \\ \cline{2-2}
-	       & \textbf{if 2:} If the player puts ripe apple in the basket she keeps the 3 points. If the player miss the basket, she will get -2 points.  \\ \hline
-    \end{tabular}
-    \caption[Rules for the "Apple Picking" game]{Rules}
-    \label{tab:rules2}
-\end{table}  
-
-\subsubsection{Geography and Representation}
-
-\begin{table} [H]
-\centering
-    \begin{tabular}{|p{2,7cm}|p{8,3cm}|}
-       \hline
-       {Music} & Calm, classical music that changes to the speed of the game and to certain happenings. \\ \hline
-       \emph{Vocalization} & The character will not have its own voice. \\ \hline
-       \emph{Sound effects} & Apples making a "pling" sound when getting picked.  \\ \cline{2-2}
-	    &  Apples hitting the ground when falling from the tree. \\ \hline
-	       \emph{Ambient effects} & Birdsong. \\ \cline{2-2}
-	         & Wind. \\ \hline
-	         \emph{Feedback} & Calm lady voice. \\ \hline
-    \end{tabular}
-    \caption[Different types of sounds in the "Apple Picking" game]{Different types of sound}
-    \label{tab:sound2}
-\end{table}  
-
-\begin{table} [H]
-\centering
-    \begin{tabular}{|p{2,5cm}|p{8,5cm}|}
-       \hline
-      \emph {Perspective} & Third-person \\ \hline
-       \emph{Dimension} &  3-dimensional and isometric \\ \hline
-	       \emph{Exploration} &  A mix between forced and desired pace. The pace is forced because the apples appear at random times. At the same time the pace is desired because the player can choose when she wants to stretch to gather the apple. However, this will also mean that the player chooses to lose an apple. Ripening pace will depend on current difficulty level.\\ \hline
-	       \emph{Time} & Real-time. There will be a clock that counts from 2 minutes and down. \\ \hline
-	       \emph{Graphical representation} & The environment will be presented as close to photorealism as possible.  \\ \hline
-    \end{tabular}
-    \caption[Graphical game characteristics in the "Apple Picking" game]{Graphical game characteristics}
-    \label{tab:graphical2}
-\end{table}  
-
-\subsubsection{Number of Players} 
-The game supports two simultaneous players. The players can either compete or cooperate. 
-
-\section{Functional Design (FORSLAG TIL STRUKTUR)}
+\section{Functional Design}
+\label{sec:functionaldesign}
 
 The functional design for this game will be described according to system requirements presented in Section \ref{sec:req}, and to video game theory discussed in Chapter \ref{chap:vg}. The functional design will provide a more concrete representation of the exergame concept than what have been presented earlier in this chapter. Here, all the elements the game should contain will be presented shortly. Functional design will vary according to the chosen difficulty level, however, in this thesis we will only focus on presenting functional design for one difficulty level.
 
 We will describe functional design for what we have presented in the exergame concept, hence, the "Nature Trail" and "Picking Apples". This will, as mentioned, be described according to Chapter \ref{chap:vg}, more specific, according to the game's story and aesthetics.  
 
-\subsection{Functional Design - Nature Trail (FORSLAG TIL STRUKTUR)}
+\subsection{Nature Trail}
 
 \subsubsection{The Fictional World} 
 
@@ -567,7 +349,7 @@ The game is a progression game, where a story should be solved. Each level will 
 \subsubsection{Number of Players}
 The game supports two simultaneous players. The players can either compete or cooperate.
 
-\subsection{Functional Design - Picking Apples (FORSLAG TIL STRUKTUR)}
+\subsection{Picking Apples}
 
 \subsubsection{The Fictional World} 
 

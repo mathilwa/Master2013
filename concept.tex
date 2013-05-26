@@ -6,30 +6,30 @@ The exergame concept will be presented based on theory on designing video games,
 
 When creating the exergame concept, we have highly focused on the intended user group. The concept is based upon the requirement specification. In addition to this, expressed thoughts and opinions from the informants during workshop 1 are emphasised. The figures in this chapter are prototypes presenting what the exergame concept will look like. We will use these prototypes to present the concept idea and design for elderly in a second workshop, and we have therefore focused on making prototypes that gives the users a realistic impression of the final result. The prototypes are medium-fidelity prototypes, made with software tools as PowerPoint and Photoshop. We have chosen to use these software tools, as they are familiar to us, and therefore did not require spending time learning new tools. Because this concept is in an early stage of a development process, we did not want to spend too much time and effort making prototypes. The prototypes presented in this chapter will be in English, to be in accordance with the language this master thesis is written in. The original prototypes are in Norwegian and can be found in Appendix C and D. 
 
-We will start by presenting the system requirements for the exergame concept in Section \ref{sec:req}, before we continue with describing our exergame concept with its story and included elements. Various scenarios will be presented with the use of medium-fidelity prototypes. This will be presented in \ref{sec:outinthenature}. We will support our choice of design during the same section, by referring to characteristics and guidelines listed in Section \ref{sec:summaryguidelines}. Functional design for the concept will also be described, see Section \ref{sec:functionaldesign}. Design and description of the menu for the exergame concept are shown in \ref{sec:menu}. This chapter can be used as guidelines for a developer team, for them to understand how this game shall function. Beside those requirements that will be presented in this chapter, there exist other aspects to consider when developing an exergame for elderly. These aspects goes beyond our area of competence, and are therefore not the focus in our master thesis. However, they will be presented in Section \ref{sec:misc}.
+We will start by presenting the system requirements for the exergame concept in Section \ref{sec:req}, before we continue with describing our exergame concept with its story and included elements. Various scenarios will be presented with the use of medium-fidelity prototypes. This will be presented in \ref{sec:outinthenature}. Functional design, presented in Section \ref{sec:functionaldesign}, will give a concrete representation of the exergame concept. Design and description of the menu for the exergame concept are shown in \ref{sec:menu}. This chapter can be serve as a guide for a developer team that wants to understand and design an exergame. Beside those requirements that will be presented in this chapter, there exist other aspects to consider when developing an exergame for elderly. These aspects goes beyond our area of competence, and are therefore not the focus in our master thesis. However, they will be presented in Section \ref{sec:misc}.
 
 \section{Requirements}
 \label{sec:req}
-We have set up a list of requirements for the exergame concept, which specifies what our system shall do, and which constraints the system shall hold. The requirements has been developed with foundation in video game theory, guidelines for usability, and findings from workshop 1. We have written requirements for the exergame concept according to what we have presented about requirement specification in Section \ref{sec:fourpillarsofdesign}, and they are therefore divided into functional and non-functional requirements. In the exergame concept we have mostly focused on the functional requirements, and interface requirements, which is a subsection of non-functional requirements. 
+We have set up a list of requirements for the exergame concept, which specifies what our system shall do, and which constraints the system shall hold. The requirements has been developed with foundation in video game theory, guidelines for usability, and findings from workshop 1. We have written requirements for the exergame concept according to what we have presented about requirement specification in Section \ref{sec:fourpillarsofdesign}, and they are therefore divided into functional and non-functional requirements. In the exergame concept we have mostly focused on the functional requirements, and interface requirements, which is a subsection of non-functional requirements. We will support our requirement specification by referring to relevant references, findings (referred to as fw1), and guidelines listed in Section \ref{sec:summaryguidelines} and Section \ref{subsec:golden}.
 
 \subsection{Functional Requirements}
 The functional requirements in Table \ref{tab:func1} and \ref{tab:func2} present which services and functionality the exergame concept shall offer.
 
 \begin{table} [H]
 \centering
-\begin{tabular}{|>{\raggedright}p{0,7cm}|p{10,5cm}|}
+\begin{tabular}{|>{\raggedright}p{0,7cm}|p{8,3cm}|p{2cm}|}
 \hline
-1.1 & The system shall be an exergame that emphasises exercise and physical movement.  \\ \hline
-1.2 & The system shall have a fun and entertaining story with focus on game play.  \\ \hline
-1.3 & Exercise shall be subordinate to the story. \\ \hline
-1.4 & The system shall provide natural and familiar surroundings. \\ \hline
-1.5 & The system shall provide natural and familiar activities, challenges, and exercises.\\ \hline
-1.6 & The system shall provide players with clear information and instruction on how to use and interact with the game. This means interaction with interfaces, the Kinect sensor, etc. \\ \hline
-1.7 & The system shall provide players with clear information and instruction on how to perform various activities, challenges, and exercises. \\ \hline
-1.8 & Information shall be given during game play when appropriate. This shall be done to avoid the need to memorise information. \\ \hline
-1.9 & The player shall be given feedback on her actions.\\ \hline
-1.10 & Feedback given shall be positive and motivating.\\ \hline
-1.11 & Feedback shall only be given when appropriate. Interruptive feedback shall be avoided during game play. \\ \hline
+1.1 & The system shall be an exergame that emphasises exercise and physical movement. & ref: \cite{project} \\ \hline
+1.2 & The system shall have a fun and entertaining story with focus on game play.  & ref: \cite{project} \cite{zyda2005visual} \\ \hline
+1.3 & Exercise shall be subordinate to the story.  & ref:\cite{zyda2005visual} \\ \hline
+1.4 & The system shall provide natural and familiar surroundings.  & ref: g.7, fw1\\ \hline
+1.5 & The system shall provide natural and familiar activities, challenges, and exercises. & ref: g.7 \\ \hline
+1.6 & The system shall provide players with clear information and instruction on how to use and interact with the game. & ref: g.5, e.8, fw1 \\ \hline
+1.7 & The system shall provide players with clear information and instruction on how to perform various activities, challenges, and exercises. & ref: \cite{sweetser}, g.5, e.8, fw1\\ \hline
+1.8 & Information shall be given during game play when appropriate. This shall be done to avoid the need to memorise information. & ref: \cite{sweetser}, g.5, e.8 \\ \hline
+1.9 & The player shall be given feedback on her actions. & ref: \cite{sweetser}, e.3 \\ \hline
+1.10 & Feedback given shall be positive and motivating. & ref: \cite{sweetser}, g.6 \\ \hline
+1.11 & Feedback shall only be given when appropriate. Interruptive feedback shall be avoided during game play. &  ref: \cite{sweetser}, fw1 \\ \hline
     \end{tabular}
     \caption[Functional requirements, part 1]{Functional requirements}
     \label{tab:func1}
@@ -37,24 +37,28 @@ The functional requirements in Table \ref{tab:func1} and \ref{tab:func2} present
 
 \begin{table} [H]
 \centering
-\begin{tabular}{|>{\raggedright}p{0,7cm}|p{10,5cm}|}
+\begin{tabular}{|>{\raggedright}p{0,7cm}|p{8,3cm}|p{2cm}|}
 \hline
-1.12 & The system shall be a progression game.\\ \hline
-1.13 & The system shall have small subtasks with clear goals.\\ \hline
-1.14 & The player shall be informed about progression and results.\\ \hline
-1.15 & The player shall be given the possibility to choose preferred difficulty level.\\ \hline
-1.16 & The system shall create a user profile where players progression and results can be saved.\\ \hline
-1.17 & The system shall be able to adjust difficulty level after the player's progression.\\ \hline
-1.18 & The system shall allow multi-play.\\ \hline
-1.19 & Multi-play shall have the possibility to be performed both as collaboration and competition.\\ \hline
-1.20 & The system shall provide players the possibility to share their profile, or part of their profile, with friends. \\ \hline
-1.21 & Activities provided by the system shall include exercises for all muscle groups.\\ \hline
-1.22 & Exercises used shall be proved to be good for training for \\ & elderly.\\ \hline
-1.23 & Activities shall be possible to perform both sitting and \\ & standing. \\ \hline
-1.24 & The player shall be given the possibility to choose gender on the actor/avatar. \\ \hline
-1.25 & The system shall be able to be used as a tool for \\ & physiotherapists.\\ \hline
-1.26 & The system shall give physiotherapists the possibility to set \\ & parameters to customise the exergame for each individual \\ & patient.\\ \hline
-1.27 & The system shall give physiotherapists access to the player's/patient's profile. \\ \hline  
+1.12 & The system shall be a progression game. & ref: \cite{understandingvg} \cite{sweetser}, g.12 \\ \hline
+1.13 & The system shall have small subtasks with clear goals. & ref: \cite{sweetser}, m.5 fw1\\ \hline
+1.14 & The player shall be informed about progression and results. & ref: \cite{sweetser}, m.6, fw1 \\ \hline
+1.18 & The system shall allow multi-play. & ref: g.8, m.9, fw1 \\ \hline
+1.19 & Multi-play shall have the possibility to be performed both as collaboration and competition. & ref: \cite{sweetser}, fw1\\ \hline
+1.15 & The player shall be given the possibility to choose preferred difficulty level. & ref: \cite{sweetser}, g.12, g.13, fw1\\ \hline
+1.17 & The system shall be able to adjust difficulty level after the player's progression. & ref: \cite{sweetser}, fw1 \\ \hline
+1.19 & The system shall allow for players to choose individual difficult levels. &  \cite{sweetser}, g.13, fw1\\ \hline
+1.21 & Activities provided by the system shall include exercises for all muscle groups. & ref: \cite{guidelines} \\ \hline
+1.22 & Exercises used shall be proved to be good for training for elderly. & ref: \cite{project} \\ \hline
+1.23 & Activities shall be possible to perform both sitting and standing. & ref: g.15 \\ \hline
+1.24 & The player shall be given the possibility to choose gender on the actor/avatar. & g.7, m.10 ref:\\ \hline
+1.25 & The system shall provide music appropriate for the user group. & ref: g7, fw1 \\ \hline
+1.26 & The system shall provide music appropriate for the game theme and the intensity in the current activity. & ref: \cite{umlapproach}, m.12, fw1 \\ \hline
+1.27 & The system shall always provide the users with the possibility to reverse their actions. & ref: o.25, e.6 \\ \hline
+1.16 & The system shall create a user profile where player's progression and results can be saved. & \\ \hline
+1.20 & The system shall provide players the possibility to share their profile, or part of their profile, with friends. & ref: \cite{sweetser}\\ \hline
+1.27 & The system shall be able to be used as a tool for physiotherapists. & ref: \cite{project}\\ \hline
+1.28 & The system shall give physiotherapists the possibility to set parameters to customise the exergame for each individual patient. & ref: \cite{project}, g.1  \\ \hline
+1.29 & The system shall give physiotherapists access to the player's/patient's profile. & ref: \cite{project}\\ \hline  
 \end{tabular}
 \caption[Functional requirements, part 2]{Functional requirements}
 \label{tab:func2}
@@ -67,24 +71,24 @@ The non-functional requirements presented in Table \ref{tab:nfunc} will describe
 
 \begin{table} [H]
 \centering
-\begin{tabular}{|>{\raggedright}p{0,7cm}|p{10,5cm}|} 
+\begin{tabular}{|>{\raggedright}p{0,7cm}|p{8,3cm}|p{2cm}|} 
 \hline
-2.1 & The system shall provide good graphics, which makes the game \\ & world look real. \\ \hline
-2.2 & The system shall represent the game world in 3D.\\ \hline
-2.3 & The system shall use an actor/avatar to portray the player.\\ \hline
-2.4 & The system shall have a menu, which is used by the player to \\ & make choices about game play.\\ \hline
-2.5 & The menu shall be clear, simple, and intuitive.\\ \hline
-2.6 & The menu shall be consistent. \\ \hline
-2.7 & The menu shall consist of few steps.\\ \hline
-2.8 & Menu buttons shall not be too sensitive.\\ \hline
-2.9 & Menu buttons requires "push" to perform any action.\\ \hline
-2.10 & The navigator shall not bee too sensitive. \\ \hline
-2.11 & The navigator shall be clear.\\ \hline
-2.12 & Information shall be easy to read, see, and understand.\\ \hline
-2.13 & Information shall be written in a familiar language with \\ & everyday words.  \\ \hline
-2.14 & Information shall be written with an easy-to-read font in an \\ & appropriate size. \\ \hline
-2.15 & Elements that are essential to the game shall stand out.\\ \hline
-2.16 & The system shall avoid using elements that are \\ & unnecessary for current game play.\\ \hline
+2.1 & The system shall provide good graphics, which makes the game world look real. & ref: \cite{understandingvg} \\ \hline
+2.2 & The system shall represent the game world in 3D. & ref: \cite{understandingvg}\\ \hline
+2.3 & The system shall use an actor/avatar to portray the player. & ref: \cite{understandingvg}\\ \hline
+2.4 & The system shall have a menu, which is used by the player to make choices about game play. & ref: \cite{gerling2} \\ \hline
+2.5 & The menu shall be clear, simple, and intuitive. & ref: g.4, o.8, e.8 fw1 \\ \hline
+2.6 & The menu shall be consistent. & ref: o.9, e.1 \\ \hline
+2.8 & Menu buttons shall not be too sensitive. & ref: fw1 \\ \hline
+2.9 & Menu buttons requires "push" to perform any action. & ref: fw1\\ \hline
+2.10 & The navigator shall not bee too sensitive. & ref: fw1\\ \hline
+2.11 & The navigator shall be clear. & ref: fw1\\ \hline
+2.12 & Information shall be easy to see, and understand. & ref: o.24, o.25, e.8\\ \hline
+2.13 & Information shall be written in a familiar language with everyday words. & ref: o.7\\ \hline
+2.14 & Information shall be written with an easy-to-read font in an appropriate size. & ref: g.2, o.1-5 \\ \hline
+2.15 & There shall be clear contrast between background color and text color. & ref: g.3, o.14-20 \\ \hline
+2.15 & Elements that are essential to the game shall stand out. & ref: g.4, o.8\\ \hline
+2.16 & The system shall avoid using elements that are unnecessary for current game play.  & ref: \cite{sweetser}\\ \hline
 \end{tabular}
 \caption[Non-functional requirements]{Non-functional requirements, interface requirements}
 \label{tab:nfunc}
@@ -441,7 +445,7 @@ The game supports two simultaneous players. The players can either compete or co
 
 One of the main problems we observed during workshop 1 was related to handling the menus in the various games they played. The general perception from workshop 1 was that the menus were complex, difficult to follow, demanding to navigate through, and that they were too sensitive. This was also our own experience from playing. Therefore, we have made a prototype for a menu, which we will present in this section.
 
-The design of our menu proposal is based upon the interface requirements, findings from workshop 1, and theory about designing interfaces for elderly. Simple design, distinct elements, and easy to read information are emphasised to make it user-friendly for elderly that might suffer from declined vision. It has also been a focus not to have too much information in each menu step. We have chosen to make a menu consisting of more steps to achieve the mentioned goal, even though this goes against requirement 2.7. However, we would rather focus on a bit longer menu than filling few menu steps with lots of information and choices.    
+The design of our menu proposal is based upon the interface requirements, findings from workshop 1, and theory about designing interfaces for elderly. Simple design, distinct elements, and easy to read information are emphasised to make it user-friendly for elderly that might suffer from declined vision. It has also been a focus not to have too much information in each menu step. We have chosen to make a menu consisting of more steps to achieve the mentioned goal. By having a bit longer menu, we avoid filling few menu steps with lots of information and choices.    
 
 The menu starts with the choice of how you want to play. The player could choose between a walk in the forest, to exercise a preferred muscle group, or the player could choose between the four single games. If the player wants to play according to training a specific muscle group, she will be given the choice of which muscle group to exercise. Independent of how the player choose how to play, she will be given the opportunity to choose difficulty level and number of players for the game. Figure \ref{menu1} and \ref{menu2} goes through the menu, from start, through choosing muscle group, to ending up playing "Picking Apples". As seen from what we have presented this far, the menu includes a lot of choices. This is based on the informants feedback in workshop 1, where they said that they would have the possibility to make their own choices. They did not want the game to control them.   
 

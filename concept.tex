@@ -10,11 +10,14 @@ We will start by presenting the system requirements in Section \ref{sec:req}, be
 
 \section{Requirements}
 \label{sec:req}
-We have set up a list of requirements for the exergame, which specifies what the system shall do, and which constraints the system shall hold. The requirements have been developed with foundation in all theory presented in the earlier chapters, as well as findings from workshop 1. We have written requirements according to what we have presented about requirement specification in Section \ref{sec:fourpillarsofdesign}, and they are therefore divided into functional and non-functional requirements. In the exergame we have mostly focused on the functional requirements, and interface requirements, which is a subsection of non-functional requirements. We will support our requirement specification by referring to relevant references, findings from workshop 1 (referred to as fw1), motivational factors from Section \ref{subsec:motivator}, and guidelines listed in Section \ref{sec:summaryguidelines} and Section \ref{subsec:golden}. These will be listed in the rightmost column. It is important to acknowledge that the requirements also are based upon our own ideas, thoughts and opinions. 
+We have set up a list of requirements for the exergame, which specifies what the system shall do, and which constraints the system shall hold. The requirements have been developed with foundation in all theory presented in the earlier chapters, as well as findings from workshop 1. We have written requirements according to what we have presented about requirement specification in Section \ref{sec:fourpillarsofdesign}, and they are therefore divided into functional and non-functional requirements. In the exergame we have mostly focused on the functional requirements, and interface requirements, which is a subsection of non-functional requirements. 
+
+We will support our requirement specification by referring to relevant references, findings from workshop 1 (referred to as fw1), motivational factors from Section \ref{subsec:motivator} (referred to as m.x), and guidelines listed in Section \ref{sec:summaryguidelines} and Section \ref{subsec:golden} (referred to as g.x or e.x respectively). These will be listed in the rightmost column. It is important to acknowledge that the requirements also are based upon our own ideas, thoughts and opinions. 
 
 \subsection{Functional Requirements}
 The functional requirements in Tables \ref{tab:func1}, \ref{tab:func2} and \ref{tab:func3} present the services and functionality the exergame shall offer.
 
+\begin{minipage}{12 cm}
 \begin{table} [H]
 \centering
 \begin{tabular}{|>{\raggedright}p{0,7cm}|p{8,8cm}|p{1,5cm}|}
@@ -33,11 +36,12 @@ The functional requirements in Tables \ref{tab:func1}, \ref{tab:func2} and \ref{
 1.11 & Instructions shall include information about the health benefit gained from playing. & m.3, fw1\\ \hline
 1.12 & Instructions shall be given during game play when appropriate. This shall be done to avoid the need to memorise information. & \cite{sweetser}, g.5, e.8 \\ \hline
     \end{tabular}
-    \caption[Functional requirements, part 1]{Functional requirements}
+    \caption[Functional requirements, part 1]{Functional requirements \footnote{g - guidelines, e - guidelines from the Eight Golden Rules, m - motivators, fw1 - findings from workshop 1}}
     \label{tab:func1}
 \end{table} 
-\footnote{fw1 = findings from workshop 1, g = guidelines}
+\end{minipage}
 
+\begin{minipage}{12 cm}
 \begin{table} [H]
 \centering
 \begin{tabular}{|>{\raggedright}p{0,7cm}|p{8,6cm}|p{1,7cm}|}
@@ -57,11 +61,12 @@ The functional requirements in Tables \ref{tab:func1}, \ref{tab:func2} and \ref{
 1.24 & The system shall allow for players to choose individual difficult levels. & \cite{sweetser}, g.16, m.9, m.11, fw1\\ \hline
 1.25 & The system shall be able to adjust difficulty level after players' progression. & \cite{sweetser}, fw1 \\ \hline
     \end{tabular}
-    \caption[Functional requirements, part 2]{Functional requirements}
+    \caption[Functional requirements, part 2]{Functional requirements \footnote{g - guidelines, e - guidelines from the Eight Golden Rules, m - motivators, fw1 - findings from workshop 1}}
     \label{tab:func2}
 \end{table} 
+\end{minipage}
 
-
+\begin{minipage}{12 cm}
 \begin{table} [H]
 \centering
 \begin{tabular}{|>{\raggedright}p{0,7cm}|p{8,6cm}|p{1,7cm}|}
@@ -78,9 +83,11 @@ The functional requirements in Tables \ref{tab:func1}, \ref{tab:func2} and \ref{
 1.34 & The system shall give physiotherapists the possibility to set parameters to customise the exergame for each individual patient. & \cite{project}, \cite{john2012smartsenior}, g.1, g.33  \\ \hline
 1.35 & The system shall give physiotherapists access to players'/patients' profiles. & \cite{project} \cite{john2012smartsenior}\\ \hline  
 \end{tabular}
-\caption[Functional requirements, part 3]{Functional requirements}
+\caption[Functional requirements, part 3]{Functional requirements \footnote{g - guidelines, e - guidelines from the Eight Golden Rules, m - motivators, fw1 - findings from workshop 1}}
 \label{tab:func3}
 \end{table} 
+\end{minipage}
+
 
 These requirements will be used as a foundation for the exergame, and they will serve as input to the functional design presented in Section \ref{sec:functionaldesign}. Requirement 1.33 - 35 focus on the physiotherapists view of the system. As previously mentioned, we have in this thesis emphasised interface design for the end users which are elderly people. However, it is important that these three requirements are included in future work on the exergame. This is because we in our previous project \cite{project} evaluated physiotherapists to be the proper customer for the game. We believe that in today's market the game will not experience success going straight to the end users \cite{project}.  
 
@@ -509,8 +516,6 @@ The menu starts with the choice of how you want to play [req. 1.8]. The player c
 
 In the menu, we have used a range of green colors, and a picture of green leaves as background, to create a theme related to forest and nature. Menu buttons are arranged as list elements or in a square, depending on what is most appropriate. This is decided by the number of elements in each step; for an odd number of elements, list view is used, while square arrangement is used for an even number of elements. The size of the elements are chosen with usability in mind; there should be room for a proper font size, and it should be easy to push the right button [req. 2.12]. The buttons have a light green, almost white, background color, with a darker green outline. The text is written in black with an easy-to-read, sans serif font [req. 2.14]. The choice of background and text color is to create maximum contrast [req. 2.15]. Taking the element's surroundings into account when choosing colours is important, if you want to make the element stand out. With e.g. green vegetation as surroundings, white background color, with black, dark green, or dark blue text should be chosen to create maximum contrast [req. 2.16]. 
 
-The title on each step is written in a bold, black, easy to read font, on a semi-transparent light-colored background. The title is stating what choice to be made at the current step [req. 2.6]. From the Eight Golden Rules presented in Section \ref{sec:designguide}, we know that it is important to have an interface with visible information. The same rules also states that users always should be given feedback on their actions. In addition to this, there was expressed a general desire to see clearer response on their actions in workshop 1. We have included this in our exergame by highlighting elements that are "in action" [req. 1.15], see Figure \ref{fig:avatarAction}. The player's hand movements are portrayed on the screen as an avatar hand. The avatar hand has been given a clear color and a solid fill [req. 2.11]. This has been done to avoid having the same diffuse avatar hand as in "Your Shape Fitness Evolved 2012".  
-
 \begin{figure} [H]
 \centering
 \includegraphics[scale=0.5]{menuAction.jpg}
@@ -518,7 +523,7 @@ The title on each step is written in a bold, black, easy to read font, on a semi
 \label{fig:avatarAction}
 \end{figure} 
 
-Up in the left corner there is a back button, which will make it possible for users to always regret their action [req. 1.30]. The back button is shaped and coloured similar to the other menu buttons to maintain consistency and intuitiveness [req. 2.6-7]. The choice of placement is bases on the natural way to read and observe information, which is from top to bottom, from left to right. The navigation should therefore be on top. We avoided placing the back button in the bottom left corner to not mix it with the cancel/pause feature included in the Kinect software (holding your left hand straight 45 degrees from your body). The back button is marked with a wooden arrow, a familiar and intuitive icon related to navigation. The choice of using an wooden arrow is based on its relation to the forest theme. 
+The title on each step is written in a bold, black, easy to read font, on a semi-transparent light-colored background. The title is stating what choice to be made at the current step [req. 2.6]. We know from the previous chapters that it is important to have an interface with visible information, and that users always should be given feedback on their actions. Also, the informants in workshop 1 expressed that, it was general desire to see a more clear response on their actions. We have included this in our exergame by highlighting elements that are "in action" [req. 1.15], see Figure \ref{fig:avatarAction}. The player's hand movements are portrayed on the screen as an avatar hand. The avatar hand has been given a clear color and a solid fill [req. 2.11]. This has been done to avoid having the same diffuse avatar hand as in "Your Shape Fitness Evolved 2012".  
 
 In the menu step where the player can choose between the four single games, we have used icons in addition to text on each button, see Figure \ref{fig:velgSpill}. The icons represent the challenges in each game, and they are meant to make it easier for the player to understand the game behind the button [req. 2.6]. When choosing a game, e.g. "picking apples", the icon will follow up in the right corner, to inform the player where she is headed, and to reduce memory load [req. 1.12]. This is shown in Figure \ref{fig:iconEple}.  
 
@@ -528,9 +533,11 @@ In the menu step where the player can choose between the four single games, we h
 \caption[Menu - use of icons]{In this figure we see that icons from the menu buttons will follow through the menu. Here we see that the apple icon will follow into the menu step where number of players are to be chosen.}
 \label{fig:iconEple}
 \end{figure} 
+
+Up in the left corner there is a back button, which will make it possible for users to always regret their action [req. 1.30]. The back button is shaped and coloured similar to the other menu buttons to maintain consistency and intuitiveness [req. 2.6-7]. The choice of placement is bases on the natural way to read and observe information, which is from top to bottom, from left to right. The navigation should therefore be on top. We avoided placing the back button in the bottom left corner to not mix it with the cancel/pause feature included in the Kinect software (holding your left hand straight 45 degrees from your body). The back button is marked with a wooden arrow, a familiar and intuitive icon related to navigation. The choice of using an wooden arrow is based on its relation to the forest theme. 
      
 \section{A Video Game Series}
-The "Out in the Nature" exergame is part of an exergame series called "Kinect Experiences". This series consist of 4 individual games with the same structure as the game we have already presented. This means, one compounded game and four single games. The difference between the exergames is the main themes. In addition to "Out in the Nature", the "Kinect Experience" series consist of the exergames "Farm Life", "On Vacation" and "In the Mountains". The five games within each exergame will consist of activities that are connected to the main theme of each video game, like the exergame we already have presented. Examples of single games can be gathering eggs, and stacking hay bales in "Farm Life", and a walk on the beach, or catching gold fish with a hoof in "On Vacation". The idea behind this video game series is to offer a wide range of games, activities and exercises that fits the various interests the user group have [req. 1.2, 1.4-5]. What this video game series would look like is shown in Figure \ref{fig:videogameseriesAlone}. 
+"Out in the Nature" is part of an exergame series called "Kinect Experiences". This series consist of 4 individual games with the same structure as the game we have already presented. This means, one compounded game and four single games. The difference between the exergames is the main themes. In addition to "Out in the Nature", the "Kinect Experience" series consist of the exergames "Farm Life", "On Vacation" and "In the Mountains". The five games within each exergame will consist of activities that are connected to the main theme of each video game, like the exergame we already have presented. Examples of single games can be gathering eggs, and stacking hay bales in "Farm Life", and a walk on the beach, or catching gold fish with a hoof in "On Vacation". The idea behind this video game series is to offer a wide range of games, activities and exercises that fits the various interests the user group have [req. 1.2, 1.4-5]. What this video game series would look like is shown in Figure \ref{fig:videogameseriesAlone}. 
 
 \begin{figure} [H]
 \centering

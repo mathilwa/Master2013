@@ -2,11 +2,11 @@
 \label{chap:concept}
 This chapter is about the second and third activity in the cycle of user centered design, specifying requirements and producing design solutions, see Figure \ref{userdesign}. Based on findings from workshop 1 and from theory presented in earlier chapters, we have created system requirements and designed a concept for an exergame for elderly. The exergame concept will from now be called the exergame or the game. The exergame focuses on including movement and exercise in real-life and well-known activities. This will be provided in an entertaining and motivating way. We will present the requirements this exergame is built upon, before we describe the exergame in more detail. This will include games and challenges, the exercises used, goals, obstacles, and how to achieve points. In addition to the exergame, we have also, based on a course in \ac{hci} at NTNU, and guidelines for developing interfaces for elderly, designed a menu for the exergame. 
 
-The exergame will be presented based on theory about designing video games, as discussed in Chapter \ref{chap:vg}, and can serve as a part of a design document, according to what is described in Section \ref{sec:designphase}. \cite{gamedesign} states that technical details should not be included in this document, while \cite{understandingvg} join them. The technical details are not the main focus in this thesis. However, we have included a brief description of some non-functional requirements, and therefore follows the way \cite{understandingvg} describes a design document. We acknowledge that not all the elements that should be included in a design document are present in this chapter, due to the scope of our thesis.
+The exergame will be presented based on theory about designing video games, as discussed in Chapter \ref{chap:vg}, and can serve as a part of a design document, according to what is described in Section \ref{sec:designphase}. We acknowledge that not all the elements that should be included in a design document are present in this chapter.
 
-When creating the exergame, we have highly focused on the intended user group. The game is based upon the requirement specification, presented in Section \ref{sec:req}. In addition to this, expressed thoughts and opinions from the informants during workshop 1 are emphasised. The figures in this chapter are prototypes presenting what the exergame will look like. We will use these prototypes to present the idea of the exergame and design for elderly in a second workshop, and we have therefore focused on making prototypes that gives the users a realistic impression of the final result. The prototypes are medium-fidelity prototypes, made with software tools as PowerPoint and Photoshop. The prototypes presented in this chapter will be in English, to be in accordance with the language this report is written in. The original prototypes are in Norwegian and can be found in Appendix C and D. 
+When creating the exergame, our prime focus has been on the intended user group. The game is based upon the requirement specification, presented in Section \ref{sec:req}. In addition to this, expressed thoughts and opinions from the informants during workshop 1 are emphasised. The figures in this chapter are prototypes presenting what the exergame will look like. We will use these prototypes to present the idea of the exergame and design for elderly in a second workshop, and we have therefore focused on making prototypes that gives the users a realistic impression of the final result. The prototypes are medium-fidelity prototypes, made with software tools such as PowerPoint and Photoshop. The prototypes presented in this chapter will be in English, to be in accordance with the language this report is written in. The original prototypes are in Norwegian and can be found in Appendix C and D. 
 
-We will start by presenting the system requirements in Section \ref{sec:req}, before we continue with describing our exergame with its story and included elements. Various scenarios will be presented with the use of medium-fidelity prototypes in Section \ref{sec:outinthenature}. Functional design, presented in Section \ref{sec:functionaldesign}, will give a concrete representation of one possible level of each of the proposed games. Design and description of the menu for the exergame are presented in Section \ref{sec:menu}. This chapter can be serve as a part of a design document that can be used by developers to understand and design this exergame.  
+We will start by presenting the system requirements in Section \ref{sec:req}, before we continue with describing our exergame with its story and included elements. Various scenarios will be presented with the use of medium-fidelity prototypes in Section \ref{sec:outinthenature}. Functional design, presented in Section \ref{sec:functionaldesign}, will give a concrete representation of one possible level of each of the proposed games. Design and description of the menu for the exergame are presented in Section \ref{sec:menu}. This chapter can serve as a part of a design document that can be used by developers to understand and design this exergame.  
 
 \section{Requirements}
 \label{sec:req}
@@ -29,7 +29,7 @@ The functional requirements in Tables \ref{tab:func1}, \ref{tab:func2} and \ref{
 1.7 & The system shall provide both physical and cognitive challenges. & m.8, fw1 \\ \hline
 1.8 & The system shall allow for decision making before and during the game. & \cite{understandingvg}, m.9 \\ \hline
 1.9 & The system shall provide players with clear instructions on how to use and interact with the game. & g.5, e.8, fw1 \\ \hline
-1.10 & The system shall provide players with clear instructions on how to perform various activities, challenges, and exercises. & \cite{sweetser}, g.5, g.6, e.8, m.2, fw1\\ \hline
+1.10 & The system shall provide players with clear instructions on how to perform various activities, challenges, and exercises. & \cite{sweetser}, \cite{project}, g.5, g.6, e.8, m.2, fw1\\ \hline
 1.11 & Instructions shall include information about the health benefit gained from playing. & m.3, fw1\\ \hline
 1.12 & Instructions shall be given during game play when appropriate. This shall be done to avoid the need to memorise information. & \cite{sweetser}, g.5, e.8 \\ \hline
     \end{tabular}
@@ -46,7 +46,7 @@ The functional requirements in Tables \ref{tab:func1}, \ref{tab:func2} and \ref{
 1.13 & The system shall give players the time they need to read instructions. & o.23, m.9, fw1 \\ \hline 
 1.14 & The system shall allow players to skip instructions. & \cite{sweetser} e.7, m.9, fw1 \\ \hline 
 1.15 & Player shall be given feedback on their actions. &  \cite{sweetser}, e.3 \\ \hline
-1.16 & Feedback given shall be positive and motivating. &  \cite{sweetser}, g.6 \\ \hline
+1.16 & Feedback given shall be positive and motivating. &  \cite{sweetser}, \cite{project}, g.6 \\ \hline
 1.17 & Feedback shall only be given when appropriate. Interruptive feedback shall be avoided during game play. &  \cite{sweetser}, fw1 \\ \hline
 1.18 & The system shall be a progression game. & \cite{understandingvg} \cite{sweetser}, g.15 \\ \hline
 1.19 & The system shall have small subtasks with clear goals. &  \cite{sweetser} \cite{john2012smartsenior}, g.15, m.6 fw1\\ \hline
@@ -75,17 +75,17 @@ The functional requirements in Tables \ref{tab:func1}, \ref{tab:func2} and \ref{
 1.31 & The system shall create a user profile where players' progression and results can be saved. & \cite{project} \cite{john2012smartsenior} \\ \hline
 1.32 & The system shall provide players the possibility to share their profile, or part of their profile, with friends. &  \cite{sweetser} \\ \hline
 1.33 & The system shall be able to be used as a tool for physiotherapists. & \cite{project} \cite{john2012smartsenior}\\ \hline
-1.34 & The system shall give physiotherapists the possibility to set parameters to customise the exergame for each individual patient. & \cite{project}, \cite{john2012smartsenior}, g.1  \\ \hline
+1.34 & The system shall give physiotherapists the possibility to set parameters to customise the exergame for each individual patient. & \cite{project}, \cite{john2012smartsenior}, g.1, g.33  \\ \hline
 1.35 & The system shall give physiotherapists access to players'/patients' profiles. & \cite{project} \cite{john2012smartsenior}\\ \hline  
 \end{tabular}
 \caption[Functional requirements, part 3]{Functional requirements}
 \label{tab:func3}
 \end{table} 
 
-These requirements will be used as a foundation for the exergame, and they will serve as input to the functional design presented in Section \ref{sec:functionaldesign}. Requirement 1.33 - 35 focus on the physiotherapists view of the system. As mentioned in Chapter \ref{chap:background}, we have in this thesis emphasised interface design for the end users which are elderly people. However, it is important that these three requirements are included in future work on the exergame.
+These requirements will be used as a foundation for the exergame, and they will serve as input to the functional design presented in Section \ref{sec:functionaldesign}. Requirement 1.33 - 35 focus on the physiotherapists view of the system. As previously mentioned, we have in this thesis emphasised interface design for the end users which are elderly people. However, it is important that these three requirements are included in future work on the exergame. This is because we in our previous project \cite{project} evaluated physiotherapists to be the proper customer for the game. We believe that in today's market the game will not experience success going straight to the end users \cite{project}.  
 
 \subsection{Non-Functional Requirements}
-The non-functional requirements presented in Table \ref{tab:nfunc1} and \ref{tab:nonfunc2} will describe constraints to follow for the exergame to ensure good usability in terms of interface design.
+The non-functional requirements presented in Table \ref{tab:nfunc1} and \ref{tab:nonfunc2} describe constraints to follow for the exergame to ensure good usability in terms of interface design.
 
 \begin{table} [H]
 \centering
@@ -128,11 +128,11 @@ We will now present the story-line of the exergame. This will be based on the re
 
 "Out in the nature" ("Ut i naturen" in Norwegian) is the title of our exergame. This is a game based on a forest theme and it consists of real-life activities that are familiar to most people [req. 1.5]. The different activities are natural to find and do in the forest or in the nature, hence the game name. The goal is to experience beautiful nature while playing, and at the same time exercise and achieve physical activity[req. 1.3-4]. Bringing the beautiful nature "to life" is achieved by giving the game a 3-dimensional representation [req. 2.1]. The exergame consists of five individual games, one longer, compounded game that will engage the whole body, and four, shorter single games with various challenges and exercises, both for the mind and body [req. 1.7, 1.26].        
 
-We have used familiar elements that can be found in the forest, like rocks, creeks, and logs. When we have chosen to use other elements, these are well-known, and easy to relate to for the elderly [req. 1.5]. One example of this is hearts and their relation to health. In addition, our intention has been to avoid unnecessary details that can lead to confusion and distraction [req. 2.17], in accordance with simplistic design, discussed in Section \ref{sec:simplicity}. Music and sound effects in the game will be natural when possible [req. 2.4], like birds twittering and the wind in the trees. The informants mentioned that classical music, like e.g. Mozart, would be more suitable than the pop, computer-made music that was used in the commercial games we presented for them [req. 2.3]. An idea can therefore be to use classical music that will fit a walk in the beautiful nature a warm summer day. When there are challenges and activities that requires intensity, the idea is to use music with a rhythm, without being noisy [req. 2.4]. We will not present any specific music examples suitable for this exergame, since that is outside our area of competence. 
+We have used familiar elements that can be found in the forest, like rocks, creeks, and logs. When we have chosen to use other elements, these are well-known, and easy to relate to for the elderly [req. 1.5]. One example of this is hearts and their relation to health. In addition, our intention has been to avoid unnecessary details that can lead to confusion and distraction [req. 2.17], in accordance with simplistic design, discussed in Section \ref{sec:simplicity}. Music and sound effects in the game will be natural when possible [req. 2.4], like birds twittering and the wind in the trees. The informants mentioned that classical music, e.g. Mozart, would be more suitable than the pop, computer-made music that was used in the commercial games we presented for them [req. 2.3]. An idea can therefore be to use classical music that will fit a walk in the beautiful nature a warm summer day. When there are challenges and activities that requires intensity, the idea is to use music with a rhythm, without being noisy [req. 2.4]. We will not present any specific music examples suitable for this exergame, since that is outside our area of competence. 
 
-The player will be presented in the game as a character with "real-life" features. As described in Section \ref{subsub:fictionalworld}, the player character can be described by three different categories: avatars, actors and role playing. From the definition the player character here will be an actor. However, in commercial Kinect games the player character is called an avatar, and we will therefore do the same. They do not have a distinct personality except from being a "a normal human being", but they are well integrated into the story. We will use two different male and female avatars [req. 1.3, 1.29], this to meet with the requirement of having two simultaneously players [req. 1.21]. All characters are dressed in training outfits, females in training leggings and t-shirt, and males in long pants and t-shirt. The different characters will have different colors on their t-shirts to make it easy for the players to distinguish between them. The male avatars have either blue or green t-shirts, while the female avatars have either yellow or pink t-shirts. The males have short hair, and the female have half-long hair. For convenience, the characters will have international names, like Anne, Eva, Charles and David. The avatars will be seen in a third-person perspective. This is because it is important for the player to see the avatar of herself to see if she is doing the exercises right. 
+The player will be presented in the game as a character with "real-life" features. As described in Section \ref{subsub:fictionalworld}, the player character can be described by three different categories: avatars, actors and role playing. From the definition, the player character here will be an actor. However, in commercial Kinect games the player character is called an avatar, and we will therefore do the same. They do not have a distinct personality except from being a "a normal human being", but they are well integrated into the story. We will use two different male and female avatars [req. 1.3, 1.29], this to meet with the requirement of having two simultaneously players [req. 1.21]. All characters are dressed in training outfits, females in training leggings and t-shirt, and males in long pants and t-shirt. The different characters will have different colors on their t-shirts to make it easy for the players to distinguish between them. The male avatars have either blue or green t-shirts, while the female avatars have either yellow or pink t-shirts. The males have short hair, and the female have half-long hair. For convenience, the characters will have international names, like Anne, Eva, Charles and David. The avatars will be seen in a third-person perspective. This is because it is important for the player to see the avatar of herself to see if she is doing the exercises correctly. 
 
-"Out in the nature" is meant to be an exergame for elderly, but it is important to not just focus on the exercise. This exergame has an entertaining and motivating story that is the main focus in the game. The exercises are only subordinate to the story [req. 1.1-3]. However, we will include the opportunity for the player to choose which part of their body they want to exercise. In the first step in the menu, the player is given the choice of how she wants to play, see Figure \ref{fig:menuStart}. The player can choose between the compounded game, choosing to play based on exercising a preferred muscle group, or the player can choose among the four single games [req. 1.8]. The choice of including this in the exergame is based upon feedback from workshop 1, where the informants stated that it was important to make own decisions on how, and when, they would like to work out.                     
+"Out in the nature" is meant to be an exergame for elderly, but it is important to not just focus on the exercise. This exergame has an entertaining and motivating story that is the main focus in the game. The exercises are only subordinate to the story [req. 1.1-3]. However, we will include the opportunity for the player to choose which part of their body they want to exercise. In the first step in the menu, the player is given the choice of how she wants to play, see Figure \ref{fig:menuStart}. The player can choose between the compounded game, choosing to play based on exercising a preferred muscle group, or the player can choose among the four single games [req. 1.8]. Our choice of including this in the exergame is based upon feedback from workshop 1, where the informants stated that it was important to make own decisions on how, and when, they would like to work out.                     
 
 \begin{figure} [H]
 \centering
@@ -142,7 +142,7 @@ The player will be presented in the game as a character with "real-life" feature
 \end{figure} 
 
 \subsection{Exercises}
-The activities we have selected for our exergame are based upon findings from workshop 1, and our own ideas, but the main reason for using these activities is because they involve exercises that are shown to be good for elderly [req. 1.27]. In Section \ref{sec:summaryguidelines}, stepping, balance and strengthening exercises are proposed as suitable for elderly. This was also suggested as appropriate exercises by The Norwegian Directorate of Health \cite{aktivitetsbok}. In addition, we have used \emph{Øvelsesbanken} \cite{eldretrening}, which is presented in Chapter \ref{chap:olderexercise}, as a guide to find exercises to use in our exergame. We have picked out 18 exercises from \emph{Øvelsesbanken} that we feel are a good foundation for the exergame. Some exercises chosen are "picking apples", see Figure \ref{pickingapples}, "walking", and "rowing". All the chosen exercises are presented in Appendix B. Most of the exercises have the possibility to be performed both sitting and standing, to make the exergame available for those who are not able to stand or walk. We got copyright clearance from "Øvelsesbanken" to use their exercises.  
+The activities we have selected for our exergame are based upon findings from workshop 1, and our own ideas, but the main reason for using these activities is because they involve exercises that have been proved to be good for elderly [req. 1.27]. In Section \ref{sec:summaryguidelines}, stepping, balance and strengthening exercises are proposed as suitable for elderly. This was also suggested as appropriate exercises by The Norwegian Directorate of Health \cite{aktivitetsbok}. In addition, we have used \emph{Øvelsesbanken} \cite{eldretrening}, which is presented in Chapter \ref{chap:olderexercise}, as a guide to find exercises to use in our exergame. We have picked out 18 exercises from \emph{Øvelsesbanken} that we argue are a good foundation for the exergame. Some exercises chosen are "picking apples", see Figure \ref{pickingapples}, "walking", and "rowing". All the chosen exercises are presented in Appendix B. Most of the exercises have the possibility to be performed both sitting and standing, to make the exergame available for those who are not able to stand or walk. We got copyright clearance from "Øvelsesbanken" to use their exercises.  
 
 
 \begin{figure} [H]
@@ -153,33 +153,33 @@ The activities we have selected for our exergame are based upon findings from wo
 \end{figure}
 
 \subsection{Instruction and Feedback}
-In this exergame the player will be given sufficient instruction about the technology, how to play, and how to perform various activities and exercises [req. 1.9-10]. When first starting the exergame the player will be informed on how to interact with the Kinect sensor and the game. The player will be told that she has to use her body to engage game play, that she has to use her hand to navigate through the menu, and that she can make a choice by "pressing a button". 
+In this exergame, the player will be given instruction about the technology, how to play, and how to perform various activities and exercises [req. 1.9-10]. When first starting the exergame, the player will be informed on how to interact with the Kinect sensor and the game. The player will be told that she has to use her body to engage game play, that she has to use her hand to navigate through the menu, and that she can make a choice by "pressing a button". 
 
-In each of the five games there will be instructions informing about the goal of the game, the purpose of the various elements, and how the player should move to perform the activities in the game [req. 1.10]. There will also be provided information of the health benefit gained from performing the various activities [req. 1.11]. When the game starts, the overall purpose of the it is explained. This is for the player to know what is expected from her [req. 1.9-11]. Specific information about the various challenges will not be given all at once, as this will require a lot of memorisation. Therefore, these type of instructions will be given during game play, when there occur situations that makes it appropriate to provide the player with new information [req. 1.12]. This will be when the player meets new elements, obstacles or challenges. Every instruction will come with a button that the player has to push to continue playing. In this way the player is in the control of the game, and can decide for herself when she is finished reading the instruction [req. 1.13]. Figure \ref{fig:kineintro} shows an example of an instruction. The player will always be given the possibility to skip the instructions, so the experienced player do not have to watch the same instructions each time she plays [req. 1.14].
+In each of the five games there will be instructions informing about the goal of the game, the purpose of the various elements, and how the player should move to perform the activities in the game [req. 1.10]. There will also be provided information of the health benefit gained from performing the various activities [req. 1.11]. When the game starts, the overall purpose of the it is explained. This is for the player to know what is expected from her [req. 1.9-11]. Specific information about the various challenges will not be given all at once, as this will require a lot of memorisation. Therefore, these type of instructions will be given during game play, when there occur situations that makes it appropriate to provide the player with new information [req. 1.12]. This will be when the player meets new elements, obstacles or challenges. Every instruction comes with a button that the player has to push to continue playing. In this way the player is in the control of the game, and can decide for herself when she is finished reading the instruction [req. 1.13]. Figure \ref{fig:kineintro} shows an example of an instruction. The player will always be given the possibility to skip the instructions, so the experienced player do not have to watch the same instructions each time she plays [req. 1.14].
 
-During game play the player will be given appropriate feedback on her actions [req. 1.15-16]. This will be given when she has completed a particular task or activity, to not interrupt the player from performing ongoing tasks [req. 1.17]. Examples will be motivating comments, as "Congratulations, you did a great job", when the player has accomplished balancing over a log, or "Lift your legs higher to walk faster". While playing, feedback should be given orally by a calm lady voice [req. 2.3]. Textual feedback during game play will be avoided to not interfere with immersion and disturb the gaming experience [req. 1.17].  However, text can be chose instead of voice if if is preferred [req. 1.4]. 
+During game play, the player will be given appropriate feedback on her actions [req. 1.15-16]. This will be given when she has completed a particular task or activity, to not interrupt the player from performing ongoing tasks [req. 1.17]. Examples will be motivating comments, such as "Congratulations, you did a great job", when the player has accomplished balancing over a log, or "Lift your legs higher to walk faster". While playing, feedback should be given orally by a calm lady voice [req. 2.3]. Textual feedback during game play is avoided to not interfere with immersion and disturb the gaming experience [req. 1.17].  However, text can be chose instead of voice if if is preferred [req. 1.4]. 
 
 \begin{figure} [H]
 \centering
 
 \includegraphics[scale=0.13]{introKineEng.jpg}
-\caption[Instruction]{This figure shows an instruction in the exergame. There is a button up in the right corner that will be used to continue on with the game when the player is done reading the information.}
+\caption[Instruction]{This figure shows an instruction in the exergame. There is a button up in the right corner that will be used to continue with the game when the player is done reading the information.}
 \label{fig:kineintro}
 \end{figure}
 
 \subsection{Nature Trail}
-The main activity in "Out in the Nature", is what we have called a "Nature Trail". This involves a walk in the forest with quizzes along the way. The goal for the game is to complete the nature trail as fast as possible, while answering questions, and avoiding obstacles on the way [req. 1.7]. Points will be given according to correct answers on the quiz, which will be shown up in the right corner together with a icon showing a sheet of paper. Because the Kinect sensor can track movement, points will also be given according to how well the player performs the required movements. These points will not be shown as numbers, as movements will be difficult to measure and "grade". Therefore, gain from correct and well-performed movements are shown in a "health bar" on top of the screen [req. 1.20]. A red heart is shown together with the bar to represent health. Points for correct answers on the quiz are separated from points achieved from movements, because the quiz has to do with cognitive skills, while the latter is about physical skills. The time used to complete the nature trail will affect the final result of the "health bar", as this also reflects how well the player has moved during game play. See Figure \ref{fig:hearts} for an example of a scenario, which includes the described elements in the top-bar. "Nature Trail" supports the possibility to choose number of players, as multi-player mode enhance social interaction while playing [req. 1.8, 1.21].  
+The main activity in "Out in the Nature", is what we have called a "Nature Trail". This involves a walk in the forest with quizzes along the way. The goal for the game is to complete the nature trail as fast as possible, while answering questions, and avoiding obstacles on the way [req. 1.7]. Points will be given according to correct answers on the quiz, which will be shown up in the right corner together with a icon showing a sheet of paper. Because the Kinect sensor can track movement, points will also be given according to how well the player performs the required movements. These points will not be shown as numbers, as movements will be difficult to measure and "grade". Therefore, gain from correct and well-performed movements are shown in a "health-bar" on top of the screen [req. 1.20]. Showing this visually is also done to avoid too much detailed information, as suggested by Brox et al. \cite{exergamesforelderly}. A red heart is shown together with the bar to represent health. Points for correct answers on the quiz are separated from points achieved from movements, because the quiz has to do with cognitive skills, while the latter is about physical skills. The time used to complete the nature trail will affect the final result of the "health-bar", as this also reflects how well the player has moved during game play. See Figure \ref{fig:hearts} for an example of a scenario, which includes the described elements in the top-bar. "Nature Trail" supports the possibility to choose number of players, as multi-player mode enhance social interaction while playing [req. 1.8, 1.21].  
 
-Progress in the game requires movement, like walking. When walking, the avatar portraying the player will walk into the forest. The bigger movements the player uses, e.g. the higher the player lifts her feet while walking, the higher pace, and "better health" she will achieve. Figure \ref{fig:hearts} shows an avatar in the forest, surrounded by hearts, where the avatar does a wide stretch trying to reach a heart. The hearts will be positioned in a way that will require the player to move to reach for them. Therefore, if the player gathers these hearts, her health will improve due to physical activity [req. 1.3]. Gain from gathering hearts will also be shown in the "health bar".   
+Progress in the game requires movement, like walking. When walking, the avatar portraying the player will walk into the forest. The bigger movements the player uses, e.g. the higher the player lifts her feet while walking, the higher pace, and "better health" she will achieve. Figure \ref{fig:hearts} shows an avatar in the forest, surrounded by hearts, where the avatar does a wide stretch trying to reach a heart. The hearts will be positioned in a way that will require the player to move to reach for them. Therefore, if the player gathers these hearts, her health will improve due to physical activity [req. 1.3]. Gain from gathering hearts will also be shown in the "health-bar".   
 
 \begin{figure} [H]
 \centering
 \includegraphics[scale=0.27]{game1engelsk.jpg}
-\caption[Nature trail - stretching]{This figure presents a scene from the nature trail. We see an avatar in the forest, doing a wide stretch trying to reach a heart. This will result in improved health, shown in the "health bar".}
+\caption[Nature trail - stretching]{This figure presents a scene from the nature trail. We see an avatar in the forest, doing a wide stretch trying to reach a heart. This will result in improved health, shown in the "health-bar".}
 \label{fig:hearts}
 \end{figure}
 
-The quiz in the nature trail will be shown as sheets of paper "hanging" around on different spots in the forest. The player has to reach for them to get access to the questions, see Figure \ref{fig:quiz}. When picking a question, it will pop up and fill the screen. Four answer alternatives will be shown, and the player will have to use her hand to navigate to what she believes is the right answer. Questions will be chosen randomly, so the player do not get the same questions each time she plays. The difficulty will also increase in line with correct answers [req. 1.25]. The player does not have to answer the quiz to complete the nature trail [req. 1.8], but it will affect the total score at the end. 
+The quiz in the nature trail will be shown as sheets of paper "hanging" on different spots in the forest. The player has to reach for them to get access to the questions, see Figure \ref{fig:quiz}. When picking a question, it will pop up and fill the screen. Four alternatives will be shown, and the player will have to use her hand to navigate to what she believes is the right answer. Questions will be chosen randomly, so the player do not get the same questions each time she plays. The difficulty will also increase in line with correct answers [req. 1.25]. The player does not have to answer the quiz to complete the nature trail [req. 1.8], but it will affect the total score at the end. 
 
 \begin{figure} [H]
 \centering
@@ -188,7 +188,7 @@ The quiz in the nature trail will be shown as sheets of paper "hanging" around o
 \label{fig:quiz}
 \end{figure} 
 
-Along the way in the nature trail there will be various, natural obstacles that will force the player to move her body in certain ways to be avoided. The obstacles have been chosen according to the movements required by the player to avoid them, as the nature trail is supposed to train the whole body [req. 1.1, 1.3]. Examples of these obstacles are a river or creek that the player has to cross, or logs or rocks lying on the path that the player has to step over. To cross a river or creek the player has to balance on logs or step on rocks. This requires movements as toe-to-heel stepping, and step touch or skaters. When meeting a log, the player is required to take a big step, or a lunge, to get past it. Rocks in the path are avoided by performing sideways steps, or step-touch. There will also be obstacles in head hight, like branches, which require the player to go into deep squats to be avoided. The Kinect sensor will track the player's body, and increase or decrease the "health bar" according to how well the player perform the required movements. If the player hits some of the obstacles, they will get a flash of red, indication that the player failed to avoid them. As a result, the red color in the "health bar" will decrease [req. 1.20].
+Along the way in the nature trail there will be various, natural obstacles that will force the player to move her body in certain ways to be avoided. The game is suppose to exercise the whole body. Therefore, the different obstacles are chosen, so that the movements required to avoid them will include all muscle groups [req. 1.1, 1.3]. Examples of these obstacles are a river or creek that the player has to cross, or logs or rocks lying on the path that the player has to step over. To cross a river or creek the player has to balance on logs or step on rocks. This requires movements as toe-to-heel stepping, and step touch or skaters. When meeting a log, the player is required to take a big step, or a lunge, to get past it. Rocks in the path are avoided by performing sideways steps, or step-touch. There will also be obstacles in head hight, like branches, which require the player to go into deep squats to be avoided. The Kinect sensor will track the player's body, and increase or decrease the "health-bar" according to how well the player perform the required movements. If the player hits some of the obstacles, they will get a flash of red, indicating that the player failed to avoid them. As a result, the red color in the "health-bar" will decrease [req. 1.20].
 
 Parts of the story are organised with the use of "branching", which is about having the possibility to choose between multiple paths [req. 1.8]. An example of this is choosing between walking the "regular" trail or rowing a boat over a lake. To cross the lake, and continue the nature trail, the player has to take a side step and step into the boat. To move forward, rowing movements are needed. There will be water lilies in the water which the player has to avoid. This is done by leaning the upper body over to the sides. This, and all the other described obstacles, are shown in Figure \ref{fig:hindring}. All the tasks the player has to do throughout the game will be described in the functional design, in Section \ref{sec:functionaldesign}. The reader is referred to Appendix B for detailed instructions on how to perform the various exercises.
 
@@ -204,16 +204,16 @@ One of the requirements for this exergame is that the game has to show progress 
 \begin{figure} [H]
 \centering
 \includegraphics[scale=0.25]{chooseEnvironment.jpg}
-\caption[Choice of environment and difficulty level]{When "Walk the Nature Trail" is chosen, players will get the possibility to choose environment and difficulty level. The environments to choose from are pine wood, deciduous wood summer, and deciduous wood fall. Within each environment there are three difficulty levels.}
+\caption[Choice of environment and difficulty level]{When "Walk the Nature Trail" is chosen, players will get the possibility to choose environment and difficulty level. The environments to choose from are pine wood, deciduous wood summer, and deciduous wood fall; within each environment there are three difficulty levels.}
 \label{fig:omgivelseNivaa}
 \end{figure}
 
-The "Nature Trail" game offers three different forest environments to walk in, a pine wood, and two deciduous woods, showing both summer and fall. Each of the environments presents initial, different difficulty levels, and within each environment, there are three difficulty levels, easy, medium, and hard [req. 1.8, 1.23]. First time playing, only the easy level will be available. The higher levels will be unlocked when the player has managed the easier level [req. 1.25]. A higher difficulty level will require more from the player, both mentally and physically. Obstacles will occur more frequently, which will require concentration, and the movements and exercises will be harder to perform, and therefore require control of the body. Within one environment the obstacles from the easy level will follow to the next levels. This is done to include some familiar elements in the higher levels, in addition to new obstacles that will be added. To support variation between the environments, new and different obstacles will be used in each of the three environments.  
+The "Nature Trail" game offers three different forest environments to walk in, a pine wood, and two deciduous woods, showing both summer and autumn. Each of the environments presents initially different difficulty levels, and within each environment, there are three difficulty levels: easy, medium, and hard [req. 1.8, 1.23]. First time playing, only the easy level will be available. The higher levels will be unlocked when the player has managed the easy level [req. 1.25]. A higher difficulty level will require more from the player, both mentally and physically. Obstacles will occur more frequently, which will require concentration, and the movements and exercises will be harder to perform, and therefore require control of the body. Within one environment, the obstacles from the easy level will follow to the next levels. This is done to include some familiar elements in the higher levels, in addition to new obstacles that will be added. To support variation between the environments, new and different obstacles will be used in each of the three environments.  
 
 The required movement in the "Nature Trail" game are suppose to exercise the whole body. This involves endurance, balance, and exercise of several muscle groups. This game, with the quiz and movements combined, will be good for both cognitive skills and physical health.     
 
 \subsection{The Four Single Games}
-In addition to the nature trail, "Out in the Nature" consists of four shorter games with focus on completing one single familiar activity or challenge. The activities we have chosen for this exergame are wood chopping, paddling down a river, swimming in a lake, and picking apples [req. 1.4, 1.6]. Within each game the player has the possibility to choose number of players and difficulty level [req. 1.8, 1.21, 1.23]. In multi-player mode, players can choose if they want to cooperate or compete against each other. When competing, the players will have the possibility to select difficulty level individually. This is to allow for players with different experience to play together, like a grandmother and her grandchild [req. 1.24]. Figure \ref{fig:velgSpill} shows how these single games will be presented in a menu. We will describe one of these four games in more detail.
+In addition to the nature trail, "Out in the Nature" consists of four shorter games with focus on completing one single familiar activity or challenge. The activities we have chosen for this exergame are wood chopping, paddling down a river, swimming in a lake, and picking apples [req. 1.4, 1.6]. Within each game the player has the possibility to choose number of players and difficulty level [req. 1.8, 1.21, 1.23]. In multi-player mode, players can choose if they want to cooperate or compete against each other. When competing, the players will have the possibility to select difficulty level individually. This is to allow for players with different experience to play together, like a grandmother and her grandchild [req. 1.24]. Figure \ref{fig:velgSpill} shows how these single games will be presented in a menu. Below, we will describe one of these four games in more detail.
 
 \begin{figure} [H]
 \centering
@@ -223,7 +223,7 @@ In addition to the nature trail, "Out in the Nature" consists of four shorter ga
 \end{figure}
 
 \subsubsection{Picking Apples}
-"Picking Apples" is a game that requires squats and stretching exercises, which will strengthen balance and muscles in thighs and the gluteal area. The goal for this game is to pick as many red, ripe apples as possible in a given amount of time, and the apples should be put in baskets on the ground [req. 1.6]. This is shown in Figure \ref{fig:appleStretch} and \ref{fig:appleSquat}. The movements this game requires fit well with the one of the exercises chosen from \emph{Øvelsesbanken}, see Figure \ref{pickingapples}. When apples first appear on the tree they will be green, indicating that they are not ready to be picked. If ripe apples are left hanging on the tree for too long, they will rot and fall to the ground. Rotten apples will have a brown color. 
+"Picking Apples" is a game that requires squats and stretching exercises, which will strengthen balance and muscles in thighs and the gluteal area. The goal for this game is to pick as many red, ripe apples as possible in a given amount of time, and the apples should be put in baskets on the ground [req. 1.6]. This is shown in Figure \ref{fig:appleStretch} and \ref{fig:appleSquat}. The movements this game requires fit well with the one of the exercises chosen from \emph{Øvelsesbanken}(see Figure \ref{pickingapples}). When apples first appear on the tree they will be green, indicating that they are not ready to be picked. If ripe apples are left hanging on the tree for too long, they will rot and fall to the ground. Rotten apples will have a brown color. 
 
 \begin{figure} [H]
 \centering
@@ -235,20 +235,20 @@ In addition to the nature trail, "Out in the Nature" consists of four shorter ga
 \begin{figure} [H]
 \centering
 \includegraphics[scale=0.07]{squatppletreeEng.jpg}
-\caption[Picking apples - squats]{The player has picked a red apple and is about to put it in the basket. The player use deep squats.}
+\caption[Picking apples - squats]{The player has picked a red apple and is about to put it in the basket. The player uses deep squats to perform this action.}
 \label{fig:appleSquat}
 \end{figure}
 
-Points will be given according to how many apples the player has picked, see Figure \ref{fig:appleOver}. 3 points will be given for each ripe apple that is picked and put in a basket. The player will loose points if green apples are picked, or if apples have been given the time to rot. Picking a green apple will result in -1 point, and if the apple gets rotten this will result in -2 points. If the player does not perform squats when putting apples in a basket, there is a great possibility that the apple will miss the basket and fall to the ground. This will give the same loss of points as a rotten apple, -2 points.       
+Points will be given according to how many apples the player has picked, see Figure \ref{fig:appleOver}. 3 points will be given for each ripe apple that is picked and put in a basket. The player will loose points if green apples are picked, or if apples have been given the time to rot. Picking a green apple will result in -1 point, and if the apple gets rotten this will result in -2 points. If the player does not perform squats when putting apples in a basket, there is a great possibility that the apple will miss the basket and fall to the ground. This will give the same loss of points as a rotten apple, i.e. -2 points.       
 
 \begin{figure} [H]
 \centering
 \includegraphics[scale=0.07]{appletreeendEng.jpg}
-\caption[Picking apples - points]{This figure presents a final scene in the "Picking Apples" game. A text together with the number of apples picked, are shown.}
+\caption[Picking apples - points]{This figure presents a final scene in the "Picking Apples" game. A text, together with the number of apples picked, is shown.}
 \label{fig:appleOver}
 \end{figure}
 
-Apples will appear on the tree and grow in a certain tempo according to the chosen difficult level. Higher difficulty will result in more apples on the tree at the same time, and a faster ripening rate. An extra challenge to be added at a higher difficulty level is requirements to which of the two baskets the newly picked apple should be put. This is to train cognitive skills and to include more variation in movements and exercises [req. 1.24]. As mentioned, this game allows for multi-player mode where the players could collaborate on picking apples, or compete on who can pick the most apples [req. 1.22], see Figure \ref{fig:appleMultiplayer}. 
+Apples will appear on the tree and grow in a certain tempo according to the chosen difficult level. Higher difficulty will result in more apples on the tree at the same time, and a faster ripening rate. An extra challenge in the higher difficulty level is additional requirements to the two baskets, in which the newly picked apple should be put. This is to train cognitive skills and to include more variation in movements and exercises [req. 1.24]. As mentioned, this game allows for multi-player mode where the players can collaborate on picking apples, or compete on who can pick the most apples [req. 1.22], see Figure \ref{fig:appleMultiplayer}. 
 
 \begin{figure} [H]
 \centering
@@ -260,9 +260,9 @@ Apples will appear on the tree and grow in a certain tempo according to the chos
 \section{Functional Design}
 \label{sec:functionaldesign}
 
-The functional design for this game will be described according to system requirements presented in Section \ref{sec:req}, and to video game theory discussed in Chapter \ref{chap:vg}. The functional design will provide a more concrete representation of the exergame than what have been presented earlier in this chapter. Here, all the elements the game should contain will be presented shortly. Functional design will vary according to the chosen difficulty level, however, in this thesis we will only focus on presenting functional design for one difficulty level for each game.
+The functional design for this game will be described according to system requirements presented in Section \ref{sec:req}, and to video game theory discussed in Chapter \ref{chap:vg}. The functional design will provide a more concrete representation of the exergame, than what have been presented earlier in this chapter. Here, all the elements the game should contain will be presented shortly. Functional design will vary according to the chosen difficulty level, however, in this thesis we will only focus on presenting functional design for one difficulty level for each game.
 
-We will describe functional design for what we have presented in the exergame, hence, the "Nature Trail" and "Picking Apples". This will, as mentioned, be described according to Chapter \ref{chap:vg}, more specific, according to the game's story and aesthetics.  
+We will describe functional design for what we have presented in this exergame concept, i.e. the "Nature Trail" and "Picking Apples". This will, as mentioned, be described according to video game theory, and more specifically to the game's story and aesthetics.  
 
 \subsection{Nature Trail}
 
@@ -272,11 +272,11 @@ We will describe functional design for what we have presented in the exergame, h
 \centering
 \begin{tabular}{|p{3,2cm}|p{7,8cm}|}
 \hline
-\emph{Location/setting} & In the forest  \\ \hline
+\emph{Location/setting} & In the pine forest  \\ \hline
 \emph{Structural objects} & Trees, the trail, heaven, rocks, log, anthill, lake, puddle, creek, river.  \\ \hline
-\emph{Interactive objects} & The player character, row boat with oars, rocks lying in the middle of the trail, rocks in the river, logs over a creek, red hearts in the field, branches, question sheets. \\ \hline
+\emph{Interactive objects} & The player character, row boat with oars, rocks lying in the middle of the trail, rocks in the river, logs over a creek, red hearts in the field, branches, question sheets, log lying across the trail. \\ \hline
 \emph{Scripting objects} & Quiz points: Shown as an icon similar to a sheet of paper, with the text "points" after it. Increments with 5 points as the player answer the right question.\\ \hline
-	     & "Health-bar": Increase as player performs right movements. Decrease as player do not manage the right movements. Increase when player gather hearts. Increase based on time spend in game world compared to previous sessions. 
+	     & "Health-bar": Increases as player performs right movements. Decreases as player does not manage the right movements. Increases when player gathers hearts. Increases based on time spend in game world compared to previous sessions. 
 	      \\ \hline
 	       & Time: Increases as a normal clock \\ \hline
 \emph{Characters} & An avatar (from how Kinect defines a character) seen in third-person perspective, described by its name. \\ \hline
@@ -287,25 +287,25 @@ We will describe functional design for what we have presented in the exergame, h
 
 \subsubsection{Mechanics} 
 
-The game is a progression game, where a story should be solved. Each level will be completed by solving puzzles. The player has to finish different quests within a level to proceed to the next level, and the levels are building on each other. It is common to have a climax at the end of each chapter in these type of games. However, this is not included here, as this will interfere with the natural environment and the gaming experience for this type of users. In Table \ref{tab:quests1} we will present different quests in this game. 
+The game is a progression game, where a story should be completed. Each level will be completed by solving puzzles. The player has to finish different quests within a level to proceed to the next level, and the levels build on each other. It is common to have a climax at the end of each chapter in these type of games. However, this is not included here, as this will interfere with the natural environment and the gaming experience for this type of users. In Table \ref{tab:quests1} we will present different quests in the "Nature Trail" game. 
   
 \begin{table}
-\begin{tabular}{|>{\raggedright}p{3,5cm}|>{\raggedright}p{4cm}|p{3,5cm}|}
+\begin{tabular}{|>{\raggedright}p{7,5cm}|p{3,5cm}|}
 \hline
-\textbf{What do do} & \textbf{Goal} & \textbf{Exercise required}  \\ \hline
-Walk the trail & Get forward in the game world & Lift legs high, walking  \\ \hline
-Gather hearts & Use body to get heart and "get better health" &  Stretching \\ \hline
-Watch out for rocks lying in the middle of the trail & Change movements to get forward & Side steps or step touch  \\ \hline
-Watch out for branches hanging over the trail & Change movements to get forward & Squats
+\textbf{Quest} & \textbf{Exercise required}  \\ \hline
+Walk the trail to get forward in the forest & Lift legs high, walking  \\ \hline
+Gather hearts and "get better health" &  Stretching \\ \hline
+Walk past rocks lying in the middle of the trail & Side steps or step touch  \\ \hline
+Duck under branches hanging over the trail & Squats
 \\ \hline
-Balance over a log that lies over a creek & Change movements to get to the other side of the creek & Toe-to-heel stepping with arms out \\ \hline
-Get over the log lying across the trail & Change movements to get forward & Lunges \\ \hline
-Jump from rock to rock to get over the creek & Change movements to get to the other side of the creek & Step touch or skaters \\ \hline
-Row boat over to the other side of the lake & Change movements to get over the lake  & Rowing \\ \hline
-When rowing watch out for the water lilies & Change movements to get over the lake without hitting the lilies  & Lean upper body from side to side \\ \hline
-Find question sheets & Use body to get question sheet  & Stretching \\ \hline
-Answer one of the four answer alternatives & Answer the right question  & Use knowledge and cognitive skills \\ \hline
-Solve puzzle & Solve puzzle right  & Use knowledge and cognitive skills \\ \hline
+Balance over the log to get to the other side of the creek & Toe-to-heel stepping with arms out \\ \hline
+Walk over the log lying across the trail & Lunges \\ \hline
+Jump from rock to rock to get over the creek & Step touch or skaters \\ \hline
+Row boat over to the other side of the lake & Rowing \\ \hline
+Row past the water lilies & Lean upper body from side to side \\ \hline
+Find and get question sheets  & Stretching \\ \hline
+Answer one of the four alternatives & Use knowledge and cognitive skills \\ \hline
+Solve puzzle & Use knowledge and cognitive skills \\ \hline
 \end{tabular}
 \caption[Quests in the "Nature trail" game]{Quests}
 \label{tab:quests1}
@@ -322,25 +322,38 @@ Solve puzzle & Solve puzzle right  & Use knowledge and cognitive skills \\ \hlin
 \centering
 \begin{tabular}{|p{2,8cm}|p{8,2cm}|}
 \hline
-\emph{Interplay rules} & \textbf{1. The player character:} will move to the movements received as player input. \\ \cline{2-2}
-& \textbf{2. Rowboat with oars:} will move forward as the player  uses her arms with the oars. \\ \cline{2-2}
+\emph{Interplay rules} & \textbf{1. The player character:} Will move to the movements received as player input. \\ \cline{2-2}
+&  \textbf{2. Red hearts:} When touched by the avatar it disappears. \\ \cline{2-2}
 & \textbf{3. Rocks lying in the middle of the trail:} If hit, the  rocks will flash red.  \\ \cline{2-2}
-& \textbf{4. Log over creek:} If the avatar falls off, the log will flash red. The player will automatically get up on the log again. \\ \cline{2-2}
-& \textbf{5. Rocks in river:} If the avatar miss a rock and fall of, the rock will flash red. The player will automatically get up on the side of the river again. \\ \cline{2-2}
-&  \textbf{6. Red hearts:} When touched by the avatar it disappears. \\ \cline{2-2}
-&  \textbf{7. Branch:} If hit, it will flash red \\ \cline{2-2}
-&  \textbf{8. Question sheets:} When touched by the avatar  it  disappears from the game world and fills the screen with  a  question or puzzle. \\ \hline
-\emph{Evaluation rules} & \textbf{if 1}: Player gets forward in the game, and health-bar fills with red color. \\ \cline{2-2}
-& \textbf{if 2:} Player gets forward in the game, and the health-bar fills with red color.   \\ \cline{2-2}
+&  \textbf{4. Branch:} If hit, it will flash red \\ \cline{2-2}
+& \textbf{5. Log over creek:} If the avatar falls off, the log will flash red. \\ \cline{2-2}
+& \textbf{6. Log across the trail:} If hit, the log will flash red.  \\ \cline{2-2}
+& \textbf{7. Rocks in the river:} If the avatar falls of a rock, the rock will flash red.  \\ \cline{2-2}
+& \textbf{8. Rowboat with oars:} will move forward as the player  uses her arms with the oars. \\ \cline{2-2}
+& \textbf{9. Water lilies:} If hit, the water lily will flash red \\ \cline{2-2}
+&  \textbf{10. Question sheets:} When touched by the avatar  it  disappears from the game environment and fills the screen with  a  question or puzzle. \\ \hline
+\emph{Evaluation rules} & \textbf{if 1}: Player gets forward in the game, and the health-bar fills with red color. \\ \cline{2-2}
+& \textbf{if 2:} The health-bar fills with red color.  \\ \cline{2-2}
 & \textbf{if 3:} Player gets slowed down, and red color in the health-bar reduces.   \\ \cline{2-2}
-& \textbf{if 4:} Player gets slowed down, and red color in the health-bar reduces   \\ \cline{2-2}
-& \textbf{if 5:} Player gets slowed down, and red color in the health-bar reduces.   \\ \cline{2-2}
-& \textbf{if 6:} Health-bar fills with red color.  \\ \cline{2-2}
-& \textbf{if 7:} Player gets slowed down, and red color in the health-bar reduces.  \\ \cline{2-2}
-& \textbf{if 8:} If player answers right she gets +5 points. If player answers wrong she gets 0 points.  \\ \hline
+& \textbf{if 4:} Player gets slowed down, and red color in the health-bar reduces.  \\ \cline{2-2}
+& \textbf{if 5:} Player gets slowed down, and red color in the health-bar reduces   \\ \cline{2-2}
+& \textbf{if 6:} Player gets slowed down, and red color in the health-bar reduces   \\ \hline
 \end{tabular}
 \caption[Rules in the "Nature Trail" game]{Rules}
 \label{tab:rules1}
+\end{table} 
+
+\begin{table} [H]
+\centering
+\begin{tabular}{|p{2,8cm}|p{8,2cm}|}
+\hline
+\emph{Evaluation rules} & \textbf{if 7:} Player gets slowed down, and red color in the health-bar reduces   \\ \cline{2-2}
+& \textbf{if 8:} Player gets forward in the game, and the health-bar fills with red color.   \\ \cline{2-2}
+& \textbf{if 9:} Player gets slowed down, and red color in the health-bar reduces   \\ \cline{2-2}
+& \textbf{if 10:} If player answers right she gets +5 points. If player answers wrong she gets 0 points.  \\ \hline
+\end{tabular}
+\caption[Rules in the "Nature Trail" game]{Rules continues}
+\label{tab:rules11}
 \end{table}  
 
 \subsubsection{Geography and Representation}
@@ -353,7 +366,7 @@ Solve puzzle & Solve puzzle right  & Use knowledge and cognitive skills \\ \hlin
 \emph{Vocalization} & The avatar will not have its own voice. \\ \hline
 \emph{Sound effects} &  When hearts are gathered there is a cheerful "pling" sound.  \\ \cline{2-2}
 &  When taking the question sheet there is a "swosj" sound.\\ \cline{2-2}
-& When the character is walking there is the sound of steps on the ground. Different sounds for \\ & different surface, like walking on the rocks, earth or logs.\\ \cline{2-2}
+& When the avatar is walking there is the sound of steps on the ground. Different sounds for \\ & different surface, like walking on the rocks, soil or logs.\\ \cline{2-2}
 & The sound of shoved water when rowing. \\ \hline
 \emph{Ambient effects} & Birdsong. \\ \cline{2-2}
 & Wind. \\ \cline{2-2}
@@ -372,9 +385,8 @@ Solve puzzle & Solve puzzle right  & Use knowledge and cognitive skills \\ \hlin
 \emph {Perspective} & Third-person. \\ \hline
 \emph{Dimension} &  3-dimensional and isometric. \\ \hline
 \emph{Exploration} & Desired pace. \\ \hline
-\emph{Time} & The game time will behave as a normal clock, counting upwards. \\ \hline
 \emph{Saving} & The game will be able to save current state, progress and results. \\ \hline
-\emph{Graphical representation} & The environment will be presented as close to photorealism as possible.  However, there will be some unrealistic elements present in the game world.  \\ \hline
+\emph{Graphical representation} & The environment will be presented as close to photorealism as possible.  However, there will be some unrealistic elements present in the game environment.  \\ \hline
 \end{tabular}
 \caption[Graphical game characteristics]{Graphical game characteristics}
 \label{tab:graphical1}
@@ -391,11 +403,11 @@ The game supports two simultaneous players. The players can either compete or co
 \centering
 \begin{tabular}{|p{3,2cm}|p{7,8cm}|}
 \hline
-\emph{Location/setting} & Standing on a lawn with a apple tree in front of the player. \\ \hline
+\emph{Location/setting} & The player stands on a lawn with an apple tree in front of her. \\ \hline
 \emph{Structural objects} & Tree, grass, heaven.  \\ \hline
-\emph{Interactive objects} & Apples on the tree, two baskets, one on each side of the player. \\ \hline
-\emph{Scripting objects} &  Points: Shown as an apple icon with the text "points" after it. Increments with 3 points as ripe apples are picked and decrements with -1 point if a unripe apple is picked, and -2 points if an apple gets rotten \\ \cline{2-2}
-& "Health-bar": Increase as player performs right  movements. Decrease as player do not manage the right  movements.  \\ \cline{2-2}
+\emph{Interactive objects} & The player character, apples on the tree, two baskets, one on each side of the player. \\ \hline
+\emph{Scripting objects} &  Points: Shown as an apple icon with the text "points" after it. Increments with 3 points as ripe apples are picked and decrements with -1 point if an unripe apple is picked, and -2 points if an apple gets rotten \\ \cline{2-2}
+& "Health-bar": Increases as player performs right  movements. Decreases as player does not manage the right  movements.  \\ \cline{2-2}
 & Time: Decrease from 2 minutes \\ \hline
 \emph{Characters} & An avatar (from how Kinect defines a character) seen in third-person perspective, described by its name. \\ \hline
 \end{tabular}
@@ -404,16 +416,16 @@ The game supports two simultaneous players. The players can either compete or co
 \end{table}  
  
 \subsubsection{Mechanics} 
-This is a progression game where different levels of the game is finished by solving the apple-picking task. Player has to finish different levels to proceed to the next level. The levels are building on each other and the difficulty level get higher as the player proceeds through the game.
+This is a progression game where different levels of the game gets finished by solving the apple-picking task. The player has to finish different levels to proceed to the next level. The levels build on each other and the difficulty level gets higher as the player proceeds through the game.
 
 \emph{Quests:} 
 
 \begin{table}
-\begin{tabular}{|>{\raggedright}p{3,5cm}|>{\raggedright}p{4cm}|p{3,5cm}|}
+\begin{tabular}{|>{\raggedright}p{7,5cm}|p{3,5cm}|}
 \hline
-\textbf{What do do} & \textbf{Goal} & \textbf{Exercise required}  \\ \hline
-Pick apples when they get red and ripe. & Pick as many ripe apples as possible and move body & Stretching  \\ \hline
-Put ripe apples in baskets & Fill baskets with ripe apples and move body &  Squats with downward arm movement \\ \hline
+\textbf{Quests} & \textbf{Exercise required}  \\ \hline
+Pick apples when they get red and ripe & Stretching  \\ \hline
+Put ripe apples in baskets &  Squats with downward arm movement \\ \hline
 \end{tabular}
 \caption[Quests in the "Apple Picking" game]{Quests}
 \label{tab:quests2}
@@ -425,10 +437,12 @@ Put ripe apples in baskets & Fill baskets with ripe apples and move body &  Squa
 \centering
 \begin{tabular}{|p{2,8cm}|p{8,2cm}|}
 \hline
-\emph{Interplay rules} &  \textbf{1. apples on the tree:} Will appear on the tree with a yellow-green color showing they are not yet ripe. After a while they will start to get red, and if the apples does not get picked while they are red, they will become brown and fall to the grown. \\ \cline{2-2}
-& \textbf{2. baskets:} The baskets will get filled with apples. \\ \hline
-\emph{Evaluation rules} & \textbf{if 1:} If player picks a ripe apple she gets +3 points. If apple becomes rotten player gets  -2 points. If player picks unripe apple she gets -1 point. \\ \cline{2-2}
-& \textbf{if 2:} If the player puts ripe apple in the basket she keeps the 3 points. If the player miss the basket, she will get -2 points.  \\ \hline
+\emph{Interplay rules} & \textbf{1. The player character:} Will move to the movements received as player input. \\ \cline{2-2}
+ &  \textbf{2. Apples on the tree:} Will appear on the tree with a yellow-green color showing they are not yet ripe. After a while they will start to get red, and if the apples does not get picked while they are red, they will become brown and fall to the grown. \\ \cline{2-2}
+& \textbf{3. Baskets:} The baskets will get filled with apples. \\ \hline
+\emph{Evaluation rules} & \textbf{if 1:} Player proceeds through the game, and the health-bar fills with red color.\\ \cline{2-2}
+ & \textbf{if 2:} If player picks a ripe apple she gets +3 points. If apple becomes rotten the player gets -2 points. If the player picks an unripe apple she gets -1 point. \\ \cline{2-2}
+& \textbf{if 3:} If the player puts ripe apple in the basket she keeps the 3 points. If the player miss the basket, she lose 2 points.  \\ \hline
 \end{tabular}
 \caption[Rules for the "Apple Picking" game]{Rules}
 \label{tab:rules2}
@@ -459,7 +473,6 @@ Put ripe apples in baskets & Fill baskets with ripe apples and move body &  Squa
 \emph {Perspective} & Third-person \\ \hline
 \emph{Dimension} &  3-dimensional and isometric \\ \hline
 \emph{Exploration} &  A mix between forced and desired pace. The pace is forced because the apples appear at random times. At the same time the pace is desired because the player can choose when she wants to stretch to gather the apple. However, this will also mean that the player chooses to lose an apple. Ripening pace will depend on current difficulty level.\\ \hline
-\emph{Time} & Real-time. There will be a clock that counts from 2 minutes and down. \\ \hline
 \emph{Saving} & The game will be able to save current state, progress and results. \\ \hline
 \emph{Graphical representation} & The environment will be presented as close to photorealism as possible.  \\ \hline
 \end{tabular}
@@ -474,11 +487,11 @@ The game supports two simultaneous players. The players can either compete or co
 \section{The Menu}
 \label{sec:menu}
 
-One of the main problems we observed during workshop 1 was related to handling the menus in the various games they played. The general perception from workshop 1 was that the menus were complex, difficult to follow, demanding to navigate through, and that they were too sensitive. This was also our own experience from playing. Therefore, we have made a prototype for a menu, which we will present in this section.
+One of the main problems we observed during workshop 1 was related to handling the menus in the different games played. The general perception from workshop 1 was that the menus were complex, difficult to follow, demanding to navigate through, and too sensitive. This was also our own experience from playing. Therefore, we have made a prototype of a menu, which will be presented in this section.
 
-The design of our menu proposal is based upon the interface requirements, findings from workshop 1, and theory about designing interfaces for elderly. Simple design, distinct elements, and easy to read information are emphasised to make it user-friendly for elderly that might suffer from declined vision [req. 2.6, 2.14, 2.16]. It has also been a focus not to have too much information in each menu step. We have chosen to make a menu consisting of more steps to achieve the mentioned goal. By having a bit longer menu, we avoid filling few menu steps with lots of information and choices [req. 2.12].    
+The design of our menu proposal is based upon the interface requirements. Simple design, distinct elements, and easy to read information are emphasised to make it user-friendly for elderly that might suffer from declined vision [req. 2.6, 2.14, 2.16]. It has also been a focus not to have too much information in each menu step. We have chosen to make a menu consisting of more steps to achieve the mentioned goal. By having a bit longer menu, we avoid filling few menu steps with lots of information and choices [req. 2.12].    
 
-The menu starts with the choice of how you want to play [req. 1.8]. The player could choose between a walk in the forest, to exercise a preferred muscle group, or the player could choose between the four single games. If the player wants to play according to training a specific muscle group, she will be given the choice of which muscle group to exercise. Independent of how the player choose how to play, she will be given the opportunity to choose difficulty level and number of players for the game [req. 1.21, 1.23]. Figure \ref{menu1} and \ref{menu2} goes through the menu, from start, through choosing muscle group, to ending up playing "Picking Apples". As seen from what we have presented this far, the menu includes a lot of choices. This is based on the informants feedback in workshop 1, where they said that they would have the possibility to make their own choices. They did not want the game to control them.   
+The menu starts with the choice of how you want to play [req. 1.8]. The player can choose between a walk in the forest, to exercise a preferred muscle group, or between the four single games. If the player wants to play according to training a specific muscle group, she will be given the choice of which muscle group to exercise. Independent of how the player chooses how to play, she will be given the opportunity to choose difficulty level and number of players for the game [req. 1.21, 1.23]. Figures \ref{menu1} and \ref{menu2} go through the menu, from start, through choosing muscle group, to ending up playing "Picking Apples". As seen from what we have presented this far, the menu includes a lot of choices. This is based on the informants' feedback in workshop 1, where they said that they wanted the possibility to make their own choices. They did not want the game to control them.   
 
 \begin{figure} [H]
 \centering
@@ -494,9 +507,9 @@ The menu starts with the choice of how you want to play [req. 1.8]. The player c
 \label{menu2}
 \end{figure}
 
-In the menu, we have used a range of green colors, and a picture of green leaves as background, to create a theme related to forest and nature. Menu buttons are arranged as list elements or in a square, depending on what is most appropriate. This is decided by the number of elements in each step, for an odd number of elements, list view will be most appropriate, while square arrangement is most suitable for an even number of elements. The size of the elements are chosen with usability in mind, there should be room for a proper font size, and it should be easy to push the right button [req. 2.12]. The buttons have a light green, almost white, background color, with a darker green outline. The text is written in black with an easy-to-read, sans serif font [req. 2.14]. The choice of background and text color is to create maximum contrast [req. 2.15]. Taking the element's surroundings into account when choosing colors is important if you will make the element stand out. With e.g. green vegetation as surroundings, white background color, with black, dark green, or dark blue text should be chosen to create maximum contrast [req. 2.16]. 
+In the menu, we have used a range of green colors, and a picture of green leaves as background, to create a theme related to forest and nature. Menu buttons are arranged as list elements or in a square, depending on what is most appropriate. This is decided by the number of elements in each step; for an odd number of elements, list view is used, while square arrangement is used for an even number of elements. The size of the elements are chosen with usability in mind; there should be room for a proper font size, and it should be easy to push the right button [req. 2.12]. The buttons have a light green, almost white, background color, with a darker green outline. The text is written in black with an easy-to-read, sans serif font [req. 2.14]. The choice of background and text color is to create maximum contrast [req. 2.15]. Taking the element's surroundings into account when choosing colours is important, if you want to make the element stand out. With e.g. green vegetation as surroundings, white background color, with black, dark green, or dark blue text should be chosen to create maximum contrast [req. 2.16]. 
 
-The title on each step is written in a bold, black, easy to read font, on a semi-transparent light-colored background. The title is stating what choice to be made at the current step [req. 2.6]. From the Eight Golden Rules presented in Section \ref{sec:designguide} we know that it is important to have an interface with visible information. The same rules also states that users always should be given feedback on their actions. In addition to this, there was a general opinion at workshop 1 that the informants wanted to see clearer response on their actions. We have included this in our exergame by highlighting elements that are "in action" [req. 1.15], see Figure \ref{fig:avatarAction}. The player's hand movements are portrayed on the screen as an avatar hand. The avatar hand has been given a clear color and a solid fill [req. 2.11]. This has been done to avoid having the same diffuse avatar hand as in "Your Shape Fitness Evolved 2012".  
+The title on each step is written in a bold, black, easy to read font, on a semi-transparent light-colored background. The title is stating what choice to be made at the current step [req. 2.6]. From the Eight Golden Rules presented in Section \ref{sec:designguide}, we know that it is important to have an interface with visible information. The same rules also states that users always should be given feedback on their actions. In addition to this, there was expressed a general desire to see clearer response on their actions in workshop 1. We have included this in our exergame by highlighting elements that are "in action" [req. 1.15], see Figure \ref{fig:avatarAction}. The player's hand movements are portrayed on the screen as an avatar hand. The avatar hand has been given a clear color and a solid fill [req. 2.11]. This has been done to avoid having the same diffuse avatar hand as in "Your Shape Fitness Evolved 2012".  
 
 \begin{figure} [H]
 \centering
@@ -505,19 +518,19 @@ The title on each step is written in a bold, black, easy to read font, on a semi
 \label{fig:avatarAction}
 \end{figure} 
 
-Up in the left corner there is a back button, which will make it possible for users to always regret their action [req. 1.30]. The back button is shaped and colored as the other menu buttons to maintain consistency and intuitiveness [req. 2.6-7]. The choice of placement is bases on the natural way to read and observe information, which is from top to bottom, from left to right. The navigation should be therefore be on top. We avoided placing the back button in the bottom left corner to not mix it with the cancel/pause feature included in the Kinect software (holding your left hand straight 45 degrees from your body). The back button is marked with a wooden arrow, a familiar and intuitive icon related to navigation. The choice of using an wooden arrow is based on its relation to our forest theme. 
+Up in the left corner there is a back button, which will make it possible for users to always regret their action [req. 1.30]. The back button is shaped and coloured similar to the other menu buttons to maintain consistency and intuitiveness [req. 2.6-7]. The choice of placement is bases on the natural way to read and observe information, which is from top to bottom, from left to right. The navigation should therefore be on top. We avoided placing the back button in the bottom left corner to not mix it with the cancel/pause feature included in the Kinect software (holding your left hand straight 45 degrees from your body). The back button is marked with a wooden arrow, a familiar and intuitive icon related to navigation. The choice of using an wooden arrow is based on its relation to the forest theme. 
 
-In the menu step where the player should choose between the four single games, we have used icons in addition to text on each button, see Figure \ref{fig:velgSpill}. The icons represents the challenges in each game, and they are meant to make it easier for the player to understand the game behind the button [req. 2.6]. When choosing a game, e.g. "picking apples", the icon will follow up in the right corner, to inform the player where she is headed, and to reduce memory load [req. 1.12]. This is shown in Figure \ref{fig:iconEple}.  
+In the menu step where the player can choose between the four single games, we have used icons in addition to text on each button, see Figure \ref{fig:velgSpill}. The icons represent the challenges in each game, and they are meant to make it easier for the player to understand the game behind the button [req. 2.6]. When choosing a game, e.g. "picking apples", the icon will follow up in the right corner, to inform the player where she is headed, and to reduce memory load [req. 1.12]. This is shown in Figure \ref{fig:iconEple}.  
 
 \begin{figure} [H]
 \centering
 \includegraphics[scale=0.5]{menuIconApple.jpg}
-\caption[Menu - use of icons]{In this figure we see that icons from menu buttons will follow the rest of the menu. Here we see that the apple icon will follow into the menu step where number of players are to be chosen.}
+\caption[Menu - use of icons]{In this figure we see that icons from the menu buttons will follow through the menu. Here we see that the apple icon will follow into the menu step where number of players are to be chosen.}
 \label{fig:iconEple}
 \end{figure} 
      
 \section{A Video Game Series}
-In our idea of a exergame, our "out in the nature" exergame is a part of a video game series called "Kinect Experiences". This "Kinect Experiences" series consist of 4 individual games with the same structure as the game we have already presented. This means, one compounded game and four single games. The difference between the four video games are the main themes. In addition to "out in the nature", the "Kinect Experience" series consist of the video games "farm life", "on vacation" and "in the mountains". The five games within each video game will consist of activities that are connected to the main theme of each video game, like the exergame we already have presented. Examples of single games could be gathering eggs, and stacking hay bales in "farm life", and it could be a walk on the beach, or catching gold fish with a hoof in "on vacation". The idea behind this video game series is to offer a wide range of games, activities and exercises that fits the various interests the user group have [req. 1.2, 1.4-5]. What this video game series would look like is shown in Figure \ref{fig:videogameseriesAlone}. 
+The "Out in the Nature" exergame is part of an exergame series called "Kinect Experiences". This series consist of 4 individual games with the same structure as the game we have already presented. This means, one compounded game and four single games. The difference between the exergames is the main themes. In addition to "Out in the Nature", the "Kinect Experience" series consist of the exergames "Farm Life", "On Vacation" and "In the Mountains". The five games within each exergame will consist of activities that are connected to the main theme of each video game, like the exergame we already have presented. Examples of single games can be gathering eggs, and stacking hay bales in "Farm Life", and a walk on the beach, or catching gold fish with a hoof in "On Vacation". The idea behind this video game series is to offer a wide range of games, activities and exercises that fits the various interests the user group have [req. 1.2, 1.4-5]. What this video game series would look like is shown in Figure \ref{fig:videogameseriesAlone}. 
 
 \begin{figure} [H]
 \centering

@@ -1,21 +1,22 @@
-\chapter{A Concept for an Exergame for Elderly}
+\chapter{The Exergame Concept}
 \label{chap:concept}
 This chapter is about the second and third activity in the cycle of user centered design, \emph{specifying requirements} and \emph{producing design solutions} (see Figure \ref{userdesign}). Based on findings from workshop 1 and theory presented in earlier chapters, we have created system requirements and designed a concept for an exergame for elderly. The exergame concept, from now on referred to as "the exergame" or the "game", focuses on including movement and exercise in real-life and well-known activities. This will be provided in an entertaining and motivating way. We will present the requirements this exergame is built upon, before we describe the exergame in more detail. This will include games and challenges, goals, obstacles, and how to achieve points. In addition to the exergame, we have also designed a menu. This is based on a course in human-computer interaction (HCI) at NTNU and guidelines for developing interfaces for elderly. 
 
-The exergame presented, is based on theory of how to design video games, as discussed in Chapter \ref{chap:vg}, and can serve as a part of a design document, according to what is described in Section \ref{sec:designphase}. We acknowledge that not all the elements that should be included in a design document are present in this chapter.
+The exergame presented is based on theory of how to design video games, as discussed in Chapter \ref{chap:vg}, and can serve as a part of a design document, according to what is described in Section \ref{sec:designphase}. We acknowledge that not all the elements that should be included in a design document are present in this chapter.
 
-When creating the exergame, our prime focus has been on the intended user group. The game is based upon the requirement specification, presented in Section \ref{sec:req}. In addition to this, the informants' feedback are emphasised. The figures in this chapter are prototypes which present scenarios from the exergame. These were made with the intention of presenting the idea and design for the exergame for a group of elderly in a second workshop, and the focus has therefore been on making prototypes that give the users a realistic impression of the final result. The details of our choice of prototypes are provided in Section \ref{sec:prototypes}. The prototypes presented in this chapter will be in English, to be in accordance with the language this report is written in. The original prototypes are in Norwegian and can be found in Appendix C and D. The sources for where we found the pictures used as background and as elements in our prototypes, will also be presented here. 
+The figures presented in this chapter are prototypes which present scenarios from the exergame. These were made with the intention of presenting the idea and design for the exergame for a group of elderly in a second workshop. The focus has therefore been on making prototypes that give the users a realistic impression of the final result. The details of our choice of prototypes are provided in Section \ref{sec:definingconcept}. The prototypes presented in this chapter will be in English, to be in accordance with the language this report is written in. The original prototypes are in Norwegian and can be found in Appendix C and D. The sources for where we found the pictures used as background and as elements in our prototypes, will also be presented here. 
 
 We will start by presenting the system requirements in Section \ref{sec:req}, before we continue with describing our exergame with its story and included elements. Various scenarios will be presented with the use of medium-fidelity prototypes in Section \ref{sec:outinthenature}. Functional design, presented in Section \ref{sec:functionaldesign}, will give a concrete representation of one possible level of each of the proposed games. Design and description of the menu for the exergame are presented in Section \ref{sec:menu}. This chapter can serve as a part of a design document that can be used by developers to understand and design this exergame.  
 
-\section{Requirements}
+\newpage
+\section{System Requirements}
 \label{sec:req}
-We have created a list of requirements for the exergame, which specifies what the system shall do, and which constraints the system shall hold. The requirements have been developed with foundation in all theory presented in the earlier chapters, as well as findings from workshop 1. We have written requirements according to the definition of requirement specification, presented in Section \ref{sec:fourpillarsofdesign}, and they are therefore divided into functional and non-functional requirements. In the exergame we have mostly focused on the functional requirements, and interface requirements, which is a subsection of non-functional requirements. 
+We have created a list of system requirements for the exergame, which specifies what the system shall do, and which constraints the system shall hold. The requirements have been developed with foundation in all theory presented in the earlier chapters, as well as findings from workshop 1. We have written requirements according to the definition of requirement specification, presented in Section \ref{sec:fourpillarsofdesign}, and they are therefore divided into functional and non-functional requirements. In the exergame we have mostly focused on the functional requirements, and interface requirements, which is a subsection of non-functional requirements. 
 
 We will support our requirement specification by referring to relevant references, findings from workshop 1 (referred to as fw1), motivational factors from Section \ref{subsec:motivator} (referred to as m.x), and guidelines listed in Section \ref{sec:summaryguidelines} and \ref{subsec:golden} (referred to as g.x or e.x respectively). In addition, we will draw references to the GameFlow model \cite{sweetser} (referred to as gf), which holds important elements included in our exergame. These will be listed in the rightmost column. It is important to acknowledge that the requirements also are based upon our own ideas, thoughts and opinions. 
 
 \subsection{Functional Requirements}
-The functional requirements in Tables \ref{tab:func1}, \ref{tab:func2} and \ref{tab:func3} present the services and functionality the exergame shall offer.
+The functional requirements in Tables \ref{tab:func1}, \ref{tab:func2} and \ref{tab:func3} present the services and functionality the exergame shall offer. These requirements will be used as a foundation for the exergame, and they will serve as input to the functional design presented in Section \ref{sec:functionaldesign}. Requirement 1.33 - 35 focus on the physiotherapists' view of the system. As mentioned, we will only emphasise interface design for the end users which are elderly people. However, these three requirements should be included in future work on the exergame. This is because we in \cite{project} evaluated physiotherapists to be the proper customer for the game. We believe that in today's market the game will not experience success going straight to the end users \cite{project}.  
 
 \begin{minipage}{12 cm}
 \begin{table} [H]
@@ -36,7 +37,7 @@ The functional requirements in Tables \ref{tab:func1}, \ref{tab:func2} and \ref{
 1.11 & Instructions shall include information about the health benefits gained from playing. & m.3, fw1\\ \hline
 1.12 & Instructions shall be given during game play when appropriate. This shall be done to avoid the need to memorise information. & g.6, g.9, e.8, gf \\ \hline
     \end{tabular}
-    \caption[Functional requirements, part 1]{Functional requirements \footnote{g - guidelines, e - guidelines from the Eight Golden Rules, m - motivators, gf - elements from the GameFlow model, fw1 - findings from workshop 1}}
+    \caption[Functional requirements, part 1]{Functional requirements \footnote{g - guidelines from Chapter 5, e - guidelines from the Eight Golden Rules, m - motivators for exercising, gf - elements from the GameFlow model, fw1 - findings from workshop 1}}
     \label{tab:func1}
 \end{table} 
 \end{minipage}
@@ -61,7 +62,7 @@ The functional requirements in Tables \ref{tab:func1}, \ref{tab:func2} and \ref{
 1.24 & The system shall allow for players to choose individual difficult levels. & g.19, m.9, m.11, gf, fw1\\ \hline
 1.25 & The system shall be able to adjust difficulty level after players' progression. & gf, fw1 \\ \hline
     \end{tabular}
-    \caption[Functional requirements, part 2]{Functional requirements \footnote{g - guidelines, e - guidelines from the Eight Golden Rules, m - motivators, gf - elements from the GameFlow model, fw1 - findings from workshop 1}}
+    \caption[Functional requirements, part 2]{Functional requirements \footnote{g - guidelines from Chapter 5, e - guidelines from the Eight Golden Rules, m - motivators for exercising, gf - elements from the GameFlow model, fw1 - findings from workshop 1}}
     \label{tab:func2}
 \end{table} 
 \end{minipage}
@@ -83,12 +84,10 @@ The functional requirements in Tables \ref{tab:func1}, \ref{tab:func2} and \ref{
 1.34 & The system shall give physiotherapists the possibility to set parameters to customise the exergame for each individual patient. & \cite{project}, g.1, g.39  \\ \hline
 1.35 & The system shall give physiotherapists access to players'/patients' profiles. & \cite{project}, g.23\\ \hline  
 \end{tabular}
-\caption[Functional requirements, part 3]{Functional requirements \footnote{g - guidelines, e - guidelines from the Eight Golden Rules, m - motivators, gf - elements from the GameFlow model, fw1 - findings from workshop 1}}
+\caption[Functional requirements, part 3]{Functional requirements \footnote{g - guidelines from Chapter 5, e - guidelines from the Eight Golden Rules, m - motivators for exercising, gf - elements from the GameFlow model, fw1 - findings from workshop 1}}
 \label{tab:func3}
 \end{table} 
 \end{minipage}
-
-These requirements will be used as a foundation for the exergame, and they will serve as input to the functional design presented in Section \ref{sec:functionaldesign}. Requirement 1.33 - 35 focus on the physiotherapists' view of the system. As previously mentioned, we have in this thesis emphasised interface design for the end users which are elderly people. However, it is important that these three requirements are included in future work on the exergame. This is because we in our previous project \cite{project} evaluated physiotherapists to be the proper customer for the game. We believe that in today's market the game will not experience success going straight to the end users \cite{project}.  
 
 \subsection{Non-Functional Requirements}
 The non-functional requirements presented in Tables \ref{tab:nfunc1} and \ref{tab:nonfunc2} describe constraints to follow for the exergame to ensure good usability in terms of interface design.
@@ -111,9 +110,8 @@ The non-functional requirements presented in Tables \ref{tab:nfunc1} and \ref{ta
 2.10 & The navigator shall not be too sensitive. & fw1\\ \hline
 2.11 & The navigator shall be clear. & fw1\\ \hline
 2.12 & Information shall be easy to see, and understand. & g.47, e.8\\ \hline
-2.13 & Information shall be written in a familiar language with everyday words. & g.30\\ \hline
 \end{tabular}
-\caption[Non-functional requirements, part 1]{Non-functional requirements, interface requirements \footnote{g - guidelines, e - guidelines from the Eight Golden Rules, m - motivators, gf - elements from the GameFlow model, fw1 - findings from workshop 1}}
+\caption[Non-functional requirements, part 1]{Non-functional requirements, interface requirements \footnote{g - guidelines from Chapter 5, e - guidelines from the Eight Golden Rules, m - motivators for exercising, gf - elements from the GameFlow model, fw1 - findings from workshop 1}}
 \label{tab:nfunc1}
 \end{table} 
 \end{minipage}
@@ -123,12 +121,13 @@ The non-functional requirements presented in Tables \ref{tab:nfunc1} and \ref{ta
 \centering
 \begin{tabular}{|>{\raggedright}p{0,7cm}|p{8,4cm}|p{1,9cm}|} 
 \hline
+2.13 & Information shall be written in a familiar language with everyday words. & g.30\\ \hline
 2.14 & Information shall be written with an easy-to-read font in an appropriate size. &  g.2, g.24-28\\ \hline
 2.15 & There shall be clear contrast between background colour and text colour. & g.37-43 \\ \hline
 2.16 & Elements that are essential to the game shall stand out. & g.31, g.43\\ \hline
 2.17 & The system shall avoid using elements that are unnecessary for current situation.  & gf, fw1\\ \hline
 \end{tabular}
-\caption[Non-functional requirements, part 2]{Non-functional requirements, interface requirements \footnote{g - guidelines, e - guidelines from the Eight Golden Rules, m - motivators, gf - elements from the GameFlow model, fw1 - findings from workshop 1}}
+\caption[Non-functional requirements, part 2]{Non-functional requirements, interface requirements \footnote{g - guidelines from Chapter 5, e - guidelines from the Eight Golden Rules, m - motivators for exercising, gf - elements from the GameFlow model, fw1 - findings from workshop 1}}
 \label{tab:nonfunc2}
 \end{table} 
 \end{minipage}

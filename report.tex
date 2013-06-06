@@ -1,4 +1,4 @@
-\documentclass[b5paper,twoside,openright,11pt]{report}
+\documentclass[b5paper,11pt,openright,twoside]{report}
 \usepackage[printonlyused]{acronym}
 \usepackage{graphicx}
 \usepackage{enumerate}
@@ -15,8 +15,13 @@
 \setlength{\headheight}{25.23pt}
 \renewcommand{\headrulewidth}{0pt}
 \pagenumbering{gobble}
+\let\tmp\oddsidemargin
+\let\oddsidemargin\evensidemargin
+\let\evensidemargin\tmp
+\reversemarginpar
+
 \begin{document}
-\cleardoublepage
+
 \chapter*{Problem Description}
 Games are becoming more and more important in the health sector. One specific genre of games is exercise games (exergames). In this assignment, we will look into how exergames can be used to improve elderly people's physical health. We will focus on identifying the criteria that need to lie in ground to make a game customised for this user group. This project can contribute to one of today's many EU-financed projects focusing on exergames for elderly.
 
@@ -24,7 +29,7 @@ In particular, the following studies will be done:
 \begin{itemize}
 \item A literature study of the challenges about developing an exergame for elderly, and what aspects need to be taken into account in a game like this. This includes studying motivating factors for exercising, the importance of usability, video game theory, as well as appropriate exercises for the game.
 \item Involve relevant users in workshops, after approval from NSD.
-\item Based on this, we will define some system requirements and a concept, for an appropriate exergame for elderly people.\\ 
+\item Based on this, we will define system requirements and a concept, for an appropriate exergame for elderly people.\\ 
 \end{itemize}
 
 \begin{tabular}{ ll }
@@ -35,6 +40,7 @@ Supervisor: & Ather Nawaz \\
 Professor: & Lill Kristiansen \\ 
 
 \end{tabular}
+
 \cleardoublepage
 \begin{abstract}
 
@@ -42,8 +48,7 @@ The aim of this study is to identify important aspects of an exergame for elderl
 The concept and design that we presented for the elderly were appreciated, and we conclude that this exergame, together with the proposed system requirements, are appropriate for this user group. However, some adjustments should be made in the future work on the exergame. We acknowledge that the group of users involved was physically and mentally fit, and that their opinions and experiences may differ from another group with other characteristics.
 
 \end{abstract}
-\newpage
- \pagestyle{empty}
+\cleardoublepage
 \renewcommand{\abstractname}{Sammendrag}
 \begin{abstract}
 Målet med denne studien er å identifisere viktige aspekter ved et treningspill for eldre, og basert på dette spesifisere systemkrav og utvikle et konsept for et treningsspill. På grunn av "babyboom" og det faktum at folk lever lenger, har andelen eldre mennesker i verden blitt større. Et vanlig problem eldre opplever er redusert balanse og fysisk styrke, hvor denne reduksjonen øker risikoen for fall. 
